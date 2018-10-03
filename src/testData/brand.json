@@ -1,0 +1,81 @@
+{
+  "repeatCustomers": false,
+  "tplWelcome": {
+    "second": "See you at the beach!  -Captain Cory",
+    "first": "This is Cory, Captain of Woodies.  Did you know we've sold over 100,000 sunglasses in our 6 years of business?  There are a lot of AWESOME people wearing Woodies out there and I LOVE seeing every picture I can.  **If you decide to post @Woodies on Instagram, I'll reward you with a special perk :)**\n"
+  },
+  "name": "Woodies",
+  "tplEmailFollowupOne": {
+    "first": "If you share any photos of your order on Instagram, we'd love to see them too - click the button below to generate your unique hashtag and claim your reward.",
+    "second": ""
+  },
+  "rewardLowDetails": {
+    "followers": 750,
+    "delivery": "automatic",
+    "description": "save 20% on your next order",
+    "code": "star20"
+  },
+  "tplDeliverReward": {
+    "auto": "You can redeem your reward by using the voucher code below:",
+    "intro": "We really loved to see your recent post. You've earned the following token of thanks from our staff.",
+    "manual": "A team member will reach out to you shortly with information on how to redeem your reward."
+  },
+  "integration": { "email": "", "type": "shopify", "done": true },
+  "stripeCustomerId": "cus_DLR9ptIDxeKLDU",
+  "reviewStarted": true,
+  "updatedAt": "2018-08-02T17:43:05.340Z",
+  "rewardStandardDetails": {
+    "description": "30% off your next order",
+    "code": "star30",
+    "followers": 2000,
+    "delivery": "automatic"
+  },
+  "rewardHighDetails": {
+    "followers": 8000,
+    "delivery": "manual",
+    "description": "Exclusive early access to our newest collection and one free pair of shades per quarter",
+    "code": ""
+  },
+  "emailMethod": { "day": 5, "type": "delay", "delay": 6 },
+  "emailReplyTo": "cory@woodies.com",
+  "feedbackLink": "https://woodies.com/pages/contact",
+  "paymentAdded": false,
+  "logos": {
+    "medium": "https://storage.googleapis.com/postperk-dashboard.appspot.com/logos%2FHoGBWyjChr3DbwXo7X7q-medium?GoogleAccessId=firebase-adminsdk-n252s%40postperk-dashboard.iam.gserviceaccount.com&Expires=3607545600&Signature=CC3v1DHKV%2FmhYobdHUZdRbeZKz63GJMDjYLu2odx3XDzoOsOJPwTDHRz4NOLCy6DTlrRL4GU6QYD%2BLG%2BRX0OdW%2BCfWFEfwZ%2FysejmhBbgRne4uBC%2FCLX4mpyHoM%2BLf59EUm0lak7b6LnY91PM%2FE8MWmJ7FxNZt9WdCws8LOd6KNla47Fc4HYVecAhR5bPywbJwjwPHZL%2FC0n4GxBfVHEh07qNX%2FbwiIuiJKzPwLbCOtyLammdh%2B77nzRsMjGoCVMN4M5S5dkmN9zfHH%2BmN2upJNb7q3OtwrP%2Fp0LpUF5ozJWqKzluAfjR6saw5ga1VG9VOnd8s0R%2Fbm10ZoaKzxNDA%3D%3D",
+    "small": "https://storage.googleapis.com/postperk-dashboard.appspot.com/logos%2FHoGBWyjChr3DbwXo7X7q-small?GoogleAccessId=firebase-adminsdk-n252s%40postperk-dashboard.iam.gserviceaccount.com&Expires=3607545600&Signature=PImayvuqaiThnecHNZ8bLHMJCvd0cUGohn%2FnyKuAR%2BLQLD37uGzBg6oQ%2FXT%2B7ZLH2OnU5pF72%2FslhnknelUtIvZFhSnDe%2ByaRe1uBUyrEDDPM1Ck%2FJtp%2BW8SKi3MaUbDnwbsJYZAA1tzqMd7uUKa9Ok7%2F6RLUxR%2FShMmUJLkRDe8RPqTohRrZ5hZE3nJd%2FMVdmpJnwrDsdJrHV8tGNFXnuv3ir3ozgWfzqnKKBZBoz4T%2FKWvnBAR9arHsvdjQrAuKuIeMz2SwvIMoTbuKvRwwjzu8Fm3AiEOM0z%2BM%2Fm9Gi8AT4zZiRc0PJJc%2F0jkiRjsEdoYPqwkwWHn7elWTkh6QA%3D%3D"
+  },
+  "tplSuperstar": {
+    "first": "We're super excited that you're happy with your order. A member of our team will reach out shortly via email with an extra special reward offer for you. If you have any questions in the meantime, you can reach us via the contact information below.",
+    "email": "cory@woodies.com",
+    "phone": "4073018885"
+  },
+  "backgroundDisplayOption": "color",
+  "primaryColor": "#d80909",
+  "platformSelection": "shopify",
+  "logoImageUrl": "https://firebasestorage.googleapis.com/v0/b/postperk-dashboard.appspot.com/o/logos%2FHoGBWyjChr3DbwXo7X7q?alt=media&token=965f8168-7241-4e3d-96be-cceb9e163b34",
+  "emailDisplayName": "Captain Cory",
+  "tplShowReward": {
+    "second": "All you have to do is include the hashtag below in your post, and you'll be hearing from us shortly!",
+    "first": "We can't wait to see what you post. As soon as we do we'd love to offer you the following reward."
+  },
+  "rewardTinyDetails": {
+    "description": "20% off your next order",
+    "code": "star20",
+    "followers": 150,
+    "delivery": "automatic"
+  },
+  "brandIsReady": true,
+  "taggingType": "brand",
+  "tplFindReward": {
+    "first": "We're super excited to see how you're using our product. So if you post a photo or video of it on Instagram, we'll send you a special reward.",
+    "second": "All you have to do is include a unique hashtag in your post. Click below to generate your hashtag and see your reward."
+  },
+  "plan": "success",
+  "ownerId": "ciEsAWldtLg1dyvSmUS4Zrn8V5q2",
+  "tplEmailFollowupTwo": {
+    "first": "If you share any photos of your order on Instagram, we'd love to see them too - click the button below to generate your unique hashtag and claim your reward.",
+    "second": ""
+  },
+  "highlightColor": "",
+  "directTag": "@Woodies"
+}
