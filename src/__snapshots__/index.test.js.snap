@@ -419,7 +419,9 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                     style="font-size:0px;padding:10px 25px;word-break:break-word;"
                                 >
                                   <div style="font-family:Open Sans, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
-                                    <p style="min-height: 36px; margin: 0; padding: 0">
+                                    <p class="tagline"
+                                       style="min-height: 36px; margin: 0; padding: 0;"
+                                    >
                                       Premium razors delivered to you monthly
                                     </p>
                                   </div>
@@ -432,9 +434,12 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                   <div style="font-family:Open Sans, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                     Gift card code:
                                     <br>
-                                    <span style="font-weight: bold; font-size: 15px">
+                                    <a href="https://www.google.com"
+                                       class="code-link"
+                                       style="font-weight: bold; font-size: 15px; text-decoration: none; color: #555;"
+                                    >
                                       4354-WKM-AH300
-                                    </span>
+                                    </a>
                                   </div>
                                 </td>
                               </tr>
@@ -491,7 +496,9 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                     style="font-size:0px;padding:10px 25px;word-break:break-word;"
                                 >
                                   <div style="font-family:Open Sans, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
-                                    <p style="min-height: 36px; margin: 0; padding: 0">
+                                    <p class="tagline"
+                                       style="min-height: 36px; margin: 0; padding: 0;"
+                                    >
                                       Premium razors delivered to you monthly
                                     </p>
                                   </div>
@@ -504,9 +511,12 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                   <div style="font-family:Open Sans, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                     Gift card code:
                                     <br>
-                                    <span style="font-weight: bold; font-size: 15px">
+                                    <a href="https://www.google.com"
+                                       class="code-link"
+                                       style="font-weight: bold; font-size: 15px; text-decoration: none; color: #555;"
+                                    >
                                       0274-WKM-AH300
-                                    </span>
+                                    </a>
                                   </div>
                                 </td>
                               </tr>
@@ -578,10 +588,11 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                     style="font-size:0px;padding:0 10px;word-break:break-word;"
                                 >
                                   <div style="font-family:Open Sans, Arial, sans-serif;font-size:10px;line-height:14px;text-align:center;color:#111111;">
-                                    <p style="Margin:0; padding: 10px 0 0 0; font-size:10px; line-height:15px; Margin-top: 25px; color:#999; font-family: 'Open Sans', 'Raleway', Arial, Helvetica, sans-serif;">
+                                    <p class="footer-tag"
+                                       style="margin: 25px 0 1ppx 0; padding: 10px 0 0 0; font-size: 10px; line-height: 15px; color: #999;"
+                                    >
                                       You're receiving this email in response to your order with Karma Candle Club
-                                    </p>
-                                    <p style="Margin:0; padding-bottom:10px; font-size:10px; line-height:15px; color:#999; font-family: 'Open Sans', 'Raleway', Arial, Helvetica, sans-serif;">
+                                      <br>
                                       You will not receive further emails
                                     </p>
                                   </div>
