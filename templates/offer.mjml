@@ -4,7 +4,6 @@
     <mj-attributes>
       <mj-image alt="" padding="0px"></mj-image>
       <mj-section padding="0px"></mj-section>
-      <mj-class name="open-sans-button" font-family="Open Sans, Arial, sans-serif" background-color="#111111" color="#ffffff" height="30px" text-transform="uppercase" font-size="16px" text-decoration="none"></mj-class>
       <mj-class name="footer-text" font-family="Open Sans, Arial, sans-serif" color="#111111" font-size="10px" line-height="14px"></mj-class>
       <mj-class name="body-text" font-family="Open Sans, Arial, sans-serif" color="#555" font-size="16px" line-height="26px" align="center"></mj-class>
       <mj-class name="tagline-text" font-family="Open Sans, Arial, sans-serif" color="#555" font-size="12px" line-height="18px" align="center"></mj-class>
@@ -15,49 +14,6 @@
     <mj-font name="Sorts Mill Goudy" href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy"></mj-font>
     <mj-font name="Open Sans" href="http://fonts.googleapis.com/css?family=Open+Sans"></mj-font>
     <mj-style inline="inline">
-      .link-nomj-style {
-        color: inherit;
-        text-decoration: none;
-      }
-
-
-      /* Apple specific Links */
-      .apple-link-black a {
-        color: #111111 !important;
-        text-decoration: none;
-      }
-
-      .apple-link-gray a {
-        color: #999999 !important;
-        text-decoration: none;
-      }
-
-      .apple-link-white a {
-        color: #ffffff !important;
-        text-decoration: none;
-      }
-
-      .apple-link-tan a {
-        color: #aa6034 !important;
-        text-decoration: none;
-      }
-
-      .apple-link-light-grey a {
-        color: #c7c8ca;
-        text-decoration: none;
-      }
-
-      .preheader {
-        display: none !important;
-        visibility: hidden;
-        mso-hide: all;
-        max-height: 0px;
-        max-width: 0px;
-        opacity: 0;
-        overflow: hidden;
-        width: 100%;
-      }
-
       img[class="img-max"] {
         max-width: 100% !important;
         width: 100% !important;
@@ -93,14 +49,18 @@
       </mj-section>
 
       <mj-section background-color="#fff" padding="20px 0 0 0">
-        <mj-column width="250px">
-          <mj-image href="http://www.ugg.com/" src="https://firebasestorage.googleapis.com/v0/b/pperk-dashboard-dev.appspot.com/o/card_allgirls.png?alt=media&token=58bd759b-e9cd-4034-b2e6-4ac1cd6aa508" alt="Guy on a beach with an UGGxGrain surfboard" width="250px"></mj-image>
-          <mj-text mj-class="tagline-text">Premium razors delivered to you monthly</mj-text>
+        <mj-column width="300px">
+          <mj-image href="http://www.ugg.com/" src="https://firebasestorage.googleapis.com/v0/b/pperk-dashboard-dev.appspot.com/o/card_allgirls.png?alt=media&token=58bd759b-e9cd-4034-b2e6-4ac1cd6aa508" alt="Guy on a beach with an UGGxGrain surfboard" width="300px"></mj-image>
+          <mj-text mj-class="tagline-text">
+            <p style="min-height: 36px; margin: 0; padding: 0">Premium razors delivered to you monthly</p>
+          </mj-text>
           <mj-text mj-class="code-text">Gift card code:<br /><span style="font-weight: bold; font-size: 15px">4354-WKM-AH300</span></mj-text>
         </mj-column>
-        <mj-column width="250px">
-          <mj-image href="http://www.ugg.com/" src="https://firebasestorage.googleapis.com/v0/b/pperk-dashboard-dev.appspot.com/o/card_happy.png?alt=media&token=7f1fb59d-bbc0-4c5d-a289-25f8e3b6187f" alt="Guy on a beach with an UGGxGrain surfboard" width="250px"></mj-image>
-          <mj-text mj-class="tagline-text">Premium razors delivered to your door</mj-text>
+        <mj-column width="300px">
+          <mj-image href="http://www.ugg.com/" src="https://firebasestorage.googleapis.com/v0/b/pperk-dashboard-dev.appspot.com/o/card_happy.png?alt=media&token=7f1fb59d-bbc0-4c5d-a289-25f8e3b6187f" alt="Guy on a beach with an UGGxGrain surfboard" width="300px"></mj-image>
+          <mj-text mj-class="tagline-text">
+            <p style="min-height: 36px; margin: 0; padding: 0">Premium razors delivered to you monthly</p>
+          </mj-text>
           <mj-text mj-class="code-text">Gift card code:<br /><span style="font-weight: bold; font-size: 15px">0274-WKM-AH300</span></mj-text>
         </mj-column>
       </mj-section>
