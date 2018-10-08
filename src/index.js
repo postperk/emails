@@ -3,19 +3,9 @@ import fs from 'fs-extra';
 import path from 'path';
 import typeMap from './types';
 
-import showdown from 'showdown';
-
-const markdownConverter = new showdown.Converter();
+import mjml2html from 'mjml';
 
 let templates = {};
-
-const cloudFunctions = {
-   prod: 'https://us-central1-postperk-dashboard.cloudfunctions.net',
-   dev: 'https://us-central1-postperk-dashboard-dev.cloudfunctions.net'
-};
-
-const generateUnsubscribeLink = data =>
-   `${cloudFunctions[data.env ? data.env : 'dev']}/emailUnsubscribe?emailId=${data.email.id}`;
 
 const getTemplate = async type => {
    const typeObj = typeMap[type];
@@ -35,22 +25,6 @@ const getTemplate = async type => {
    return templates[type];
 };
 
-const convertTemplatesToHtml = (type, data) => {
-   if (type === 'welcome') {
-      const tplWelcome = data.brand.tplWelcome;
-      tplWelcome.first = markdownConverter
-         .makeHtml(tplWelcome.first)
-         .replace('<p>', '')
-         .replace('</p>', '');
-      tplWelcome.second = tplWelcome.second
-         ? markdownConverter
-            .makeHtml(tplWelcome.second)
-            .replace('<p>', '')
-            .replace('</p>', '')
-         : tplWelcome.second;
-   }
-};
-
 export const compile = async (type, data) => {
    try {
       console.info('Received type ', type);
@@ -59,22 +33,16 @@ export const compile = async (type, data) => {
       }
 
       const email = await getTemplate(type);
+
       console.info('Fetched template, now compiling');
-      const template = Handlebars.compile(email);
 
-      // Adding unsubscribe link
-      data.email.unsubscribeLink = generateUnsubscribeLink(data);
+      const htmlResult = mjml2html(email);
 
-      // Utilize new smaller background image if available
-      if (data.brand.backgrounds && data.brand.backgrounds.small) {
-         data.brand.backgroundImageUrl = data.brand.backgrounds.small;
-      }
-
-      convertTemplatesToHtml(type, data);
+      const template = Handlebars.compile(htmlResult.html);
 
       console.info('Emails module: Done');
       return {
-         content: template(data),
+         content: template(template),
          subject:
             typeof typeMap[type].subject === 'function'
                ? typeMap[type].subject(data)
