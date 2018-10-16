@@ -36,13 +36,13 @@ export const compile = async (type, data) => {
 
       console.info('Fetched template, now compiling');
 
-      const htmlResult = mjml2html(email);
-
-      const template = Handlebars.compile(htmlResult.html);
+      const template = Handlebars.compile(email);
+      const mjml = template(data);
+      const { html } = mjml2html(mjml);
 
       console.info('Emails module: Done');
       return {
-         content: template(data),
+         content: html,
          subject:
             typeof typeMap[type].subject === 'function'
                ? typeMap[type].subject(data)

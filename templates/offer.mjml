@@ -51,7 +51,7 @@
   </mj-head>
   <mj-body background-color="#ffffff">
     <mj-wrapper background-color="#fff" padding="0px">
-      <mj-section>
+      <mj-section padding="15px 0 0 0">
         <mj-column>
           <mj-image alt="{{brand.name}}" href="{{brand.offerLink}}" width="170px" src="{{brand.logos.small}}"></mj-image>
         </mj-column>
@@ -72,7 +72,7 @@
       <mj-section background-color="#fff" padding="20px 0 0 0">
         {{#each order.offers}}
           <mj-column width="300px">
-            <mj-image href="{{this.link}}" src="https://firebasestorage.googleapis.com/v0/b/pperk-dashboard-dev.appspot.com/o/card_allgirls.png?alt=media&token=58bd759b-e9cd-4034-b2e6-4ac1cd6aa508" alt="Get ${{this.amount}} off with {{this.brandName}}" width="300px"></mj-image>
+            <mj-image href="{{this.link}}" src="{{this.cardImageUrl}}" alt="Get ${{this.amount}} off with {{this.brandName}}" width="300px"></mj-image>
             <mj-text mj-class="tagline-text">
               <p class="tagline">{{this.tagline}}</p>
             </mj-text>

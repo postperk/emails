@@ -129,7 +129,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                   >
                     <tbody>
                       <tr>
-                        <td style="direction:ltr;font-size:0px;padding:0px;text-align:center;vertical-align:top;">
+                        <td style="direction:ltr;font-size:0px;padding:15px 0 0 0;text-align:center;vertical-align:top;">
                           <!--[if mso | IE]>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                 
@@ -162,12 +162,12 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                     <tbody>
                                       <tr>
                                         <td style="width:170px;">
-                                          <a href="http://www.karmacandleclub.com/"
+                                          <a href="www.branda.com"
                                              target="_blank"
                                           >
-                                            <img alt="Karma Candle Club"
+                                            <img alt="Brand A"
                                                  height="auto"
-                                                 src="https://firebasestorage.googleapis.com/v0/b/pperk-dashboard-dev.appspot.com/o/karma%20logo.png?alt=media&token=57f3b527-a109-418d-9c85-8ef7e8d50d01"
+                                                 src="https://storage.googleapis.com/pperk-dashboard-dev.appspot.com/logos%2Fc52AgJsWAZvstec1fsXp-small?GoogleAccessId&#x3D;firebase-adminsdk-vijvv%40pperk-dashboard-dev.iam.gserviceaccount.com&amp;Expires&#x3D;3607545600&amp;Signature&#x3D;HiUIhxlQHqvYItO53eBfyu9G%2BpAvXqk%2BUJQjmC9%2FmBATX9fBMYGKHrHq4Xvg17LTw6Wg9PAn8s9GP828NlJM9L3%2BGtFJEp4lc9w0jztgaYQalqZHNjuyuDJv4%2BGeJxSXF7JrLSJ%2FEoBYjyh%2Bpq%2FLEVLpZa81VPQbXTrh4CUP4Aptgg5v2YquVqMCdfXdbJpvJP2YZqaiVlLFuhKQqiOBj8AvVCA0SRP1xlyZwsUUpCt8B15IeOxQBIYonrw0xaZDSoIeYjoSoFrMpi5BM6BCPBREju7saeSS4QDXpyb2bRQZ9w70Ie7Y1jvtDeRZpYwlQqNJnqs4TLu93suV2hsFkA%3D%3D"
                                                  style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;"
                                                  width="170"
                                             >
@@ -398,12 +398,12 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                     <tbody>
                                       <tr>
                                         <td style="width:300px;">
-                                          <a href
+                                          <a href="www.brandb.com"
                                              target="_blank"
                                           >
-                                            <img alt="Get $ off with "
+                                            <img alt="Get $10 off with Brand B"
                                                  height="auto"
-                                                 src="https://firebasestorage.googleapis.com/v0/b/pperk-dashboard-dev.appspot.com/o/card_allgirls.png?alt=media&token=58bd759b-e9cd-4034-b2e6-4ac1cd6aa508"
+                                                 src="https://fake-image-url.com"
                                                  style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;"
                                                  width="300"
                                             >
@@ -422,6 +422,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                     <p class="tagline"
                                        style="min-height: 36px; margin: 0; padding: 0;"
                                     >
+                                      Premium widgets delivered to your door monthly
                                     </p>
                                   </div>
                                 </td>
@@ -433,10 +434,88 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                   <div style="font-family:Open Sans, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                     Gift card code:
                                     <br>
-                                    <a href
+                                    <a href="www.brandb.com"
                                        class="code-link"
                                        style="font-weight: bold; font-size: 15px; text-decoration: none; color: #555;"
                                     >
+                                      DILLON-K3L
+                                    </a>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                          <!--[if mso | IE]>
+            </td>
+          
+            <td
+               class="" style="vertical-align:top;width:300px;"
+            >
+          <![endif]-->
+                          <div class="mj-column-px-300 outlook-group-fix"
+                               style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+                          >
+                            <table border="0"
+                                   cellpadding="0"
+                                   cellspacing="0"
+                                   role="presentation"
+                                   style="vertical-align:top;"
+                                   width="100%"
+                            >
+                              <tr>
+                                <td align="center"
+                                    style="font-size:0px;padding:0px;word-break:break-word;"
+                                >
+                                  <table border="0"
+                                         cellpadding="0"
+                                         cellspacing="0"
+                                         role="presentation"
+                                         style="border-collapse:collapse;border-spacing:0px;"
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td style="width:300px;">
+                                          <a href="www.brandc.com"
+                                             target="_blank"
+                                          >
+                                            <img alt="Get $10 off with Brand C"
+                                                 height="auto"
+                                                 src="https://fake-image-url.com"
+                                                 style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;"
+                                                 width="300"
+                                            >
+                                          </a>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center"
+                                    style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Open Sans, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
+                                    <p class="tagline"
+                                       style="min-height: 36px; margin: 0; padding: 0;"
+                                    >
+                                      Premium widgets delivered to your door monthly
+                                    </p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center"
+                                    style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Open Sans, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
+                                    Gift card code:
+                                    <br>
+                                    <a href="www.brandc.com"
+                                       class="code-link"
+                                       style="font-weight: bold; font-size: 15px; text-decoration: none; color: #555;"
+                                    >
+                                      DILLON-19S
                                     </a>
                                   </div>
                                 </td>
