@@ -42,7 +42,7 @@ export const compile = async (type, data) => {
 
       console.info('Emails module: Done');
       return {
-         content: template(template),
+         content: template(data),
          subject:
             typeof typeMap[type].subject === 'function'
                ? typeMap[type].subject(data)

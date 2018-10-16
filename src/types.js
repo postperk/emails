@@ -1,6 +1,6 @@
 export default {
    offer: {
       filename: 'offer.mjml',
-      subject: 'yada yada yada'
+      subject: 'Thanks for ordering, here\'s an eGift card on us!'
    }
 };

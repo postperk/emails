@@ -246,7 +246,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                     style="font-size:0px;padding:10px 25px;word-break:break-word;"
                                 >
                                   <div style="font-family:Sorts Mill Goudy, Garamond, Times, serif;font-size:30px;line-height:36px;text-align:center;color:#111111;">
-                                    Louis, here's an eGift card on us!
+                                    Raul, here's an eGift card on us!
                                   </div>
                                 </td>
                               </tr>
@@ -398,10 +398,10 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                     <tbody>
                                       <tr>
                                         <td style="width:300px;">
-                                          <a href="http://www.ugg.com/"
+                                          <a href
                                              target="_blank"
                                           >
-                                            <img alt="Guy on a beach with an UGGxGrain surfboard"
+                                            <img alt="Get $ off with "
                                                  height="auto"
                                                  src="https://firebasestorage.googleapis.com/v0/b/pperk-dashboard-dev.appspot.com/o/card_allgirls.png?alt=media&token=58bd759b-e9cd-4034-b2e6-4ac1cd6aa508"
                                                  style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;"
@@ -422,7 +422,6 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                     <p class="tagline"
                                        style="min-height: 36px; margin: 0; padding: 0;"
                                     >
-                                      Premium razors delivered to you monthly
                                     </p>
                                   </div>
                                 </td>
@@ -434,88 +433,10 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                   <div style="font-family:Open Sans, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                     Gift card code:
                                     <br>
-                                    <a href="https://www.google.com"
+                                    <a href
                                        class="code-link"
                                        style="font-weight: bold; font-size: 15px; text-decoration: none; color: #555;"
                                     >
-                                      4354-WKM-AH300
-                                    </a>
-                                  </div>
-                                </td>
-                              </tr>
-                            </table>
-                          </div>
-                          <!--[if mso | IE]>
-            </td>
-          
-            <td
-               class="" style="vertical-align:top;width:300px;"
-            >
-          <![endif]-->
-                          <div class="mj-column-px-300 outlook-group-fix"
-                               style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-                          >
-                            <table border="0"
-                                   cellpadding="0"
-                                   cellspacing="0"
-                                   role="presentation"
-                                   style="vertical-align:top;"
-                                   width="100%"
-                            >
-                              <tr>
-                                <td align="center"
-                                    style="font-size:0px;padding:0px;word-break:break-word;"
-                                >
-                                  <table border="0"
-                                         cellpadding="0"
-                                         cellspacing="0"
-                                         role="presentation"
-                                         style="border-collapse:collapse;border-spacing:0px;"
-                                  >
-                                    <tbody>
-                                      <tr>
-                                        <td style="width:300px;">
-                                          <a href="http://www.ugg.com/"
-                                             target="_blank"
-                                          >
-                                            <img alt="Guy on a beach with an UGGxGrain surfboard"
-                                                 height="auto"
-                                                 src="https://firebasestorage.googleapis.com/v0/b/pperk-dashboard-dev.appspot.com/o/card_happy.png?alt=media&token=7f1fb59d-bbc0-4c5d-a289-25f8e3b6187f"
-                                                 style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;"
-                                                 width="300"
-                                            >
-                                          </a>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td align="center"
-                                    style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                                >
-                                  <div style="font-family:Open Sans, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
-                                    <p class="tagline"
-                                       style="min-height: 36px; margin: 0; padding: 0;"
-                                    >
-                                      Premium razors delivered to you monthly
-                                    </p>
-                                  </div>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td align="center"
-                                    style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                                >
-                                  <div style="font-family:Open Sans, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
-                                    Gift card code:
-                                    <br>
-                                    <a href="https://www.google.com"
-                                       class="code-link"
-                                       style="font-weight: bold; font-size: 15px; text-decoration: none; color: #555;"
-                                    >
-                                      0274-WKM-AH300
                                     </a>
                                   </div>
                                 </td>
@@ -591,7 +512,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                     <p class="footer-tag"
                                        style="margin: 25px 0 1ppx 0; padding: 10px 0 0 0; font-size: 10px; line-height: 15px; color: #999;"
                                     >
-                                      You're receiving this email in response to your order with Karma Candle Club
+                                      You're receiving this email in response to your order with Brand A
                                       <br>
                                       You will not receive further emails
                                     </p>
