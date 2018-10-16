@@ -398,12 +398,12 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                     <tbody>
                                       <tr>
                                         <td style="width:300px;">
-                                          <a href="www.brandb.com"
+                                          <a href="https://www.brandb.com"
                                              target="_blank"
                                           >
                                             <img alt="Get $10 off with Brand B"
                                                  height="auto"
-                                                 src="https://fake-image-url.com"
+                                                 src="https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/cards%2Fcard_happy.png?alt&#x3D;media&amp;token&#x3D;00459923-a823-43d6-bdb2-65267bf7edfa"
                                                  style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;"
                                                  width="300"
                                             >
@@ -434,7 +434,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                   <div style="font-family:Open Sans, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                     Gift card code:
                                     <br>
-                                    <a href="www.brandb.com"
+                                    <a href="https://www.brandb.com"
                                        class="code-link"
                                        style="font-weight: bold; font-size: 15px; text-decoration: none; color: #555;"
                                     >
@@ -475,12 +475,12 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                     <tbody>
                                       <tr>
                                         <td style="width:300px;">
-                                          <a href="www.brandc.com"
+                                          <a href="https://www.brandc.com"
                                              target="_blank"
                                           >
                                             <img alt="Get $10 off with Brand C"
                                                  height="auto"
-                                                 src="https://fake-image-url.com"
+                                                 src="https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/cards%2Fcard_humble.png?alt&#x3D;media&amp;token&#x3D;7008d01d-826b-4818-aee8-695c579b4de9"
                                                  style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;"
                                                  width="300"
                                             >
@@ -511,7 +511,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                   <div style="font-family:Open Sans, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                     Gift card code:
                                     <br>
-                                    <a href="www.brandc.com"
+                                    <a href="https://www.brandc.com"
                                        class="code-link"
                                        style="font-weight: bold; font-size: 15px; text-decoration: none; color: #555;"
                                     >
