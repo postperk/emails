@@ -318,7 +318,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                     style="font-size:0px;padding:10px 25px;word-break:break-word;"
                                 >
                                   <div style="font-family:Open Sans, Arial, sans-serif;font-size:16px;line-height:26px;text-align:center;color:#555555;">
-                                    Thanks for your order. We've joined with  these brand partners  that we think you'll love. Please enjoy the following on us:
+                                    Thanks for your order. We've joined with these brand partners that we think you'll love. Please enjoy the following on us:
                                   </div>
                                 </td>
                               </tr>
@@ -956,7 +956,7 @@ exports[`Emails Offer email with only one offer will match snapshot 1`] = `
                                     style="font-size:0px;padding:10px 25px;word-break:break-word;"
                                 >
                                   <div style="font-family:Open Sans, Arial, sans-serif;font-size:16px;line-height:26px;text-align:center;color:#555555;">
-                                    Thanks for your order. We've joined with  this brand partner  that we think you'll love. Please enjoy the following on us:
+                                    Thanks for your order. We've joined with this brand partner that we think you'll love. Please enjoy the following on us:
                                   </div>
                                 </td>
                               </tr>
