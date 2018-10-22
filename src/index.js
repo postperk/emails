@@ -36,6 +36,9 @@ export const compile = async (type, data) => {
 
       console.info('Fetched template, now compiling');
 
+      // Flag when only one promotion
+      data.onlyOne = data.order.offers.length === 1;
+
       const template = Handlebars.compile(email);
       const mjml = template(data);
       const { html } = mjml2html(mjml);

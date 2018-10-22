@@ -65,7 +65,7 @@
 
       <mj-section>
         <mj-column width="500px">
-          <mj-text mj-class="body-text">Thanks for your order. We've joined with these brand partners that we think you'll love. Please enjoy the following on us:</mj-text>
+          <mj-text mj-class="body-text">Thanks for your order. We've joined with{{#if onlyOne}} this brand partner {{else}} these brand partners {{/if}}that we think you'll love. Please enjoy the following on us:</mj-text>
         </mj-column>
       </mj-section>
 

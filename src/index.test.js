@@ -15,4 +15,16 @@ describe('Emails', () => {
       await fs.writeFile('./generated/offer.html', compiled.content);
       expect(compiled.content).toMatchSnapshot();
    });
+
+   it('Offer email with only one offer will match snapshot', async () => {
+      const compiled = await emails.compile('offer', {
+         brand: brandMockData,
+         order: Object.assign({}, orderMockData, {
+            offers: [ orderMockData.offers.shift() ]
+         })
+      });
+
+      await fs.writeFile('./generated/offer_one.html', compiled.content);
+      expect(compiled.content).toMatchSnapshot();
+   });
 });
