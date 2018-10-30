@@ -9,8 +9,9 @@
   "emailReplyTo": "dsf@lkj.comd",
   "ownerId": "xdOQjS9Ohyb8SBudnZDNsXPUWku2",
   "logos": {
-    "medium": "https://storage.googleapis.com/pperk-dashboard-dev.appspot.com/logos%2Fc52AgJsWAZvstec1fsXp-medium?GoogleAccessId=firebase-adminsdk-vijvv%40pperk-dashboard-dev.iam.gserviceaccount.com&Expires=3607545600&Signature=G4mJcJbt0SKpCJGMGwHYV6Gylta01PNVRGbcBBoDdaf1ju5j47R%2B5oVWv6m9dToS1hBPBn1KntVE5vHD2VMWSysq9R5phS8UREaf%2Bn3aTCf8JxU7ym8YS4exz8Yys76KDf%2FMQg8xKwn19MJscwnDzamjPOv%2FXJ9T8V%2Bg8Og9VbI2AH5jMqGAyKvSfaSgbp%2Fs%2B1pFhBee9uQbdHNUtauNlhzG7ZH3sm8VEa4myPpZQT5%2BFRyO4ULxzZlL2uA3YBz7XMDHBATQhQwAXg85QHhoMtIV9iletmo0iuQLvqGV0OZNQSBG%2F%2FXclgRy6ThjHt9MWFgVBaFrDnTGoQadsu%2Bu3g%3D%3D",
-    "small": "https://storage.googleapis.com/pperk-dashboard-dev.appspot.com/logos%2Fc52AgJsWAZvstec1fsXp-small?GoogleAccessId=firebase-adminsdk-vijvv%40pperk-dashboard-dev.iam.gserviceaccount.com&Expires=3607545600&Signature=HiUIhxlQHqvYItO53eBfyu9G%2BpAvXqk%2BUJQjmC9%2FmBATX9fBMYGKHrHq4Xvg17LTw6Wg9PAn8s9GP828NlJM9L3%2BGtFJEp4lc9w0jztgaYQalqZHNjuyuDJv4%2BGeJxSXF7JrLSJ%2FEoBYjyh%2Bpq%2FLEVLpZa81VPQbXTrh4CUP4Aptgg5v2YquVqMCdfXdbJpvJP2YZqaiVlLFuhKQqiOBj8AvVCA0SRP1xlyZwsUUpCt8B15IeOxQBIYonrw0xaZDSoIeYjoSoFrMpi5BM6BCPBREju7saeSS4QDXpyb2bRQZ9w70Ie7Y1jvtDeRZpYwlQqNJnqs4TLu93suV2hsFkA%3D%3D"
+    "email": "https://firebasestorage.googleapis.com/v0/b/pperk-dashboard-dev.appspot.com/o/logos%2FD6sZf1Iu8dLPI0fVtemp-email?alt=media&token=304b8014-a550-4ed0-840c-d595778828be",
+    "medium": "https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/logos%2FcufBd3ZLzqEwJyHrDQ32-medium?alt=media&token=c09c5bfe-4a7f-4497-9925-81c38e2e1dbd",
+    "small": "https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/logos%2FzSZ5IXMho1YXgk3p2sRt-small?alt=media&token=1e1e3e10-5e13-4d20-a701-ee6912cc832e"
   },
   "highlightColor": "#ad9494",
   "offerTerms": "Expires in 10 seconds. Annnnnnnd, nevermind.",

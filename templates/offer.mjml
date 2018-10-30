@@ -53,7 +53,7 @@
     <mj-wrapper background-color="#fff" padding="0px">
       <mj-section padding="15px 0 0 0">
         <mj-column>
-          <mj-image alt="{{brand.name}}" href="{{brand.offerLink}}" width="170px" src="{{brand.logos.small}}"></mj-image>
+          <mj-image alt="{{brand.name}}" href="{{brand.offerLink}}" width="300px" src="{{brand.logos.email}}"></mj-image>
         </mj-column>
       </mj-section>
 
