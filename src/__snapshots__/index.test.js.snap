@@ -161,15 +161,15 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                   >
                                     <tbody>
                                       <tr>
-                                        <td style="width:170px;">
+                                        <td style="width:300px;">
                                           <a href="www.branda.com"
                                              target="_blank"
                                           >
                                             <img alt="Brand A"
                                                  height="auto"
-                                                 src="https://storage.googleapis.com/pperk-dashboard-dev.appspot.com/logos%2Fc52AgJsWAZvstec1fsXp-small?GoogleAccessId&#x3D;firebase-adminsdk-vijvv%40pperk-dashboard-dev.iam.gserviceaccount.com&amp;Expires&#x3D;3607545600&amp;Signature&#x3D;HiUIhxlQHqvYItO53eBfyu9G%2BpAvXqk%2BUJQjmC9%2FmBATX9fBMYGKHrHq4Xvg17LTw6Wg9PAn8s9GP828NlJM9L3%2BGtFJEp4lc9w0jztgaYQalqZHNjuyuDJv4%2BGeJxSXF7JrLSJ%2FEoBYjyh%2Bpq%2FLEVLpZa81VPQbXTrh4CUP4Aptgg5v2YquVqMCdfXdbJpvJP2YZqaiVlLFuhKQqiOBj8AvVCA0SRP1xlyZwsUUpCt8B15IeOxQBIYonrw0xaZDSoIeYjoSoFrMpi5BM6BCPBREju7saeSS4QDXpyb2bRQZ9w70Ie7Y1jvtDeRZpYwlQqNJnqs4TLu93suV2hsFkA%3D%3D"
+                                                 src="https://firebasestorage.googleapis.com/v0/b/pperk-dashboard-dev.appspot.com/o/logos%2FD6sZf1Iu8dLPI0fVtemp-email?alt&#x3D;media&amp;token&#x3D;304b8014-a550-4ed0-840c-d595778828be"
                                                  style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;"
-                                                 width="170"
+                                                 width="300"
                                             >
                                           </a>
                                         </td>
@@ -403,7 +403,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                           >
                                             <img alt="Get $10 off with Brand B"
                                                  height="auto"
-                                                 src="https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/cards%2Fcard_happy.png?alt&#x3D;media&amp;token&#x3D;00459923-a823-43d6-bdb2-65267bf7edfa"
+                                                 src="https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/cards%2Fcard_mintmongoose.png?alt&#x3D;media&amp;token&#x3D;869aeea8-135a-4067-abbd-9ea06dcd0e71"
                                                  style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;"
                                                  width="300"
                                             >
@@ -436,10 +436,19 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                     <br>
                                     <a href="https://www.brandb.com"
                                        class="code-link"
-                                       style="font-weight: bold; font-size: 15px; text-decoration: none; color: #555;"
+                                       style="font-weight: bold; font-size: 18px; text-decoration: none; color: #555;"
                                     >
-                                      DILLON-K3L
+                                      LK39L
                                     </a>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center"
+                                    style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Open Sans, Arial, sans-serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
+                                    Offer code expires in 72 hours
                                   </div>
                                 </td>
                               </tr>
@@ -513,10 +522,19 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                     <br>
                                     <a href="https://www.brandc.com"
                                        class="code-link"
-                                       style="font-weight: bold; font-size: 15px; text-decoration: none; color: #555;"
+                                       style="font-weight: bold; font-size: 18px; text-decoration: none; color: #555;"
                                     >
-                                      DILLON-19S
+                                      KD90S
                                     </a>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center"
+                                    style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Open Sans, Arial, sans-serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
+                                    Offer code expires in 72 hours
                                   </div>
                                 </td>
                               </tr>
@@ -799,15 +817,15 @@ exports[`Emails Offer email with only one offer will match snapshot 1`] = `
                                   >
                                     <tbody>
                                       <tr>
-                                        <td style="width:170px;">
+                                        <td style="width:300px;">
                                           <a href="www.branda.com"
                                              target="_blank"
                                           >
                                             <img alt="Brand A"
                                                  height="auto"
-                                                 src="https://storage.googleapis.com/pperk-dashboard-dev.appspot.com/logos%2Fc52AgJsWAZvstec1fsXp-small?GoogleAccessId&#x3D;firebase-adminsdk-vijvv%40pperk-dashboard-dev.iam.gserviceaccount.com&amp;Expires&#x3D;3607545600&amp;Signature&#x3D;HiUIhxlQHqvYItO53eBfyu9G%2BpAvXqk%2BUJQjmC9%2FmBATX9fBMYGKHrHq4Xvg17LTw6Wg9PAn8s9GP828NlJM9L3%2BGtFJEp4lc9w0jztgaYQalqZHNjuyuDJv4%2BGeJxSXF7JrLSJ%2FEoBYjyh%2Bpq%2FLEVLpZa81VPQbXTrh4CUP4Aptgg5v2YquVqMCdfXdbJpvJP2YZqaiVlLFuhKQqiOBj8AvVCA0SRP1xlyZwsUUpCt8B15IeOxQBIYonrw0xaZDSoIeYjoSoFrMpi5BM6BCPBREju7saeSS4QDXpyb2bRQZ9w70Ie7Y1jvtDeRZpYwlQqNJnqs4TLu93suV2hsFkA%3D%3D"
+                                                 src="https://firebasestorage.googleapis.com/v0/b/pperk-dashboard-dev.appspot.com/o/logos%2FD6sZf1Iu8dLPI0fVtemp-email?alt&#x3D;media&amp;token&#x3D;304b8014-a550-4ed0-840c-d595778828be"
                                                  style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;"
-                                                 width="170"
+                                                 width="300"
                                             >
                                           </a>
                                         </td>
@@ -1041,7 +1059,7 @@ exports[`Emails Offer email with only one offer will match snapshot 1`] = `
                                           >
                                             <img alt="Get $10 off with Brand B"
                                                  height="auto"
-                                                 src="https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/cards%2Fcard_happy.png?alt&#x3D;media&amp;token&#x3D;00459923-a823-43d6-bdb2-65267bf7edfa"
+                                                 src="https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/cards%2Fcard_mintmongoose.png?alt&#x3D;media&amp;token&#x3D;869aeea8-135a-4067-abbd-9ea06dcd0e71"
                                                  style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;"
                                                  width="300"
                                             >
@@ -1074,10 +1092,19 @@ exports[`Emails Offer email with only one offer will match snapshot 1`] = `
                                     <br>
                                     <a href="https://www.brandb.com"
                                        class="code-link"
-                                       style="font-weight: bold; font-size: 15px; text-decoration: none; color: #555;"
+                                       style="font-weight: bold; font-size: 18px; text-decoration: none; color: #555;"
                                     >
-                                      DILLON-K3L
+                                      LK39L
                                     </a>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center"
+                                    style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Open Sans, Arial, sans-serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
+                                    Offer code expires in 72 hours
                                   </div>
                                 </td>
                               </tr>

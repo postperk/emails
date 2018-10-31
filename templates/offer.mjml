@@ -8,6 +8,7 @@
       <mj-class name="body-text" font-family="Open Sans, Arial, sans-serif" color="#555" font-size="16px" line-height="26px" align="center"></mj-class>
       <mj-class name="tagline-text" font-family="Open Sans, Arial, sans-serif" color="#555" font-size="12px" line-height="18px" align="center"></mj-class>
       <mj-class name="code-text" font-family="Open Sans, Arial, sans-serif" color="#555" font-size="12px" line-height="18px" align="center"></mj-class>
+      <mj-class name="expires-text" font-family="Open Sans, Arial, sans-serif" color="#999" font-size="10px" line-height="18px" align="center"></mj-class>
       <mj-class name="headline-text" font-family="Sorts Mill Goudy, Garamond, Times, serif" color="#111111" font-size="30px" line-height="36px" align="center"></mj-class>
     </mj-attributes>
 
@@ -28,7 +29,7 @@
 
       .code-link {
         font-weight: bold;
-        font-size: 15px;
+        font-size: 18px;
         text-decoration: none;
         color: #555
       }
@@ -77,6 +78,9 @@
               <p class="tagline">{{this.tagline}}</p>
             </mj-text>
             <mj-text mj-class="code-text">Gift card code:<br /><a href="{{this.link}}" class="code-link">{{this.code}}</a></mj-text>
+
+            <mj-text mj-class="expires-text">Offer code expires in 72 hours</mj-text>
+
           </mj-column>
         {{/each}}
       </mj-section>
