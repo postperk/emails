@@ -50,15 +50,9 @@
         color: #999;
       }
     </mj-style>
-    <mj-style>
-      @media all and (max-width: 600px) {
-        img[title*="img30"] {
-          width: 30% !important;
-        }
-      }
-    </mj-style>
+    {{#if threeOffers}}<mj-breakpoint width="550px" />{{/if}}
   </mj-head>
-  <mj-body background-color="#ffffff">
+  <mj-body background-color="#ffffff" width="900px">
     <mj-wrapper background-color="#fff" padding="0px">
       <mj-section padding="15px 0 0 0">
         <mj-column>
@@ -74,13 +68,13 @@
 
       <mj-section>
         <mj-column width="500px">
-          <mj-text mj-class="body-text">Thanks for your order. We've joined with{{#if onlyOne}} this brand partner {{else}} these brand partners {{/if}}that we think you'll love. Please enjoy the following on us:</mj-text>
+          <mj-text mj-class="body-text">Thanks for your order. We've joined with{{#if oneOffer}} this brand partner {{else}} these brand partners {{/if}}that we think you'll love. Please enjoy the following on us:</mj-text>
         </mj-column>
       </mj-section>
 
       <mj-section background-color="#fff" padding="20px 0 0 0">
         {{#each order.offers}}
-          <mj-column width="300px">
+          <mj-column {{#unless ../threeOffers}} width="300px" {{/unless}}>
             <mj-image href="{{this.link}}" src="{{this.cardImageUrl}}" alt="Get ${{this.amount}} off with {{this.brandName}}" width="300px"></mj-image>
             <mj-text mj-class="tagline-text">
               <p class="tagline">{{this.tagline}}</p>
