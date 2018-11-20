@@ -1,12 +1,13 @@
 {
-   presets: [
-      [
-         'env',
-         {
-            targets: {
-               node: '6.14'
-            }
-         }
-      ]
-   ]
+  "presets": [
+    "stage-0",
+    [
+      "env",
+      {
+        "targets": {
+          "node": "6.14"
+        }
+      }
+    ]
+  ]
 }
