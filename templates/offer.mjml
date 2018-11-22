@@ -34,6 +34,14 @@
         color: #555;
         margin-top: 10px;
       }
+      
+      .nocode-link {
+        font-weight: bold;
+        font-size: 16px;
+        text-decoration: none;
+        color: #555;
+        margin-top: 10px;
+      }
 
       .code-arrow {
         display: inline-block;
@@ -79,11 +87,18 @@
             <mj-text mj-class="tagline-text">
               <p class="tagline">{{this.tagline}}</p>
             </mj-text>
+            {{#if this.code}}
             <mj-text css-class="code-container" mj-class="code-text">Gift card code:
               <br />
               <a target="_blank" href="{{this.link}}" class="code-link">{{this.code}} <span class="code-arrow"></span></a>
             </mj-text>
             <mj-text mj-class="expires-text">Offer code expires in 72 hours</mj-text>
+            {{else}}
+            <mj-text css-class="code-container" mj-class="code-text">
+              <br />
+              <a target="_blank" href="{{this.link}}" class="nocode-link">Click to Redeem <span class="code-arrow"></span></a>
+            </mj-text>
+            {{/if}}
           </mj-column>
         {{/each}}
       </mj-section>

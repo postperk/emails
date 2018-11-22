@@ -42,4 +42,20 @@ describe('Emails', () => {
       await fs.writeFile('./generated/offer_three.html', compiled.content);
       expect(compiled.content).toMatchSnapshot();
    });
+
+   it('Offer email with no code with match snapshot', async () => {
+      let newOffer = { ...orderMockData.offers[0] };
+      delete newOffer.code;
+      const newOffers = [ ...orderMockData.offers ].concat([ newOffer ]);
+
+      const compiled = await emails.compile('offer', {
+         brand: brandMockData,
+         order: Object.assign({}, orderMockData, {
+            offers: [ orderMockData.offers[1], newOffer ]
+         })
+      });
+
+      await fs.writeFile('./generated/offer_nocode.html', compiled.content);
+      expect(compiled.content).toMatchSnapshot();
+   });
 });
