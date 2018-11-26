@@ -96,7 +96,7 @@
             {{else}}
             <mj-text css-class="code-container" mj-class="code-text">
               <br />
-              <a target="_blank" href="{{this.link}}" class="nocode-link">Click to Redeem <span class="code-arrow"></span></a>
+              <a target="_blank" href="{{this.link}}" class="nocode-link">Redeem <span class="code-arrow"></span></a>
             </mj-text>
             {{/if}}
           </mj-column>

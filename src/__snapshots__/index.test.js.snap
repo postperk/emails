@@ -1185,7 +1185,7 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                                        class="nocode-link"
                                        style="font-weight: bold; font-size: 16px; text-decoration: none; color: #555; margin-top: 10px;"
                                     >
-                                      Click to Redeem
+                                      Redeem
                                       <span class="code-arrow"
                                             style="display: inline-block; background: bottom right url('https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/images%2Fnew-tab.png?alt=media&token=bdeeaf41-4329-49da-b1bd-dd146ce24535') no-repeat; width: 15px; height: 15px;"
                                       >
