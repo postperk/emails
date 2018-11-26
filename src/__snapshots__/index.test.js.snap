@@ -65,17 +65,28 @@ exports[`Emails Offer email will match snapshot 1`] = `
 @import url(https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy);
     </style>
     <style type="text/css">
-      @media only screen and (min-width:480px) {
+      @media only screen and (min-width:600px) {
         .mj-column-per-100 { width:100% !important; max-width: 100%; }
 .mj-column-px-500 { width:500px !important; max-width: 500px; }
 .mj-column-px-300 { width:300px !important; max-width: 300px; }
       }
     </style>
     <style type="text/css">
-      @media only screen and (max-width:480px) {
+      @media only screen and (max-width:600px) {
       table.full-width-mobile { width: 100% !important; }
       td.full-width-mobile { width: auto !important; }
     }
+    </style>
+    <style type="text/css">
+      @media all and (min-width: 600px) {
+         .tagline {
+          min-height: 36px;
+        }
+      }@media all and (max-width: 600px) {
+        .offer-container + .offer-container .mobile-divider {
+          display: block !important;
+        }
+      }
     </style>
   </head>
   <body style="background-color:#ffffff;">
@@ -365,10 +376,10 @@ exports[`Emails Offer email will match snapshot 1`] = `
         <tr>
       
             <td
-               class="" style="vertical-align:top;width:300px;"
+               class="offer-container-outlook" style="vertical-align:top;width:300px;"
             >
           <![endif]-->
-                          <div class="mj-column-px-300 outlook-group-fix"
+                          <div class="mj-column-px-300 outlook-group-fix offer-container"
                                style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
                           >
                             <table border="0"
@@ -378,6 +389,25 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                    style="vertical-align:top;"
                                    width="100%"
                             >
+                              <tr>
+                                <td class="mobile-divider"
+                                    style="display: none; font-size: 0px; padding: 10px 25px; padding-top: 20px; padding-bottom: 20px; word-break: break-word;"
+                                >
+                                  <p style="border-top:solid 1px lightgrey;font-size:1;margin:0px auto;width:100%;">
+                                  </p>
+                                  <!--[if mso | IE]>
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px lightgrey;font-size:1;margin:0px auto;width:250px;" role="presentation" width="250px"
+        >
+          <tr>
+            <td style="height:0;line-height:0;">
+              &nbsp;
+            </td>
+          </tr>
+        </table>
+      <![endif]-->
+                                </td>
+                              </tr>
                               <tr>
                                 <td align="center"
                                     style="font-size:0px;padding:0px;word-break:break-word;"
@@ -413,7 +443,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                 >
                                   <div style="font-family:Open Sans, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                     <p class="tagline"
-                                       style="min-height: 36px; margin: 0; padding: 0;"
+                                       style="margin: 0; padding: 0;"
                                     >
                                       Premium widgets delivered to your door monthly
                                     </p>
@@ -457,10 +487,10 @@ exports[`Emails Offer email will match snapshot 1`] = `
             </td>
           
             <td
-               class="" style="vertical-align:top;width:300px;"
+               class="offer-container-outlook" style="vertical-align:top;width:300px;"
             >
           <![endif]-->
-                          <div class="mj-column-px-300 outlook-group-fix"
+                          <div class="mj-column-px-300 outlook-group-fix offer-container"
                                style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
                           >
                             <table border="0"
@@ -470,6 +500,25 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                    style="vertical-align:top;"
                                    width="100%"
                             >
+                              <tr>
+                                <td class="mobile-divider"
+                                    style="display: none; font-size: 0px; padding: 10px 25px; padding-top: 20px; padding-bottom: 20px; word-break: break-word;"
+                                >
+                                  <p style="border-top:solid 1px lightgrey;font-size:1;margin:0px auto;width:100%;">
+                                  </p>
+                                  <!--[if mso | IE]>
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px lightgrey;font-size:1;margin:0px auto;width:250px;" role="presentation" width="250px"
+        >
+          <tr>
+            <td style="height:0;line-height:0;">
+              &nbsp;
+            </td>
+          </tr>
+        </table>
+      <![endif]-->
+                                </td>
+                              </tr>
                               <tr>
                                 <td align="center"
                                     style="font-size:0px;padding:0px;word-break:break-word;"
@@ -505,7 +554,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                 >
                                   <div style="font-family:Open Sans, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                     <p class="tagline"
-                                       style="min-height: 36px; margin: 0; padding: 0;"
+                                       style="margin: 0; padding: 0;"
                                     >
                                       Premium widgets delivered to your door monthly
                                     </p>
@@ -726,17 +775,28 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
 @import url(https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy);
     </style>
     <style type="text/css">
-      @media only screen and (min-width:480px) {
+      @media only screen and (min-width:600px) {
         .mj-column-per-100 { width:100% !important; max-width: 100%; }
 .mj-column-px-500 { width:500px !important; max-width: 500px; }
 .mj-column-px-300 { width:300px !important; max-width: 300px; }
       }
     </style>
     <style type="text/css">
-      @media only screen and (max-width:480px) {
+      @media only screen and (max-width:600px) {
       table.full-width-mobile { width: 100% !important; }
       td.full-width-mobile { width: auto !important; }
     }
+    </style>
+    <style type="text/css">
+      @media all and (min-width: 600px) {
+         .tagline {
+          min-height: 36px;
+        }
+      }@media all and (max-width: 600px) {
+        .offer-container + .offer-container .mobile-divider {
+          display: block !important;
+        }
+      }
     </style>
   </head>
   <body style="background-color:#ffffff;">
@@ -1026,10 +1086,10 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
         <tr>
       
             <td
-               class="" style="vertical-align:top;width:300px;"
+               class="offer-container-outlook" style="vertical-align:top;width:300px;"
             >
           <![endif]-->
-                          <div class="mj-column-px-300 outlook-group-fix"
+                          <div class="mj-column-px-300 outlook-group-fix offer-container"
                                style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
                           >
                             <table border="0"
@@ -1039,6 +1099,25 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                                    style="vertical-align:top;"
                                    width="100%"
                             >
+                              <tr>
+                                <td class="mobile-divider"
+                                    style="display: none; font-size: 0px; padding: 10px 25px; padding-top: 20px; padding-bottom: 20px; word-break: break-word;"
+                                >
+                                  <p style="border-top:solid 1px lightgrey;font-size:1;margin:0px auto;width:100%;">
+                                  </p>
+                                  <!--[if mso | IE]>
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px lightgrey;font-size:1;margin:0px auto;width:250px;" role="presentation" width="250px"
+        >
+          <tr>
+            <td style="height:0;line-height:0;">
+              &nbsp;
+            </td>
+          </tr>
+        </table>
+      <![endif]-->
+                                </td>
+                              </tr>
                               <tr>
                                 <td align="center"
                                     style="font-size:0px;padding:0px;word-break:break-word;"
@@ -1074,7 +1153,7 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                                 >
                                   <div style="font-family:Open Sans, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                     <p class="tagline"
-                                       style="min-height: 36px; margin: 0; padding: 0;"
+                                       style="margin: 0; padding: 0;"
                                     >
                                       Premium widgets delivered to your door monthly
                                     </p>
@@ -1118,10 +1197,10 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
             </td>
           
             <td
-               class="" style="vertical-align:top;width:300px;"
+               class="offer-container-outlook" style="vertical-align:top;width:300px;"
             >
           <![endif]-->
-                          <div class="mj-column-px-300 outlook-group-fix"
+                          <div class="mj-column-px-300 outlook-group-fix offer-container"
                                style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
                           >
                             <table border="0"
@@ -1131,6 +1210,25 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                                    style="vertical-align:top;"
                                    width="100%"
                             >
+                              <tr>
+                                <td class="mobile-divider"
+                                    style="display: none; font-size: 0px; padding: 10px 25px; padding-top: 20px; padding-bottom: 20px; word-break: break-word;"
+                                >
+                                  <p style="border-top:solid 1px lightgrey;font-size:1;margin:0px auto;width:100%;">
+                                  </p>
+                                  <!--[if mso | IE]>
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px lightgrey;font-size:1;margin:0px auto;width:250px;" role="presentation" width="250px"
+        >
+          <tr>
+            <td style="height:0;line-height:0;">
+              &nbsp;
+            </td>
+          </tr>
+        </table>
+      <![endif]-->
+                                </td>
+                              </tr>
                               <tr>
                                 <td align="center"
                                     style="font-size:0px;padding:0px;word-break:break-word;"
@@ -1166,7 +1264,7 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                                 >
                                   <div style="font-family:Open Sans, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                     <p class="tagline"
-                                       style="min-height: 36px; margin: 0; padding: 0;"
+                                       style="margin: 0; padding: 0;"
                                     >
                                       Premium widgets delivered to your door monthly
                                     </p>
@@ -1377,17 +1475,28 @@ exports[`Emails Offer email with only one offer will match snapshot 1`] = `
 @import url(https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy);
     </style>
     <style type="text/css">
-      @media only screen and (min-width:480px) {
+      @media only screen and (min-width:600px) {
         .mj-column-per-100 { width:100% !important; max-width: 100%; }
 .mj-column-px-500 { width:500px !important; max-width: 500px; }
 .mj-column-px-300 { width:300px !important; max-width: 300px; }
       }
     </style>
     <style type="text/css">
-      @media only screen and (max-width:480px) {
+      @media only screen and (max-width:600px) {
       table.full-width-mobile { width: 100% !important; }
       td.full-width-mobile { width: auto !important; }
     }
+    </style>
+    <style type="text/css">
+      @media all and (min-width: 600px) {
+         .tagline {
+          min-height: 36px;
+        }
+      }@media all and (max-width: 600px) {
+        .offer-container + .offer-container .mobile-divider {
+          display: block !important;
+        }
+      }
     </style>
   </head>
   <body style="background-color:#ffffff;">
@@ -1677,10 +1786,10 @@ exports[`Emails Offer email with only one offer will match snapshot 1`] = `
         <tr>
       
             <td
-               class="" style="vertical-align:top;width:300px;"
+               class="offer-container-outlook" style="vertical-align:top;width:300px;"
             >
           <![endif]-->
-                          <div class="mj-column-px-300 outlook-group-fix"
+                          <div class="mj-column-px-300 outlook-group-fix offer-container"
                                style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
                           >
                             <table border="0"
@@ -1690,6 +1799,25 @@ exports[`Emails Offer email with only one offer will match snapshot 1`] = `
                                    style="vertical-align:top;"
                                    width="100%"
                             >
+                              <tr>
+                                <td class="mobile-divider"
+                                    style="display: none; font-size: 0px; padding: 10px 25px; padding-top: 20px; padding-bottom: 20px; word-break: break-word;"
+                                >
+                                  <p style="border-top:solid 1px lightgrey;font-size:1;margin:0px auto;width:100%;">
+                                  </p>
+                                  <!--[if mso | IE]>
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px lightgrey;font-size:1;margin:0px auto;width:250px;" role="presentation" width="250px"
+        >
+          <tr>
+            <td style="height:0;line-height:0;">
+              &nbsp;
+            </td>
+          </tr>
+        </table>
+      <![endif]-->
+                                </td>
+                              </tr>
                               <tr>
                                 <td align="center"
                                     style="font-size:0px;padding:0px;word-break:break-word;"
@@ -1725,7 +1853,7 @@ exports[`Emails Offer email with only one offer will match snapshot 1`] = `
                                 >
                                   <div style="font-family:Open Sans, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                     <p class="tagline"
-                                       style="min-height: 36px; margin: 0; padding: 0;"
+                                       style="margin: 0; padding: 0;"
                                     >
                                       Premium widgets delivered to your door monthly
                                     </p>
@@ -1946,17 +2074,28 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
 @import url(https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy);
     </style>
     <style type="text/css">
-      @media only screen and (min-width:550px) {
+      @media only screen and (min-width:600px) {
         .mj-column-per-100 { width:100% !important; max-width: 100%; }
 .mj-column-px-500 { width:500px !important; max-width: 500px; }
 .mj-column-per-33 { width:33.333333333333336% !important; max-width: 33.333333333333336%; }
       }
     </style>
     <style type="text/css">
-      @media only screen and (max-width:550px) {
+      @media only screen and (max-width:600px) {
       table.full-width-mobile { width: 100% !important; }
       td.full-width-mobile { width: auto !important; }
     }
+    </style>
+    <style type="text/css">
+      @media all and (min-width: 600px) {
+         .tagline {
+          min-height: 36px;
+        }
+      }@media all and (max-width: 600px) {
+        .offer-container + .offer-container .mobile-divider {
+          display: block !important;
+        }
+      }
     </style>
   </head>
   <body style="background-color:#ffffff;">
@@ -2246,10 +2385,10 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
         <tr>
       
             <td
-               class="" style="vertical-align:top;width:300.00000000000006px;"
+               class="offer-container-outlook" style="vertical-align:top;width:300.00000000000006px;"
             >
           <![endif]-->
-                          <div class="mj-column-per-33 outlook-group-fix"
+                          <div class="mj-column-per-33 outlook-group-fix offer-container"
                                style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
                           >
                             <table border="0"
@@ -2259,6 +2398,25 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                    style="vertical-align:top;"
                                    width="100%"
                             >
+                              <tr>
+                                <td class="mobile-divider"
+                                    style="display: none; font-size: 0px; padding: 10px 25px; padding-top: 20px; padding-bottom: 20px; word-break: break-word;"
+                                >
+                                  <p style="border-top:solid 1px lightgrey;font-size:1;margin:0px auto;width:100%;">
+                                  </p>
+                                  <!--[if mso | IE]>
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px lightgrey;font-size:1;margin:0px auto;width:250px;" role="presentation" width="250px"
+        >
+          <tr>
+            <td style="height:0;line-height:0;">
+              &nbsp;
+            </td>
+          </tr>
+        </table>
+      <![endif]-->
+                                </td>
+                              </tr>
                               <tr>
                                 <td align="center"
                                     style="font-size:0px;padding:0px;word-break:break-word;"
@@ -2294,7 +2452,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                 >
                                   <div style="font-family:Open Sans, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                     <p class="tagline"
-                                       style="min-height: 36px; margin: 0; padding: 0;"
+                                       style="margin: 0; padding: 0;"
                                     >
                                       Premium widgets delivered to your door monthly
                                     </p>
@@ -2338,10 +2496,10 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
             </td>
           
             <td
-               class="" style="vertical-align:top;width:300.00000000000006px;"
+               class="offer-container-outlook" style="vertical-align:top;width:300.00000000000006px;"
             >
           <![endif]-->
-                          <div class="mj-column-per-33 outlook-group-fix"
+                          <div class="mj-column-per-33 outlook-group-fix offer-container"
                                style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
                           >
                             <table border="0"
@@ -2351,6 +2509,25 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                    style="vertical-align:top;"
                                    width="100%"
                             >
+                              <tr>
+                                <td class="mobile-divider"
+                                    style="display: none; font-size: 0px; padding: 10px 25px; padding-top: 20px; padding-bottom: 20px; word-break: break-word;"
+                                >
+                                  <p style="border-top:solid 1px lightgrey;font-size:1;margin:0px auto;width:100%;">
+                                  </p>
+                                  <!--[if mso | IE]>
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px lightgrey;font-size:1;margin:0px auto;width:250px;" role="presentation" width="250px"
+        >
+          <tr>
+            <td style="height:0;line-height:0;">
+              &nbsp;
+            </td>
+          </tr>
+        </table>
+      <![endif]-->
+                                </td>
+                              </tr>
                               <tr>
                                 <td align="center"
                                     style="font-size:0px;padding:0px;word-break:break-word;"
@@ -2386,7 +2563,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                 >
                                   <div style="font-family:Open Sans, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                     <p class="tagline"
-                                       style="min-height: 36px; margin: 0; padding: 0;"
+                                       style="margin: 0; padding: 0;"
                                     >
                                       Premium widgets delivered to your door monthly
                                     </p>
@@ -2430,10 +2607,10 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
             </td>
           
             <td
-               class="" style="vertical-align:top;width:300.00000000000006px;"
+               class="offer-container-outlook" style="vertical-align:top;width:300.00000000000006px;"
             >
           <![endif]-->
-                          <div class="mj-column-per-33 outlook-group-fix"
+                          <div class="mj-column-per-33 outlook-group-fix offer-container"
                                style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
                           >
                             <table border="0"
@@ -2443,6 +2620,25 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                    style="vertical-align:top;"
                                    width="100%"
                             >
+                              <tr>
+                                <td class="mobile-divider"
+                                    style="display: none; font-size: 0px; padding: 10px 25px; padding-top: 20px; padding-bottom: 20px; word-break: break-word;"
+                                >
+                                  <p style="border-top:solid 1px lightgrey;font-size:1;margin:0px auto;width:100%;">
+                                  </p>
+                                  <!--[if mso | IE]>
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px lightgrey;font-size:1;margin:0px auto;width:250px;" role="presentation" width="250px"
+        >
+          <tr>
+            <td style="height:0;line-height:0;">
+              &nbsp;
+            </td>
+          </tr>
+        </table>
+      <![endif]-->
+                                </td>
+                              </tr>
                               <tr>
                                 <td align="center"
                                     style="font-size:0px;padding:0px;word-break:break-word;"
@@ -2478,7 +2674,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                 >
                                   <div style="font-family:Open Sans, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                     <p class="tagline"
-                                       style="min-height: 36px; margin: 0; padding: 0;"
+                                       style="margin: 0; padding: 0;"
                                     >
                                       Premium widgets delivered to your door monthly
                                     </p>
