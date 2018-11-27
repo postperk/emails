@@ -117,6 +117,7 @@
               <br />
               <a target="_blank" href="{{this.link}}" class="nocode-link">Redeem <span class="code-arrow"></span></a>
             </mj-text>
+            <mj-text mj-class="expires-text">Offer code expires in 72 hours</mj-text>
             {{/if}}
           </mj-column>
         {{/each}}
