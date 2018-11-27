@@ -1292,6 +1292,15 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                                   </div>
                                 </td>
                               </tr>
+                              <tr>
+                                <td align="center"
+                                    style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Open Sans, Arial, sans-serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
+                                    Offer code expires in 72 hours
+                                  </div>
+                                </td>
+                              </tr>
                             </table>
                           </div>
                           <!--[if mso | IE]>
