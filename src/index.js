@@ -41,6 +41,12 @@ export const compile = async (type, data) => {
       data.twoOffers = data.order.offers.length === 2;
       data.threeOffers = data.order.offers.length === 3;
 
+      // Adding redirects
+      data.offers = data.offers.map((offer, index) => ({
+         ...offer,
+         redirectLink: `${data.cfunctions}/linkRedirect?linkId=${data.emailId}-${index}`
+      }));
+
       const template = Handlebars.compile(email);
       const mjml = template(data);
       const { html } = mjml2html(mjml);
