@@ -102,20 +102,20 @@
           <mj-column css-class="offer-container" {{#unless ../threeOffers}} width="300px" {{/unless}}>
             <!-- Divider only display son mobile-->
             <mj-divider padding-top="20px" padding-bottom="20px" css-class="mobile-divider" border-width="1px" border-style="solid" border-color="lightgrey" />
-            <mj-image href="{{this.redirectLink}}" src="{{this.cardImageUrl}}" alt="Get ${{this.amount}} off with {{this.brandName}}" width="300px"></mj-image>
+            <mj-image href="{{{this.redirectLink}}}" src="{{this.cardImageUrl}}" alt="Get ${{this.amount}} off with {{this.brandName}}" width="300px"></mj-image>
             <mj-text mj-class="tagline-text">
               <p class="tagline">{{this.tagline}}</p>
             </mj-text>
             {{#if this.code}}
             <mj-text css-class="code-container" mj-class="code-text">Gift card code:
               <br />
-              <a target="_blank" href="{{this.redirectLink}}" class="code-link">{{this.code}} <span class="code-arrow"></span></a>
+              <a target="_blank" href="{{{this.redirectLink}}}" class="code-link">{{this.code}} <span class="code-arrow"></span></a>
             </mj-text>
             <mj-text mj-class="expires-text">Offer code expires in 72 hours</mj-text>
             {{else}}
             <mj-text css-class="code-container" mj-class="code-text">
               <br />
-              <a target="_blank" href="{{this.redirectLink}}" class="nocode-link">Redeem <span class="code-arrow"></span></a>
+              <a target="_blank" href="{{{this.redirectLink}}}" class="nocode-link">Redeem <span class="code-arrow"></span></a>
             </mj-text>
             <mj-text mj-class="expires-text">Offer code expires in 72 hours</mj-text>
             {{/if}}

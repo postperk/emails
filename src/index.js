@@ -42,7 +42,7 @@ export const compile = async (type, data) => {
       data.threeOffers = data.order.offers.length === 3;
 
       // Adding redirects
-      data.offers = data.offers.map((offer, index) => ({
+      data.order.offers = data.order.offers.map((offer, index) => ({
          ...offer,
          redirectLink: `${data.cfunctions}/linkRedirect?linkId=${data.emailId}-${index}`
       }));

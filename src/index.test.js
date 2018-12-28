@@ -8,6 +8,8 @@ console.info = jest.fn();
 describe('Emails', () => {
    it('Offer email will match snapshot', async () => {
       const compiled = await emails.compile('offer', {
+         emailId: 'testEmailId',
+         cfunctions: 'http://notreally.com',
          brand: brandMockData,
          order: orderMockData
       });
@@ -18,6 +20,8 @@ describe('Emails', () => {
 
    it('Offer email with only one offer will match snapshot', async () => {
       const compiled = await emails.compile('offer', {
+         emailId: 'testEmailId',
+         cfunctions: 'http://notreally.com',
          brand: brandMockData,
          order: Object.assign({}, orderMockData, {
             offers: [ orderMockData.offers[0] ]
@@ -33,6 +37,8 @@ describe('Emails', () => {
       const newOffers = [ ...orderMockData.offers ].concat([ newOffer ]);
 
       const compiled = await emails.compile('offer', {
+         emailId: 'testEmailId',
+         cfunctions: 'http://notreally.com',
          brand: brandMockData,
          order: Object.assign({}, orderMockData, {
             offers: [ ...orderMockData.offers, newOffer ]
@@ -49,6 +55,8 @@ describe('Emails', () => {
       const newOffers = [ ...orderMockData.offers ].concat([ newOffer ]);
 
       const compiled = await emails.compile('offer', {
+         emailId: 'testEmailId',
+         cfunctions: 'http://notreally.com',
          brand: brandMockData,
          order: Object.assign({}, orderMockData, {
             offers: [ orderMockData.offers[1], newOffer ]

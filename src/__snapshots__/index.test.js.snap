@@ -421,7 +421,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                     <tbody>
                                       <tr>
                                         <td style="width:300px;">
-                                          <a href="https://www.brandb.com"
+                                          <a href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
                                              target="_blank"
                                           >
                                             <img alt="Get $10 off with Brand B"
@@ -459,7 +459,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                     Gift card code:
                                     <br>
                                     <a target="_blank"
-                                       href="https://www.brandb.com"
+                                       href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
                                        class="code-link"
                                        style="font-weight: bold; font-size: 18px; text-decoration: none; color: #555; margin-top: 10px;"
                                     >
@@ -532,7 +532,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                     <tbody>
                                       <tr>
                                         <td style="width:300px;">
-                                          <a href="https://www.brandc.com"
+                                          <a href="http://notreally.com/linkRedirect?linkId=testEmailId-1"
                                              target="_blank"
                                           >
                                             <img alt="Get $10 off with Brand C"
@@ -570,7 +570,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                     Gift card code:
                                     <br>
                                     <a target="_blank"
-                                       href="https://www.brandc.com"
+                                       href="http://notreally.com/linkRedirect?linkId=testEmailId-1"
                                        class="code-link"
                                        style="font-weight: bold; font-size: 18px; text-decoration: none; color: #555; margin-top: 10px;"
                                     >
@@ -1131,7 +1131,7 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                                     <tbody>
                                       <tr>
                                         <td style="width:300px;">
-                                          <a href="https://www.brandc.com"
+                                          <a href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
                                              target="_blank"
                                           >
                                             <img alt="Get $10 off with Brand C"
@@ -1169,7 +1169,7 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                                     Gift card code:
                                     <br>
                                     <a target="_blank"
-                                       href="https://www.brandc.com"
+                                       href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
                                        class="code-link"
                                        style="font-weight: bold; font-size: 18px; text-decoration: none; color: #555; margin-top: 10px;"
                                     >
@@ -1242,7 +1242,7 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                                     <tbody>
                                       <tr>
                                         <td style="width:300px;">
-                                          <a href="https://www.brandb.com"
+                                          <a href="http://notreally.com/linkRedirect?linkId=testEmailId-1"
                                              target="_blank"
                                           >
                                             <img alt="Get $10 off with Brand B"
@@ -1279,7 +1279,7 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                                   <div style="font-family:Open Sans, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                     <br>
                                     <a target="_blank"
-                                       href="https://www.brandb.com"
+                                       href="http://notreally.com/linkRedirect?linkId=testEmailId-1"
                                        class="nocode-link"
                                        style="font-weight: bold; font-size: 16px; text-decoration: none; color: #555; margin-top: 10px;"
                                     >
@@ -1840,7 +1840,7 @@ exports[`Emails Offer email with only one offer will match snapshot 1`] = `
                                     <tbody>
                                       <tr>
                                         <td style="width:300px;">
-                                          <a href="https://www.brandb.com"
+                                          <a href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
                                              target="_blank"
                                           >
                                             <img alt="Get $10 off with Brand B"
@@ -1878,7 +1878,7 @@ exports[`Emails Offer email with only one offer will match snapshot 1`] = `
                                     Gift card code:
                                     <br>
                                     <a target="_blank"
-                                       href="https://www.brandb.com"
+                                       href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
                                        class="code-link"
                                        style="font-weight: bold; font-size: 18px; text-decoration: none; color: #555; margin-top: 10px;"
                                     >
@@ -2439,7 +2439,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                     <tbody>
                                       <tr>
                                         <td style="width:300px;">
-                                          <a href="https://www.brandb.com"
+                                          <a href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
                                              target="_blank"
                                           >
                                             <img alt="Get $10 off with Brand B"
@@ -2477,7 +2477,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                     Gift card code:
                                     <br>
                                     <a target="_blank"
-                                       href="https://www.brandb.com"
+                                       href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
                                        class="code-link"
                                        style="font-weight: bold; font-size: 18px; text-decoration: none; color: #555; margin-top: 10px;"
                                     >
@@ -2550,7 +2550,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                     <tbody>
                                       <tr>
                                         <td style="width:300px;">
-                                          <a href="https://www.brandc.com"
+                                          <a href="http://notreally.com/linkRedirect?linkId=testEmailId-1"
                                              target="_blank"
                                           >
                                             <img alt="Get $10 off with Brand C"
@@ -2588,7 +2588,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                     Gift card code:
                                     <br>
                                     <a target="_blank"
-                                       href="https://www.brandc.com"
+                                       href="http://notreally.com/linkRedirect?linkId=testEmailId-1"
                                        class="code-link"
                                        style="font-weight: bold; font-size: 18px; text-decoration: none; color: #555; margin-top: 10px;"
                                     >
@@ -2661,7 +2661,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                     <tbody>
                                       <tr>
                                         <td style="width:300px;">
-                                          <a href="https://www.brandb.com"
+                                          <a href="http://notreally.com/linkRedirect?linkId=testEmailId-2"
                                              target="_blank"
                                           >
                                             <img alt="Get $10 off with brand D"
@@ -2699,7 +2699,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                     Gift card code:
                                     <br>
                                     <a target="_blank"
-                                       href="https://www.brandb.com"
+                                       href="http://notreally.com/linkRedirect?linkId=testEmailId-2"
                                        class="code-link"
                                        style="font-weight: bold; font-size: 18px; text-decoration: none; color: #555; margin-top: 10px;"
                                     >
