@@ -87,13 +87,13 @@
 
       <mj-section padding="10px 0 20px">
         <mj-column>
-          <mj-text mj-class="headline-text">{{order.customer.firstName}}, here's an eGift card on us!</mj-text>
+          <mj-text mj-class="headline-text">{{order.customer.firstName}}, your eGift is expiring</mj-text>
         </mj-column>
       </mj-section>
 
       <mj-section>
         <mj-column width="500px">
-          <mj-text mj-class="body-text">Thanks for your order. We've joined with{{#if oneOffer}} this brand partner {{else}} these brand partners {{/if}}that we think you'll love. Please enjoy the following on us:</mj-text>
+          <mj-text mj-class="body-text">Just a friendly reminder on your eGift, in case you were interested! Thanks again for your order. Please enjoy the following on us:</mj-text>
         </mj-column>
       </mj-section>
 
@@ -117,7 +117,7 @@
               <br />
               <a target="_blank" href="{{{this.redirectLink}}}" class="nocode-link">Redeem <span class="code-arrow"></span></a>
             </mj-text>
-            <mj-text mj-class="expires-text">Offer code expires in 72 hours</mj-text>
+            <mj-text mj-class="expires-text">Offer code expires in 24 hours</mj-text>
             {{/if}}
           </mj-column>
         {{/each}}
@@ -126,7 +126,7 @@
       <mj-section padding="0px">
         <mj-column>
           <mj-text mj-class="footer-text" align="center" padding="0 10px">
-            <p class="footer-tag">You're receiving this email in response to your order with {{brand.name}}<br />You will not receive further emails unless interest is shown
+            <p class="footer-tag">You're receiving this email in response to your order with {{brand.name}}<br />You will not receive further emails
             </p>
           </mj-text>
         </mj-column>

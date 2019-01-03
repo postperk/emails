@@ -52,7 +52,6 @@ describe('Emails', () => {
    it('Offer email with no code with match snapshot', async () => {
       let newOffer = { ...orderMockData.offers[0] };
       delete newOffer.code;
-      const newOffers = [ ...orderMockData.offers ].concat([ newOffer ]);
 
       const compiled = await emails.compile('offer', {
          emailId: 'testEmailId',
@@ -64,6 +63,18 @@ describe('Emails', () => {
       });
 
       await fs.writeFile('./generated/offer_nocode.html', compiled.content);
+      expect(compiled.content).toMatchSnapshot();
+   });
+
+   it('Reminder email will match snapshot', async () => {
+      const compiled = await emails.compile('reminder', {
+         emailId: 'testEmailId',
+         cfunctions: 'http://notreally.com',
+         brand: brandMockData,
+         order: orderMockData
+      });
+
+      await fs.writeFile('./generated/reminder.html', compiled.content);
       expect(compiled.content).toMatchSnapshot();
    });
 });
