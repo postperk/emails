@@ -111,7 +111,7 @@
               <br />
               <a target="_blank" href="{{{this.redirectLink}}}" class="code-link">{{this.code}} <span class="code-arrow"></span></a>
             </mj-text>
-            <mj-text mj-class="expires-text">Offer code expires in 72 hours</mj-text>
+            <mj-text mj-class="expires-text">Offer code expires in 24 hours</mj-text>
             {{else}}
             <mj-text css-class="code-container" mj-class="code-text">
               <br />
