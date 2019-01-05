@@ -5,6 +5,6 @@ export default {
    },
    reminder: {
       filename: 'reminder.mjml',
-      subject: 'Reminder: eGift will expire soon'
+      subject: data => `${data.order.customer.firstName}, your eGift expires soon`
    }
 };
