@@ -33,16 +33,11 @@ describe('Emails', () => {
    });
 
    it('Offer email with three offers will match snapshot', async () => {
-      const newOffer = { ...orderMockData.offers[0], brandName: 'brand D', docId: 'brandD' };
-      const newOffers = [ ...orderMockData.offers ].concat([ newOffer ]);
-
       const compiled = await emails.compile('offer', {
          emailId: 'testEmailId',
          cfunctions: 'http://notreally.com',
          brand: brandMockData,
-         order: Object.assign({}, orderMockData, {
-            offers: [ ...orderMockData.offers, newOffer ]
-         })
+         order: orderMockData
       });
 
       await fs.writeFile('./generated/offer_three.html', compiled.content);

@@ -16,7 +16,7 @@
     {
       "amount": 10,
       "brandName": "Brand B",
-      "cardImageUrl": "https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/cards%2Fcard_mintmongoose.png?alt=media&token=869aeea8-135a-4067-abbd-9ea06dcd0e71",
+      "cardImageUrl": "https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/cards%2Fcard_karma_v2.png?alt=media&token=dff6f129-a7b3-45e9-b713-f9392ef6e23c",
       "code": "LK39L",
       "docId": "brandB",
       "link": "https://www.brandb.com",
@@ -26,7 +26,17 @@
     {
       "amount": 10,
       "brandName": "Brand C",
-      "cardImageUrl": "https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/cards%2Fcard_humble.png?alt=media&token=7008d01d-826b-4818-aee8-695c579b4de9",
+      "cardImageUrl": "https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/cards%2Fcard_freeyourtea.png?alt=media&token=3a65981a-5a79-47dd-a311-1798ba2957d9",
+      "code": "KD90S",
+      "docId": "brandC",
+      "link": "https://www.brandc.com",
+      "tagline": "Premium widgets delivered to your door monthly",
+      "type": "dollar"
+    },
+    {
+      "amount": 10,
+      "brandName": "Brand D",
+      "cardImageUrl": "https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/cards%2Fcard_tampon_v2.png?alt=media&token=5d578855-f05e-4800-a959-cd02d8eb8b31",
       "code": "KD90S",
       "docId": "brandC",
       "link": "https://www.brandc.com",
