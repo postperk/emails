@@ -44,6 +44,24 @@ describe('Emails', () => {
       expect(compiled.content).toMatchSnapshot();
    });
 
+   it('Offer email with three offers with custom brand template will match snapshot', async () => {
+      const compiled = await emails.compile('offer', {
+         emailId: 'testEmailId',
+         cfunctions: 'http://notreally.com',
+         brand: {
+            ...brandMockData,
+            tplOffer: {
+               intro: 'blah blah {{order.customer.firstName}}',
+               body: 'Thanks from {{brand.name}}, blah blah custom text'
+            }
+         },
+         order: orderMockData
+      });
+
+      await fs.writeFile('./generated/offer_three_custom.html', compiled.content);
+      expect(compiled.content).toMatchSnapshot();
+   });
+
    it('Offer email with no code with match snapshot', async () => {
       let newOffer = { ...orderMockData.offers[0] };
       delete newOffer.code;

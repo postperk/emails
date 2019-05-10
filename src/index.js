@@ -25,6 +25,23 @@ const getTemplate = async type => {
    return templates[type];
 };
 
+const applyTransforms = (email, type, brand) => {
+   console.info('Applying transforms');
+   const typeObj = typeMap[type];
+
+   if (!typeObj.transforms) {
+      console.info('No transforms for type', type);
+      return email;
+   }
+
+   const templateObj = brand[typeObj.transformProp] || {};
+
+   return Object.keys(typeObj.transforms).reduce((str, curr) => {
+      const value = typeObj.transforms[curr];
+      return str.split(curr).join(typeof value === 'function' ? value(templateObj) : value);
+   }, email);
+};
+
 export const compile = async (type, data) => {
    try {
       console.info('Received type ', type);
@@ -32,7 +49,8 @@ export const compile = async (type, data) => {
          throw new Error('Invalid Type');
       }
 
-      const email = await getTemplate(type);
+      const emailRaw = await getTemplate(type);
+      const email = applyTransforms(emailRaw, type, data.brand);
 
       console.info('Fetched template, now compiling');
 
