@@ -2930,6 +2930,8 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
 
 `;
 
+exports[`Emails Offer email with three offers will match snapshot 2`] = `"Thanks Raul - here's your gift card"`;
+
 exports[`Emails Offer email with three offers with custom brand template will match snapshot 1`] = `
 
 <!doctype html>
@@ -3745,6 +3747,8 @@ exports[`Emails Offer email with three offers with custom brand template will ma
 </html>
 
 `;
+
+exports[`Emails Offer email with three offers with custom subject 1`] = `"Thanks Raul - here's a gift card on us!"`;
 
 exports[`Emails Reminder email will match snapshot 1`] = `
 
