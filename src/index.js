@@ -42,6 +42,35 @@ const applyTransforms = (email, type, brand) => {
    }, email);
 };
 
+const dataMutations = (type, original) => {
+   const standard = () => {
+      let data = original;
+      // Flags
+      data.oneOffer = data.order.offers.length === 1;
+      data.twoOffers = data.order.offers.length === 2;
+      data.threeOffers = data.order.offers.length === 3;
+
+      // Adding redirects
+      data.order.offers = data.order.offers.map((offer, index) => ({
+         ...offer,
+         redirectLink: `${data.cfunctions}/linkRedirect?linkId=${data.emailId}-${index}`
+      }));
+
+      return data;
+   };
+
+   const mutations = {
+      offer: () => {
+         return standard();
+      },
+      reminder: () => {
+         return standard();
+      }
+   };
+
+   return mutations[type] ? mutations[type]() : original;
+};
+
 export const compile = async (type, data) => {
    try {
       console.info('Received type ', type);
@@ -54,16 +83,7 @@ export const compile = async (type, data) => {
 
       console.info('Fetched template, now compiling');
 
-      // Flags
-      data.oneOffer = data.order.offers.length === 1;
-      data.twoOffers = data.order.offers.length === 2;
-      data.threeOffers = data.order.offers.length === 3;
-
-      // Adding redirects
-      data.order.offers = data.order.offers.map((offer, index) => ({
-         ...offer,
-         redirectLink: `${data.cfunctions}/linkRedirect?linkId=${data.emailId}-${index}`
-      }));
+      data = dataMutations(type, data);
 
       const template = Handlebars.compile(email);
       const mjml = template(data);

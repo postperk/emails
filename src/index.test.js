@@ -107,4 +107,16 @@ describe('Emails', () => {
       await fs.writeFile('./generated/reminder.html', compiled.content);
       expect(compiled.content).toMatchSnapshot();
    });
+
+   it.only('Incentive email will match snapshot', async () => {
+      const compiled = await emails.compile('incentive', {
+         emailId: 'testEmailId',
+         cfunctions: 'http://notreally.com',
+         brand: brandMockData,
+         order: orderMockData
+      });
+
+      await fs.writeFile('./generated/incentive.html', compiled.content);
+      //expect(compiled.content).toMatchSnapshot();
+   });
 });

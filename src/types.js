@@ -44,5 +44,9 @@ export default {
          '<%FOOTER%>':
             'You\'re receiving this email in response to your order with {{brand.name}}<br />You will not receive further emails'
       }
+   },
+   incentive: {
+      filename: 'incentiveDelivery.mjml',
+      subject: 'Your Amazon Gift Card is Ready'
    }
 };
