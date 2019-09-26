@@ -113,7 +113,8 @@ describe('Emails', () => {
          emailId: 'testEmailId',
          cfunctions: 'http://notreally.com',
          brand: brandMockData,
-         order: orderMockData
+         order: orderMockData,
+         notificationId: 'vt2AORijdm5V48bVThlR'
       });
 
       await fs.writeFile('./generated/incentive.html', compiled.content);
