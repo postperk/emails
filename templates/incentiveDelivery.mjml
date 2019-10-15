@@ -85,10 +85,10 @@
 
       <mj-section background-color="#fff" padding="20px 0 0 0">
           <mj-column css-class="offer-container" width="300px">
-            <mj-image href="https://claims.postperk.com/?nid={{notificationId}}" src="https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/images%2Famazon_card.png?alt=media&token=66227af3-68f4-443a-aee5-5c46c1f96cd8" alt="Get ${{this.amount}} off with {{this.brandName}}" width="300px"></mj-image>
+            <mj-image href="{{claimsUrl}}/?nid={{notificationId}}" src="https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/images%2Famazon_card.png?alt=media&token=66227af3-68f4-443a-aee5-5c46c1f96cd8" alt="Get ${{this.amount}} off with {{this.brandName}}" width="300px"></mj-image>
             <mj-text css-class="code-container" mj-class="code-text">
               <br />
-              <a target="_blank" href="https://claims.postperk.com/?nid={{notificationId}}" class="redeem-link">Redeem <span class="code-arrow"></span></a>
+              <a target="_blank" href="{{claimsUrl}}/?nid={{notificationId}}" class="redeem-link">Redeem <span class="code-arrow"></span></a>
             </mj-text>
             
             <mj-text mj-class="expires-text">Gift card expires in three weeks</mj-text>

@@ -65,6 +65,13 @@ const dataMutations = (type, original) => {
       },
       reminder: () => {
          return standard();
+      },
+      incentive: () => {
+         let data = original;
+         return {
+            ...data,
+            claimsUrl: `https://claims${data.env === 'dev' ? '-dev' : ''}.postperk.com`
+         };
       }
    };
 

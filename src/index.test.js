@@ -114,7 +114,8 @@ describe('Emails', () => {
          cfunctions: 'http://notreally.com',
          brand: brandMockData,
          order: orderMockData,
-         notificationId: 'vt2AORijdm5V48bVThlR'
+         notificationId: 'vt2AORijdm5V48bVThlR',
+         env: 'dev'
       });
 
       await fs.writeFile('./generated/incentive.html', compiled.content);

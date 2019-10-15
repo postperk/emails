@@ -386,7 +386,7 @@ exports[`Emails Incentive email will match snapshot 1`] = `
                                     <tbody>
                                       <tr>
                                         <td style="width:300px;">
-                                          <a href="https://claims.postperk.com/?nid=vt2AORijdm5V48bVThlR"
+                                          <a href="https://claims-dev.postperk.com/?nid=vt2AORijdm5V48bVThlR"
                                              target="_blank"
                                           >
                                             <img alt="Get $ off with "
@@ -410,7 +410,7 @@ exports[`Emails Incentive email will match snapshot 1`] = `
                                   <div style="font-family:Muli, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                     <br>
                                     <a target="_blank"
-                                       href="https://claims.postperk.com/?nid=vt2AORijdm5V48bVThlR"
+                                       href="https://claims-dev.postperk.com/?nid=vt2AORijdm5V48bVThlR"
                                        class="redeem-link"
                                        style="font-weight: bold; font-size: 22px; text-decoration: none; color: #555; margin-top: 10px;"
                                     >
