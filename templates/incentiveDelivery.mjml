@@ -73,7 +73,7 @@
 
       <mj-section padding="10px 0 20px">
         <mj-column>
-          <mj-text font-weight="500" mj-class="headline-text">{{order.customer.firstName}}, here's your $1 Amazon gift card on us!</mj-text>
+          <mj-text font-weight="500" mj-class="headline-text">{{order.customer.firstName}}, here's your ${{giftCardAmount}} Amazon gift card on us!</mj-text>
         </mj-column>
       </mj-section>
 

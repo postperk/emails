@@ -115,7 +115,8 @@ describe('Emails', () => {
          brand: brandMockData,
          order: orderMockData,
          notificationId: 'vt2AORijdm5V48bVThlR',
-         env: 'dev'
+         env: 'dev',
+         giftCardAmount: 2
       });
 
       await fs.writeFile('./generated/incentive.html', compiled.content);
