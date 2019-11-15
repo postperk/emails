@@ -1322,6 +1322,12 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                       You're receiving this email in response to your order with Brand A
                                       <br>
                                       You will not receive further emails unless interest is shown
+                                      <a target="_blank"
+                                         href="http://notreally.com/unsubscribe/?email=Raul.Hyatt@data-generator.com&bid=brandA"
+                                         style="color: #999; text-decoration: none; border-bottom: 1px dotted #999;"
+                                      >
+                                        Unsubscribe
+                                      </a>
                                     </p>
                                   </div>
                                 </td>
@@ -2026,6 +2032,12 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                                       You're receiving this email in response to your order with Brand A
                                       <br>
                                       You will not receive further emails unless interest is shown
+                                      <a target="_blank"
+                                         href="http://notreally.com/unsubscribe/?email=Raul.Hyatt@data-generator.com&bid=brandA"
+                                         style="color: #999; text-decoration: none; border-bottom: 1px dotted #999;"
+                                      >
+                                        Unsubscribe
+                                      </a>
                                     </p>
                                   </div>
                                 </td>
@@ -2620,6 +2632,12 @@ exports[`Emails Offer email with only one offer will match snapshot 1`] = `
                                       You're receiving this email in response to your order with Brand A
                                       <br>
                                       You will not receive further emails unless interest is shown
+                                      <a target="_blank"
+                                         href="http://notreally.com/unsubscribe/?email=Raul.Hyatt@data-generator.com&bid=brandA"
+                                         style="color: #999; text-decoration: none; border-bottom: 1px dotted #999;"
+                                      >
+                                        Unsubscribe
+                                      </a>
                                     </p>
                                   </div>
                                 </td>
@@ -3436,6 +3454,12 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                       You're receiving this email in response to your order with Brand A
                                       <br>
                                       You will not receive further emails unless interest is shown
+                                      <a target="_blank"
+                                         href="http://notreally.com/unsubscribe/?email=Raul.Hyatt@data-generator.com&bid=brandA"
+                                         style="color: #999; text-decoration: none; border-bottom: 1px dotted #999;"
+                                      >
+                                        Unsubscribe
+                                      </a>
                                     </p>
                                   </div>
                                 </td>
@@ -4254,6 +4278,12 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                       You're receiving this email in response to your order with Brand A
                                       <br>
                                       You will not receive further emails unless interest is shown
+                                      <a target="_blank"
+                                         href="http://notreally.com/unsubscribe/?email=Raul.Hyatt@data-generator.com&bid=brandA"
+                                         style="color: #999; text-decoration: none; border-bottom: 1px dotted #999;"
+                                      >
+                                        Unsubscribe
+                                      </a>
                                     </p>
                                   </div>
                                 </td>
@@ -5072,6 +5102,12 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                       You're receiving this email in response to your order with Brand A
                                       <br>
                                       You will not receive further emails
+                                      <a target="_blank"
+                                         href="http://notreally.com/unsubscribe/?email=Raul.Hyatt@data-generator.com&bid=brandA"
+                                         style="color: #999; text-decoration: none; border-bottom: 1px dotted #999;"
+                                      >
+                                        Unsubscribe
+                                      </a>
                                     </p>
                                   </div>
                                 </td>
