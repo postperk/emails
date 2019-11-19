@@ -49,7 +49,6 @@
       }
 
       .footer-tag {
-        margin: 25px 0 1ppx 0;
         padding: 10px 0 0 0;
         font-size: 10px;
         line-height: 15px;
@@ -128,11 +127,15 @@
         {{/each}}
       </mj-section>
 
-      <mj-section padding="0px">
+      <mj-section padding="40px 0 0 0">
         <mj-column>
           <mj-text mj-class="footer-text" align="center" padding="0 10px">
             <p class="footer-tag">
               <%FOOTER%>  <a target="_blank" href="{{cfunctions}}/unsubscribe/?email={{order.customer.email}}&bid={{order.brandId}}">Unsubscribe</a>
+              </br></br>
+              {{#if brand.addressDetail}}
+                {{brand.name}} | {{brand.addressDetail}} | {{brand.addressCity}} | {{brand.addressState}} | {{brand.addressZip}} | USA
+              {{/if}} 
             </p>
           </mj-text>
         </mj-column>

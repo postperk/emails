@@ -153,7 +153,7 @@ exports[`Emails Incentive email will match snapshot 1`] = `
                                           <a href="www.branda.com"
                                              target="_blank"
                                           >
-                                            <img alt="Brand A"
+                                            <img alt="EarFleek"
                                                  height="auto"
                                                  src="https://storage.googleapis.com/pperk-dashboard.appspot.com/logos%2FyjgQ86oFbptMtdty5hMx-email?GoogleAccessId&#x3D;firebase-adminsdk-qr9rh%40pperk-dashboard.iam.gserviceaccount.com&amp;Expires&#x3D;3607545600&amp;Signature&#x3D;YhnshyZDQiqVTTtK7%2BS4qihd9AEA0aByrI6wH6hwrd6UNppWrkUJ52VxQzSNvriV4Gt9JwbEUtOg2F3e62EbP74aQ%2Fk3XUeCSj5xybRJB%2FFPCuLj9nnlPEq%2FMPszGt346OSvIwb2WdRUoTRrR608UiifAzTrDvByWuIQSDVIahRGS5ekaysdoGa3VyhejC%2BAKQcA6iqTOYXk7A3gIu5jtIPtNu3hvtOv63UTxKnaR%2BdBXqrNJVQfC4R2gnUG%2FDfzgdEL7t12SoAUprQahWS6qOmP1w5kTxcNEAKeQY9kJjuSobUvA2%2Bp3XlTIg%2BEWf6Quby2%2BMFWFf7Eor9zFronOQ%3D%3D"
                                                  style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;"
@@ -503,7 +503,7 @@ exports[`Emails Incentive email will match snapshot 1`] = `
                                     <p class="footer-tag"
                                        style="margin: 25px 0 1ppx 0; padding: 10px 0 0 0; font-size: 10px; line-height: 15px; color: #999;"
                                     >
-                                      You're receiving this email in response to your order with Brand A
+                                      You're receiving this email in response to your order with EarFleek
                                       <br>
                                       You will not receive further emails
                                     </p>
@@ -714,7 +714,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                           <a href="www.branda.com"
                                              target="_blank"
                                           >
-                                            <img alt="Brand A"
+                                            <img alt="EarFleek"
                                                  height="auto"
                                                  src="https://storage.googleapis.com/pperk-dashboard.appspot.com/logos%2FyjgQ86oFbptMtdty5hMx-email?GoogleAccessId&#x3D;firebase-adminsdk-qr9rh%40pperk-dashboard.iam.gserviceaccount.com&amp;Expires&#x3D;3607545600&amp;Signature&#x3D;YhnshyZDQiqVTTtK7%2BS4qihd9AEA0aByrI6wH6hwrd6UNppWrkUJ52VxQzSNvriV4Gt9JwbEUtOg2F3e62EbP74aQ%2Fk3XUeCSj5xybRJB%2FFPCuLj9nnlPEq%2FMPszGt346OSvIwb2WdRUoTRrR608UiifAzTrDvByWuIQSDVIahRGS5ekaysdoGa3VyhejC%2BAKQcA6iqTOYXk7A3gIu5jtIPtNu3hvtOv63UTxKnaR%2BdBXqrNJVQfC4R2gnUG%2FDfzgdEL7t12SoAUprQahWS6qOmP1w5kTxcNEAKeQY9kJjuSobUvA2%2Bp3XlTIg%2BEWf6Quby2%2BMFWFf7Eor9zFronOQ%3D%3D"
                                                  style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;"
@@ -1291,7 +1291,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                   >
                     <tbody>
                       <tr>
-                        <td style="direction:ltr;font-size:0px;padding:0px;text-align:center;vertical-align:top;">
+                        <td style="direction:ltr;font-size:0px;padding:40px 0 0 0;text-align:center;vertical-align:top;">
                           <!--[if mso | IE]>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                 
@@ -1317,9 +1317,9 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                 >
                                   <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:14px;text-align:center;color:#111111;">
                                     <p class="footer-tag"
-                                       style="margin: 25px 0 1ppx 0; padding: 10px 0 0 0; font-size: 10px; line-height: 15px; color: #999;"
+                                       style="padding: 10px 0 0 0; font-size: 10px; line-height: 15px; color: #999;"
                                     >
-                                      You're receiving this email in response to your order with Brand A
+                                      You're receiving this email in response to your order with EarFleek
                                       <br>
                                       You will not receive further emails unless interest is shown
                                       <a target="_blank"
@@ -1328,6 +1328,9 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                       >
                                         Unsubscribe
                                       </a>
+                                      <br>
+                                      <br>
+                                      EarFleek | 34-20 12th Street | Queens | NY | 12323 | USA
                                     </p>
                                   </div>
                                 </td>
@@ -1536,7 +1539,7 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                                           <a href="www.branda.com"
                                              target="_blank"
                                           >
-                                            <img alt="Brand A"
+                                            <img alt="EarFleek"
                                                  height="auto"
                                                  src="https://storage.googleapis.com/pperk-dashboard.appspot.com/logos%2FyjgQ86oFbptMtdty5hMx-email?GoogleAccessId&#x3D;firebase-adminsdk-qr9rh%40pperk-dashboard.iam.gserviceaccount.com&amp;Expires&#x3D;3607545600&amp;Signature&#x3D;YhnshyZDQiqVTTtK7%2BS4qihd9AEA0aByrI6wH6hwrd6UNppWrkUJ52VxQzSNvriV4Gt9JwbEUtOg2F3e62EbP74aQ%2Fk3XUeCSj5xybRJB%2FFPCuLj9nnlPEq%2FMPszGt346OSvIwb2WdRUoTRrR608UiifAzTrDvByWuIQSDVIahRGS5ekaysdoGa3VyhejC%2BAKQcA6iqTOYXk7A3gIu5jtIPtNu3hvtOv63UTxKnaR%2BdBXqrNJVQfC4R2gnUG%2FDfzgdEL7t12SoAUprQahWS6qOmP1w5kTxcNEAKeQY9kJjuSobUvA2%2Bp3XlTIg%2BEWf6Quby2%2BMFWFf7Eor9zFronOQ%3D%3D"
                                                  style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;"
@@ -2001,7 +2004,7 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                   >
                     <tbody>
                       <tr>
-                        <td style="direction:ltr;font-size:0px;padding:0px;text-align:center;vertical-align:top;">
+                        <td style="direction:ltr;font-size:0px;padding:40px 0 0 0;text-align:center;vertical-align:top;">
                           <!--[if mso | IE]>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                 
@@ -2027,9 +2030,9 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                                 >
                                   <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:14px;text-align:center;color:#111111;">
                                     <p class="footer-tag"
-                                       style="margin: 25px 0 1ppx 0; padding: 10px 0 0 0; font-size: 10px; line-height: 15px; color: #999;"
+                                       style="padding: 10px 0 0 0; font-size: 10px; line-height: 15px; color: #999;"
                                     >
-                                      You're receiving this email in response to your order with Brand A
+                                      You're receiving this email in response to your order with EarFleek
                                       <br>
                                       You will not receive further emails unless interest is shown
                                       <a target="_blank"
@@ -2038,6 +2041,9 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                                       >
                                         Unsubscribe
                                       </a>
+                                      <br>
+                                      <br>
+                                      EarFleek | 34-20 12th Street | Queens | NY | 12323 | USA
                                     </p>
                                   </div>
                                 </td>
@@ -2246,7 +2252,7 @@ exports[`Emails Offer email with only one offer will match snapshot 1`] = `
                                           <a href="www.branda.com"
                                              target="_blank"
                                           >
-                                            <img alt="Brand A"
+                                            <img alt="EarFleek"
                                                  height="auto"
                                                  src="https://storage.googleapis.com/pperk-dashboard.appspot.com/logos%2FyjgQ86oFbptMtdty5hMx-email?GoogleAccessId&#x3D;firebase-adminsdk-qr9rh%40pperk-dashboard.iam.gserviceaccount.com&amp;Expires&#x3D;3607545600&amp;Signature&#x3D;YhnshyZDQiqVTTtK7%2BS4qihd9AEA0aByrI6wH6hwrd6UNppWrkUJ52VxQzSNvriV4Gt9JwbEUtOg2F3e62EbP74aQ%2Fk3XUeCSj5xybRJB%2FFPCuLj9nnlPEq%2FMPszGt346OSvIwb2WdRUoTRrR608UiifAzTrDvByWuIQSDVIahRGS5ekaysdoGa3VyhejC%2BAKQcA6iqTOYXk7A3gIu5jtIPtNu3hvtOv63UTxKnaR%2BdBXqrNJVQfC4R2gnUG%2FDfzgdEL7t12SoAUprQahWS6qOmP1w5kTxcNEAKeQY9kJjuSobUvA2%2Bp3XlTIg%2BEWf6Quby2%2BMFWFf7Eor9zFronOQ%3D%3D"
                                                  style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;"
@@ -2601,7 +2607,7 @@ exports[`Emails Offer email with only one offer will match snapshot 1`] = `
                   >
                     <tbody>
                       <tr>
-                        <td style="direction:ltr;font-size:0px;padding:0px;text-align:center;vertical-align:top;">
+                        <td style="direction:ltr;font-size:0px;padding:40px 0 0 0;text-align:center;vertical-align:top;">
                           <!--[if mso | IE]>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                 
@@ -2627,9 +2633,9 @@ exports[`Emails Offer email with only one offer will match snapshot 1`] = `
                                 >
                                   <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:14px;text-align:center;color:#111111;">
                                     <p class="footer-tag"
-                                       style="margin: 25px 0 1ppx 0; padding: 10px 0 0 0; font-size: 10px; line-height: 15px; color: #999;"
+                                       style="padding: 10px 0 0 0; font-size: 10px; line-height: 15px; color: #999;"
                                     >
-                                      You're receiving this email in response to your order with Brand A
+                                      You're receiving this email in response to your order with EarFleek
                                       <br>
                                       You will not receive further emails unless interest is shown
                                       <a target="_blank"
@@ -2638,6 +2644,9 @@ exports[`Emails Offer email with only one offer will match snapshot 1`] = `
                                       >
                                         Unsubscribe
                                       </a>
+                                      <br>
+                                      <br>
+                                      EarFleek | 34-20 12th Street | Queens | NY | 12323 | USA
                                     </p>
                                   </div>
                                 </td>
@@ -2846,7 +2855,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                           <a href="www.branda.com"
                                              target="_blank"
                                           >
-                                            <img alt="Brand A"
+                                            <img alt="EarFleek"
                                                  height="auto"
                                                  src="https://storage.googleapis.com/pperk-dashboard.appspot.com/logos%2FyjgQ86oFbptMtdty5hMx-email?GoogleAccessId&#x3D;firebase-adminsdk-qr9rh%40pperk-dashboard.iam.gserviceaccount.com&amp;Expires&#x3D;3607545600&amp;Signature&#x3D;YhnshyZDQiqVTTtK7%2BS4qihd9AEA0aByrI6wH6hwrd6UNppWrkUJ52VxQzSNvriV4Gt9JwbEUtOg2F3e62EbP74aQ%2Fk3XUeCSj5xybRJB%2FFPCuLj9nnlPEq%2FMPszGt346OSvIwb2WdRUoTRrR608UiifAzTrDvByWuIQSDVIahRGS5ekaysdoGa3VyhejC%2BAKQcA6iqTOYXk7A3gIu5jtIPtNu3hvtOv63UTxKnaR%2BdBXqrNJVQfC4R2gnUG%2FDfzgdEL7t12SoAUprQahWS6qOmP1w5kTxcNEAKeQY9kJjuSobUvA2%2Bp3XlTIg%2BEWf6Quby2%2BMFWFf7Eor9zFronOQ%3D%3D"
                                                  style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;"
@@ -3423,7 +3432,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                   >
                     <tbody>
                       <tr>
-                        <td style="direction:ltr;font-size:0px;padding:0px;text-align:center;vertical-align:top;">
+                        <td style="direction:ltr;font-size:0px;padding:40px 0 0 0;text-align:center;vertical-align:top;">
                           <!--[if mso | IE]>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                 
@@ -3449,9 +3458,9 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                 >
                                   <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:14px;text-align:center;color:#111111;">
                                     <p class="footer-tag"
-                                       style="margin: 25px 0 1ppx 0; padding: 10px 0 0 0; font-size: 10px; line-height: 15px; color: #999;"
+                                       style="padding: 10px 0 0 0; font-size: 10px; line-height: 15px; color: #999;"
                                     >
-                                      You're receiving this email in response to your order with Brand A
+                                      You're receiving this email in response to your order with EarFleek
                                       <br>
                                       You will not receive further emails unless interest is shown
                                       <a target="_blank"
@@ -3460,6 +3469,9 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                       >
                                         Unsubscribe
                                       </a>
+                                      <br>
+                                      <br>
+                                      EarFleek | 34-20 12th Street | Queens | NY | 12323 | USA
                                     </p>
                                   </div>
                                 </td>
@@ -3670,7 +3682,7 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                           <a href="www.branda.com"
                                              target="_blank"
                                           >
-                                            <img alt="Brand A"
+                                            <img alt="EarFleek"
                                                  height="auto"
                                                  src="https://storage.googleapis.com/pperk-dashboard.appspot.com/logos%2FyjgQ86oFbptMtdty5hMx-email?GoogleAccessId&#x3D;firebase-adminsdk-qr9rh%40pperk-dashboard.iam.gserviceaccount.com&amp;Expires&#x3D;3607545600&amp;Signature&#x3D;YhnshyZDQiqVTTtK7%2BS4qihd9AEA0aByrI6wH6hwrd6UNppWrkUJ52VxQzSNvriV4Gt9JwbEUtOg2F3e62EbP74aQ%2Fk3XUeCSj5xybRJB%2FFPCuLj9nnlPEq%2FMPszGt346OSvIwb2WdRUoTRrR608UiifAzTrDvByWuIQSDVIahRGS5ekaysdoGa3VyhejC%2BAKQcA6iqTOYXk7A3gIu5jtIPtNu3hvtOv63UTxKnaR%2BdBXqrNJVQfC4R2gnUG%2FDfzgdEL7t12SoAUprQahWS6qOmP1w5kTxcNEAKeQY9kJjuSobUvA2%2Bp3XlTIg%2BEWf6Quby2%2BMFWFf7Eor9zFronOQ%3D%3D"
                                                  style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;"
@@ -3823,7 +3835,7 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                     style="font-size:0px;padding:10px 25px;word-break:break-word;"
                                 >
                                   <div style="font-family:Muli, Arial, sans-serif;font-size:16px;line-height:26px;text-align:center;color:#555555;">
-                                    Thanks from Brand A, blah blah custom text
+                                    Thanks from EarFleek, blah blah custom text
                                   </div>
                                 </td>
                               </tr>
@@ -4247,7 +4259,7 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                   >
                     <tbody>
                       <tr>
-                        <td style="direction:ltr;font-size:0px;padding:0px;text-align:center;vertical-align:top;">
+                        <td style="direction:ltr;font-size:0px;padding:40px 0 0 0;text-align:center;vertical-align:top;">
                           <!--[if mso | IE]>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                 
@@ -4273,9 +4285,9 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                 >
                                   <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:14px;text-align:center;color:#111111;">
                                     <p class="footer-tag"
-                                       style="margin: 25px 0 1ppx 0; padding: 10px 0 0 0; font-size: 10px; line-height: 15px; color: #999;"
+                                       style="padding: 10px 0 0 0; font-size: 10px; line-height: 15px; color: #999;"
                                     >
-                                      You're receiving this email in response to your order with Brand A
+                                      You're receiving this email in response to your order with EarFleek
                                       <br>
                                       You will not receive further emails unless interest is shown
                                       <a target="_blank"
@@ -4284,6 +4296,9 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                       >
                                         Unsubscribe
                                       </a>
+                                      <br>
+                                      <br>
+                                      EarFleek | 34-20 12th Street | Queens | NY | 12323 | USA
                                     </p>
                                   </div>
                                 </td>
@@ -4494,7 +4509,7 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                           <a href="www.branda.com"
                                              target="_blank"
                                           >
-                                            <img alt="Brand A"
+                                            <img alt="EarFleek"
                                                  height="auto"
                                                  src="https://storage.googleapis.com/pperk-dashboard.appspot.com/logos%2FyjgQ86oFbptMtdty5hMx-email?GoogleAccessId&#x3D;firebase-adminsdk-qr9rh%40pperk-dashboard.iam.gserviceaccount.com&amp;Expires&#x3D;3607545600&amp;Signature&#x3D;YhnshyZDQiqVTTtK7%2BS4qihd9AEA0aByrI6wH6hwrd6UNppWrkUJ52VxQzSNvriV4Gt9JwbEUtOg2F3e62EbP74aQ%2Fk3XUeCSj5xybRJB%2FFPCuLj9nnlPEq%2FMPszGt346OSvIwb2WdRUoTRrR608UiifAzTrDvByWuIQSDVIahRGS5ekaysdoGa3VyhejC%2BAKQcA6iqTOYXk7A3gIu5jtIPtNu3hvtOv63UTxKnaR%2BdBXqrNJVQfC4R2gnUG%2FDfzgdEL7t12SoAUprQahWS6qOmP1w5kTxcNEAKeQY9kJjuSobUvA2%2Bp3XlTIg%2BEWf6Quby2%2BMFWFf7Eor9zFronOQ%3D%3D"
                                                  style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;"
@@ -5071,7 +5086,7 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                   >
                     <tbody>
                       <tr>
-                        <td style="direction:ltr;font-size:0px;padding:0px;text-align:center;vertical-align:top;">
+                        <td style="direction:ltr;font-size:0px;padding:40px 0 0 0;text-align:center;vertical-align:top;">
                           <!--[if mso | IE]>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                 
@@ -5097,9 +5112,9 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                 >
                                   <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:14px;text-align:center;color:#111111;">
                                     <p class="footer-tag"
-                                       style="margin: 25px 0 1ppx 0; padding: 10px 0 0 0; font-size: 10px; line-height: 15px; color: #999;"
+                                       style="padding: 10px 0 0 0; font-size: 10px; line-height: 15px; color: #999;"
                                     >
-                                      You're receiving this email in response to your order with Brand A
+                                      You're receiving this email in response to your order with EarFleek
                                       <br>
                                       You will not receive further emails
                                       <a target="_blank"
@@ -5108,6 +5123,9 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                       >
                                         Unsubscribe
                                       </a>
+                                      <br>
+                                      <br>
+                                      EarFleek | 34-20 12th Street | Queens | NY | 12323 | USA
                                     </p>
                                   </div>
                                 </td>
