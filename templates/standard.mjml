@@ -134,7 +134,7 @@
               <%FOOTER%>  <a target="_blank" href="{{cfunctions}}/unsubscribe/?email={{order.customer.email}}&bid={{order.brandId}}">Unsubscribe</a>
               </br></br>
               {{#if brand.addressDetail}}
-                {{brand.name}} | {{brand.addressDetail}} | {{brand.addressCity}} | {{brand.addressState}} | {{brand.addressZip}} | USA
+                {{brand.name}} | {{brand.addressDetail}} | {{brand.addressCity}} | {{brand.addressState}} {{#if brand.addressZip}}| {{brand.addressZip}} {{/if}}| {{#if brand.addressCountry}}{{brand.addressCountry}}{{else}}USA{{/if}}
               {{/if}} 
             </p>
           </mj-text>

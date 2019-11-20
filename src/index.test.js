@@ -32,6 +32,26 @@ describe('Emails', () => {
       expect(compiled.content).toMatchSnapshot();
    });
 
+   it('Offer email with brand from different country', async () => {
+      const compiled = await emails.compile('offer', {
+         emailId: 'testEmailId',
+         cfunctions: 'http://notreally.com',
+         brand: {
+            ...brandMockData,
+            addressZip: '',
+            addressCountry: 'CA',
+            addressState: 'ON',
+            addressCity: 'Scarbourgh'
+         },
+         order: Object.assign({}, orderMockData, {
+            offers: [ orderMockData.offers[0] ]
+         })
+      });
+
+      await fs.writeFile('./generated/offer_one_canada.html', compiled.content);
+      expect(compiled.content).toMatchSnapshot();
+   });
+
    it('Offer email with three offers will match snapshot', async () => {
       const compiled = await emails.compile('offer', {
          emailId: 'testEmailId',
