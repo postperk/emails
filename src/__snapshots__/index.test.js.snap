@@ -633,6 +633,9 @@ exports[`Emails Offer email will match snapshot 1`] = `
         }
       }
     </style>
+    <meta name="format-detection"
+          content="address=no"
+    >
   </head>
   <body style="background-color:#ffffff;">
     <div style="background-color:#ffffff;">
@@ -1330,7 +1333,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                       </a>
                                       <br>
                                       <br>
-                                      EarFleek | 34-20 12th Street | Queens | NY | 12323 | USA
+                                      EarFleek | 34-20 12th Street &#8288;| Queens | NY | 12323 | USA
                                     </p>
                                   </div>
                                 </td>
@@ -1458,6 +1461,9 @@ exports[`Emails Offer email with brand from different country 1`] = `
         }
       }
     </style>
+    <meta name="format-detection"
+          content="address=no"
+    >
   </head>
   <body style="background-color:#ffffff;">
     <div style="background-color:#ffffff;">
@@ -1933,7 +1939,7 @@ exports[`Emails Offer email with brand from different country 1`] = `
                                       </a>
                                       <br>
                                       <br>
-                                      EarFleek | 34-20 12th Street | Scarbourgh | ON | CA
+                                      EarFleek | 34-20 12th Street &#8288;| Scarbourgh | ON | CA
                                     </p>
                                   </div>
                                 </td>
@@ -2061,6 +2067,9 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
         }
       }
     </style>
+    <meta name="format-detection"
+          content="address=no"
+    >
   </head>
   <body style="background-color:#ffffff;">
     <div style="background-color:#ffffff;">
@@ -2646,7 +2655,7 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                                       </a>
                                       <br>
                                       <br>
-                                      EarFleek | 34-20 12th Street | Queens | NY | 12323 | USA
+                                      EarFleek | 34-20 12th Street &#8288;| Queens | NY | 12323 | USA
                                     </p>
                                   </div>
                                 </td>
@@ -2774,6 +2783,9 @@ exports[`Emails Offer email with only one offer will match snapshot 1`] = `
         }
       }
     </style>
+    <meta name="format-detection"
+          content="address=no"
+    >
   </head>
   <body style="background-color:#ffffff;">
     <div style="background-color:#ffffff;">
@@ -3249,7 +3261,7 @@ exports[`Emails Offer email with only one offer will match snapshot 1`] = `
                                       </a>
                                       <br>
                                       <br>
-                                      EarFleek | 34-20 12th Street | Queens | NY | 12323 | USA
+                                      EarFleek | 34-20 12th Street &#8288;| Queens | NY | 12323 | USA
                                     </p>
                                   </div>
                                 </td>
@@ -3377,6 +3389,9 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
         }
       }
     </style>
+    <meta name="format-detection"
+          content="address=no"
+    >
   </head>
   <body style="background-color:#ffffff;">
     <div style="background-color:#ffffff;">
@@ -4074,7 +4089,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                       </a>
                                       <br>
                                       <br>
-                                      EarFleek | 34-20 12th Street | Queens | NY | 12323 | USA
+                                      EarFleek | 34-20 12th Street &#8288;| Queens | NY | 12323 | USA
                                     </p>
                                   </div>
                                 </td>
@@ -4204,6 +4219,9 @@ exports[`Emails Offer email with three offers with custom brand template will ma
         }
       }
     </style>
+    <meta name="format-detection"
+          content="address=no"
+    >
   </head>
   <body style="background-color:#ffffff;">
     <div style="background-color:#ffffff;">
@@ -4901,7 +4919,7 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                       </a>
                                       <br>
                                       <br>
-                                      EarFleek | 34-20 12th Street | Queens | NY | 12323 | USA
+                                      EarFleek | 34-20 12th Street &#8288;| Queens | NY | 12323 | USA
                                     </p>
                                   </div>
                                 </td>
@@ -5031,6 +5049,9 @@ exports[`Emails Reminder email will match snapshot 1`] = `
         }
       }
     </style>
+    <meta name="format-detection"
+          content="address=no"
+    >
   </head>
   <body style="background-color:#ffffff;">
     <div style="background-color:#ffffff;">
@@ -5728,7 +5749,7 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                       </a>
                                       <br>
                                       <br>
-                                      EarFleek | 34-20 12th Street | Queens | NY | 12323 | USA
+                                      EarFleek | 34-20 12th Street &#8288;| Queens | NY | 12323 | USA
                                     </p>
                                   </div>
                                 </td>
