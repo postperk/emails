@@ -8,6 +8,7 @@ console.info = jest.fn();
 describe('Emails', () => {
    it('Offer email will match snapshot', async () => {
       const compiled = await emails.compile('offer', {
+         unhashedEmail: 'joel@notreally.com',
          emailId: 'testEmailId',
          cfunctions: 'http://notreally.com',
          brand: brandMockData,
@@ -20,6 +21,7 @@ describe('Emails', () => {
 
    it('Offer email with only one offer will match snapshot', async () => {
       const compiled = await emails.compile('offer', {
+         unhashedEmail: 'joel@notreally.com',
          emailId: 'testEmailId',
          cfunctions: 'http://notreally.com',
          brand: brandMockData,
@@ -34,6 +36,7 @@ describe('Emails', () => {
 
    it('Offer email with brand from different country', async () => {
       const compiled = await emails.compile('offer', {
+         unhashedEmail: 'joel@notreally.com',
          emailId: 'testEmailId',
          cfunctions: 'http://notreally.com',
          brand: {
@@ -54,6 +57,7 @@ describe('Emails', () => {
 
    it('Offer email with three offers will match snapshot', async () => {
       const compiled = await emails.compile('offer', {
+         unhashedEmail: 'joel@notreally.com',
          emailId: 'testEmailId',
          cfunctions: 'http://notreally.com',
          brand: brandMockData,
@@ -67,6 +71,7 @@ describe('Emails', () => {
 
    it('Offer email with three offers with custom brand template will match snapshot', async () => {
       const compiled = await emails.compile('offer', {
+         unhashedEmail: 'joel@notreally.com',
          emailId: 'testEmailId',
          cfunctions: 'http://notreally.com',
          brand: {
@@ -85,6 +90,7 @@ describe('Emails', () => {
 
    it('Offer email with three offers with custom subject', async () => {
       const compiled = await emails.compile('offer', {
+         unhashedEmail: 'joel@notreally.com',
          emailId: 'testEmailId',
          cfunctions: 'http://notreally.com',
          brand: {
@@ -104,6 +110,7 @@ describe('Emails', () => {
       delete newOffer.code;
 
       const compiled = await emails.compile('offer', {
+         unhashedEmail: 'joel@notreally.com',
          emailId: 'testEmailId',
          cfunctions: 'http://notreally.com',
          brand: brandMockData,
@@ -118,6 +125,7 @@ describe('Emails', () => {
 
    it('Reminder email will match snapshot', async () => {
       const compiled = await emails.compile('reminder', {
+         unhashedEmail: 'joel@notreally.com',
          emailId: 'testEmailId',
          cfunctions: 'http://notreally.com',
          brand: brandMockData,

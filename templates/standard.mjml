@@ -134,7 +134,7 @@
         <mj-column>
           <mj-text mj-class="footer-text" align="center" padding="0 10px">
             <p class="footer-tag">
-              <%FOOTER%>  <a target="_blank" href="{{cfunctions}}/unsubscribe/?email={{order.customer.email}}&bid={{order.brandId}}">Unsubscribe</a>
+              <%FOOTER%>  <a target="_blank" href="{{cfunctions}}/unsubscribe/?email={{unhashedEmail}}&bid={{order.brandId}}">Unsubscribe</a>
               </br></br>
               {{#if brand.addressDetail}}
                 {{brand.name}} | {{brand.addressDetail}} &#8288;| {{brand.addressCity}} | {{brand.addressState}} {{#if brand.addressZip}}| {{brand.addressZip}} {{/if}}| {{#if brand.addressCountry}}{{brand.addressCountry}}{{else}}USA{{/if}}
