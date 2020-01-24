@@ -550,6 +550,8 @@ exports[`Emails Incentive email will match snapshot 1`] = `
 
 `;
 
+exports[`Emails Incentive email will match snapshot 2`] = `"Your Amazon Gift Card is Ready"`;
+
 exports[`Emails Offer email will match snapshot 1`] = `
 
 <!doctype html>
@@ -1374,6 +1376,8 @@ exports[`Emails Offer email will match snapshot 1`] = `
 
 `;
 
+exports[`Emails Offer email will match snapshot 2`] = `"Thanks Raul - here's your gift card"`;
+
 exports[`Emails Offer email with brand from different country 1`] = `
 
 <!doctype html>
@@ -1975,6 +1979,8 @@ exports[`Emails Offer email with brand from different country 1`] = `
 </html>
 
 `;
+
+exports[`Emails Offer email with brand from different country 2`] = `"Thanks Raul - here's your gift card"`;
 
 exports[`Emails Offer email with no code with match snapshot 1`] = `
 
@@ -2688,6 +2694,8 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
 
 `;
 
+exports[`Emails Offer email with no code with match snapshot 2`] = `"Thanks Raul - here's your gift card"`;
+
 exports[`Emails Offer email with only one offer will match snapshot 1`] = `
 
 <!doctype html>
@@ -3289,6 +3297,8 @@ exports[`Emails Offer email with only one offer will match snapshot 1`] = `
 </html>
 
 `;
+
+exports[`Emails Offer email with only one offer will match snapshot 2`] = `"Thanks Raul - here's your gift card"`;
 
 exports[`Emails Offer email with three offers will match snapshot 1`] = `
 
@@ -4940,7 +4950,11 @@ exports[`Emails Offer email with three offers with custom brand template will ma
 
 `;
 
-exports[`Emails Offer email with three offers with custom subject 1`] = `"Thanks Raul - here's a gift card on us!"`;
+exports[`Emails Offer email with three offers with custom brand template will match snapshot 2`] = `"Thanks Raul - here's your gift card"`;
+
+exports[`Emails Offer email with three offers with custom subject 1`] = `"Thanks Raul, here's a gift card on us!"`;
+
+exports[`Emails Offer email with three offers with custom subject without firstName variable 1`] = `"Whoa buddy here's a gift card on us!"`;
 
 exports[`Emails Reminder email will match snapshot 1`] = `
 
@@ -5765,3 +5779,5 @@ exports[`Emails Reminder email will match snapshot 1`] = `
 </html>
 
 `;
+
+exports[`Emails Reminder email will match snapshot 2`] = `"Reminder: Your eGift expires soon"`;

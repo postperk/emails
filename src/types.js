@@ -1,13 +1,10 @@
 export default {
    offer: {
       filename: 'standard.mjml',
-      subject: data => {
-         const tail =
-            data.brand.tplOffer && data.brand.tplOffer.subject
-               ? data.brand.tplOffer.subject
-               : 'here\'s your gift card';
-         return `Thanks ${data.order.customer.firstName} - ${tail}`;
-      },
+      subject: data =>
+         data.brand.tplOffer && data.brand.tplOffer.subject
+            ? data.brand.tplOffer.subject.replace('{{firstName}}', data.order.customer.firstName)
+            : `Thanks ${data.order.customer.firstName} - here's your gift card`,
       transformProp: 'tplOffer',
       transforms: {
          '<%INTRO%>': brandTpl => {

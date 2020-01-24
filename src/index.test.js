@@ -17,6 +17,7 @@ describe('Emails', () => {
 
       await fs.writeFile('./generated/offer_two.html', compiled.content);
       expect(compiled.content).toMatchSnapshot();
+      expect(compiled.subject).toMatchSnapshot();
    });
 
    it('Offer email with only one offer will match snapshot', async () => {
@@ -32,6 +33,7 @@ describe('Emails', () => {
 
       await fs.writeFile('./generated/offer_one.html', compiled.content);
       expect(compiled.content).toMatchSnapshot();
+      expect(compiled.subject).toMatchSnapshot();
    });
 
    it('Offer email with brand from different country', async () => {
@@ -53,6 +55,7 @@ describe('Emails', () => {
 
       await fs.writeFile('./generated/offer_one_canada.html', compiled.content);
       expect(compiled.content).toMatchSnapshot();
+      expect(compiled.subject).toMatchSnapshot();
    });
 
    it('Offer email with three offers will match snapshot', async () => {
@@ -86,6 +89,7 @@ describe('Emails', () => {
 
       await fs.writeFile('./generated/offer_three_custom.html', compiled.content);
       expect(compiled.content).toMatchSnapshot();
+      expect(compiled.subject).toMatchSnapshot();
    });
 
    it('Offer email with three offers with custom subject', async () => {
@@ -96,7 +100,24 @@ describe('Emails', () => {
          brand: {
             ...brandMockData,
             tplOffer: {
-               subject: 'here\'s a gift card on us!'
+               subject: 'Thanks {{firstName}}, here\'s a gift card on us!'
+            }
+         },
+         order: orderMockData
+      });
+
+      expect(compiled.subject).toMatchSnapshot();
+   });
+
+   it('Offer email with three offers with custom subject without firstName variable', async () => {
+      const compiled = await emails.compile('offer', {
+         unhashedEmail: 'joel@notreally.com',
+         emailId: 'testEmailId',
+         cfunctions: 'http://notreally.com',
+         brand: {
+            ...brandMockData,
+            tplOffer: {
+               subject: 'Whoa buddy here\'s a gift card on us!'
             }
          },
          order: orderMockData
@@ -121,6 +142,7 @@ describe('Emails', () => {
 
       await fs.writeFile('./generated/offer_nocode.html', compiled.content);
       expect(compiled.content).toMatchSnapshot();
+      expect(compiled.subject).toMatchSnapshot();
    });
 
    it('Reminder email will match snapshot', async () => {
@@ -134,6 +156,7 @@ describe('Emails', () => {
 
       await fs.writeFile('./generated/reminder.html', compiled.content);
       expect(compiled.content).toMatchSnapshot();
+      expect(compiled.subject).toMatchSnapshot();
    });
 
    it('Incentive email will match snapshot', async () => {
@@ -149,5 +172,6 @@ describe('Emails', () => {
 
       await fs.writeFile('./generated/incentive.html', compiled.content);
       expect(compiled.content).toMatchSnapshot();
+      expect(compiled.subject).toMatchSnapshot();
    });
 });
