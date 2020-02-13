@@ -139,6 +139,9 @@
               {{#if brand.addressDetail}}
                 {{brand.name}} | {{brand.addressDetail}} &#8288;| {{brand.addressCity}} | {{brand.addressState}} {{#if brand.addressZip}}| {{brand.addressZip}} {{/if}}| {{#if brand.addressCountry}}{{brand.addressCountry}}{{else}}USA{{/if}}
               {{/if}} 
+              {{#if tag}}
+                {{tag}} 
+              {{/if}}
             </p>
           </mj-text>
         </mj-column>
