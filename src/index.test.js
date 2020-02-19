@@ -80,6 +80,7 @@ describe('Emails', () => {
          brand: {
             ...brandMockData,
             tplOffer: {
+               ...brandMockData.tplOffer,
                intro: 'blah blah {{order.customer.firstName}}',
                body: 'Thanks from {{brand.name}}, blah blah custom text'
             }
@@ -100,6 +101,7 @@ describe('Emails', () => {
          brand: {
             ...brandMockData,
             tplOffer: {
+               ...brandMockData.tplOffer,
                subject: 'Thanks {{firstName}}, here\'s a gift card on us!'
             }
          },
@@ -117,6 +119,7 @@ describe('Emails', () => {
          brand: {
             ...brandMockData,
             tplOffer: {
+               ...brandMockData.tplOffer,
                subject: 'Whoa buddy here\'s a gift card on us!'
             }
          },
@@ -155,22 +158,6 @@ describe('Emails', () => {
       });
 
       await fs.writeFile('./generated/reminder.html', compiled.content);
-      expect(compiled.content).toMatchSnapshot();
-      expect(compiled.subject).toMatchSnapshot();
-   });
-
-   it('Incentive email will match snapshot', async () => {
-      const compiled = await emails.compile('incentive', {
-         emailId: 'testEmailId',
-         cfunctions: 'http://notreally.com',
-         brand: brandMockData,
-         order: orderMockData,
-         notificationId: 'vt2AORijdm5V48bVThlR',
-         env: 'dev',
-         giftCardAmount: 2
-      });
-
-      await fs.writeFile('./generated/incentive.html', compiled.content);
       expect(compiled.content).toMatchSnapshot();
       expect(compiled.subject).toMatchSnapshot();
    });

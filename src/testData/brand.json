@@ -32,5 +32,15 @@
   "counts": {
     "promotions": 200,
     "impressions": 100
+  },
+  "tplOffer": {
+    "subject": "Thanks {{firstName}} - here's your gift card",
+    "intro": "{{order.customer.firstName}}, here's an eGift card on us!",
+    "body": "Thanks for your order. We've joined with these brand partners that we think you'll love. Please enjoy the following on us:"
+  },
+  "tplReminder": {
+    "subject": "Reminder: Your eGift expires soon",
+    "intro": "{{firstName}}, your eGift is expiring",
+    "body": "Just a friendly reminder on your eGift, in case you were interested! Thanks again for your order. Please enjoy the following on us:"
   }
 }

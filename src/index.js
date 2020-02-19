@@ -25,7 +25,7 @@ const getTemplate = async type => {
    return templates[type];
 };
 
-const applyTransforms = (email, type, brand) => {
+const applyTransforms = (email, type, data) => {
    console.info('Applying transforms');
    const typeObj = typeMap[type];
 
@@ -34,15 +34,15 @@ const applyTransforms = (email, type, brand) => {
       return email;
    }
 
-   const templateObj = brand[typeObj.transformProp] || {};
+   const templateObj = data.brand[typeObj.transformProp] || {};
 
    return Object.keys(typeObj.transforms).reduce((str, curr) => {
       const value = typeObj.transforms[curr];
-      return str.split(curr).join(typeof value === 'function' ? value(templateObj) : value);
+      return str.split(curr).join(typeof value === 'function' ? value(templateObj, data) : value);
    }, email);
 };
 
-const dataMutations = (type, original) => {
+const dataAugmentation = (type, original) => {
    const standard = () => {
       let data = original;
       // Flags
@@ -65,20 +65,13 @@ const dataMutations = (type, original) => {
       },
       reminder: () => {
          return standard();
-      },
-      incentive: () => {
-         let data = original;
-         return {
-            ...data,
-            claimsUrl: `https://claims${data.env === 'dev' ? '-dev' : ''}.postperk.com`
-         };
       }
    };
 
    return mutations[type] ? mutations[type]() : original;
 };
 
-export const compile = async (type, data) => {
+export const compile = async (type, dataOriginal) => {
    try {
       console.info('Received type ', type);
       if (!(type in typeMap)) {
@@ -86,11 +79,14 @@ export const compile = async (type, data) => {
       }
 
       const emailRaw = await getTemplate(type);
-      const email = applyTransforms(emailRaw, type, data.brand);
+
+      // Apply data transforms
+      const data = dataAugmentation(type, dataOriginal);
+
+      // Apply email transforms
+      const email = applyTransforms(emailRaw, type, data);
 
       console.info('Fetched template, now compiling');
-
-      data = dataMutations(type, data);
 
       const template = Handlebars.compile(email);
       const mjml = template(data);
