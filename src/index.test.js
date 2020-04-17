@@ -15,8 +15,8 @@ describe('Emails', () => {
          order: orderMockData
       });
 
-      await fs.writeFile('./generated/offer_two.html', compiled.content);
-      expect(compiled.content).toMatchSnapshot();
+      await fs.writeFile('./generated/offer_two.html', compiled.content.html);
+      expect(compiled.content.html).toMatchSnapshot();
       expect(compiled.subject).toMatchSnapshot();
    });
 
@@ -31,8 +31,8 @@ describe('Emails', () => {
          })
       });
 
-      await fs.writeFile('./generated/offer_one.html', compiled.content);
-      expect(compiled.content).toMatchSnapshot();
+      await fs.writeFile('./generated/offer_one.html', compiled.content.html);
+      expect(compiled.content.html).toMatchSnapshot();
       expect(compiled.subject).toMatchSnapshot();
    });
 
@@ -53,8 +53,8 @@ describe('Emails', () => {
          })
       });
 
-      await fs.writeFile('./generated/offer_one_canada.html', compiled.content);
-      expect(compiled.content).toMatchSnapshot();
+      await fs.writeFile('./generated/offer_one_canada.html', compiled.content.html);
+      expect(compiled.content.html).toMatchSnapshot();
       expect(compiled.subject).toMatchSnapshot();
    });
 
@@ -67,9 +67,11 @@ describe('Emails', () => {
          order: orderMockData
       });
 
-      await fs.writeFile('./generated/offer_three.html', compiled.content);
-      expect(compiled.content).toMatchSnapshot();
+      await fs.writeFile('./generated/offer_three.html', compiled.content.html);
+      await fs.writeFile('./generated/offer_three.txt', compiled.content.text);
+      expect(compiled.content.html).toMatchSnapshot();
       expect(compiled.subject).toMatchSnapshot();
+      expect(compiled.content.text).toMatchSnapshot();
    });
 
    it('Offer email with three offers with custom brand template will match snapshot', async () => {
@@ -88,8 +90,8 @@ describe('Emails', () => {
          order: orderMockData
       });
 
-      await fs.writeFile('./generated/offer_three_custom.html', compiled.content);
-      expect(compiled.content).toMatchSnapshot();
+      await fs.writeFile('./generated/offer_three_custom.html', compiled.content.html);
+      expect(compiled.content.html).toMatchSnapshot();
       expect(compiled.subject).toMatchSnapshot();
    });
 
@@ -143,8 +145,8 @@ describe('Emails', () => {
          })
       });
 
-      await fs.writeFile('./generated/offer_nocode.html', compiled.content);
-      expect(compiled.content).toMatchSnapshot();
+      await fs.writeFile('./generated/offer_nocode.html', compiled.content.html);
+      expect(compiled.content.html).toMatchSnapshot();
       expect(compiled.subject).toMatchSnapshot();
    });
 
@@ -157,8 +159,8 @@ describe('Emails', () => {
          order: orderMockData
       });
 
-      await fs.writeFile('./generated/reminder.html', compiled.content);
-      expect(compiled.content).toMatchSnapshot();
+      await fs.writeFile('./generated/reminder.html', compiled.content.html);
+      expect(compiled.content.html).toMatchSnapshot();
       expect(compiled.subject).toMatchSnapshot();
    });
 });

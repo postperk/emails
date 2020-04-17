@@ -2,7 +2,7 @@ import Handlebars from 'handlebars';
 import fs from 'fs-extra';
 import path from 'path';
 import typeMap from './types';
-
+import htmlToText from 'html-to-text';
 import mjml2html from 'mjml';
 
 let templates = {};
@@ -91,10 +91,13 @@ export const compile = async (type, dataOriginal) => {
       const template = Handlebars.compile(email);
       const mjml = template(data);
       const { html } = mjml2html(mjml);
+      const text = htmlToText.fromString(html, {
+         ignoreImage: true
+      });
 
       console.info('Emails module: Done');
       return {
-         content: html,
+         content: { html, text },
          subject:
             typeof typeMap[type].subject === 'function'
                ? typeMap[type].subject(data)
