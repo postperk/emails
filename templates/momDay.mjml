@@ -1,0 +1,153 @@
+<mjml>
+  <mj-head>
+    <mj-title>UGG Royale</mj-title>
+    <mj-raw>
+      <meta name="format-detection" content="address=no">
+    </mj-raw>
+    <mj-attributes>
+      <mj-image alt="" padding="0px"></mj-image>
+      <mj-section padding="0px"></mj-section>
+      <mj-class name="footer-text" font-family="Muli, Arial, sans-serif" color="#111111" font-size="10px" line-height="14px"></mj-class>
+      <mj-class name="body-text" font-family="Muli, Arial, sans-serif" color="#555" font-size="16px" line-height="26px" align="center"></mj-class>
+      <mj-class name="tagline-text" font-family="Muli, Arial, sans-serif" color="#555" font-size="12px" line-height="18px" align="center"></mj-class>
+      <mj-class name="code-text" font-family="Muli, Arial, sans-serif" color="#555" font-size="12px" line-height="18px" align="center"></mj-class>
+      <mj-class name="expires-text" font-family="Muli, Arial, sans-serif" color="#999" font-size="10px" line-height="18px" align="center"></mj-class>
+      <mj-class name="headline-text" font-family="Muli, Verdana, Arial, sans-serif" color="#111111" font-size="30px" line-height="36px" align="center"></mj-class>
+    </mj-attributes>
+
+    <mj-font name="Muli" href="https://fonts.googleapis.com/css?family=Muli:400,500,700"></mj-font>
+    <mj-style inline="inline">
+      img[class="img-max"] {
+        max-width: 100% !important;
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      .tagline {
+        margin: 0;
+        padding: 0
+      }
+
+      .code-link {
+        font-weight: bold;
+        font-size: 18px;
+        text-decoration: none;
+        color: #555;
+        margin-top: 10px;
+      }
+      
+      .nocode-link {
+        font-weight: bold;
+        font-size: 16px;
+        text-decoration: none;
+        color: #555;
+        margin-top: 10px;
+      }
+
+      .code-arrow {
+        display: inline-block;
+        background: bottom right url('https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/images%2Fnew-tab.png?alt=media&token=bdeeaf41-4329-49da-b1bd-dd146ce24535') no-repeat;
+        width: 15px;
+        height: 15px;
+      }
+
+      .footer-tag {
+        padding: 10px 0 0 0;
+        font-size: 10px;
+        line-height: 15px;
+        color: #999;
+      }
+
+      .footer-tag > a, .footer-tag > a:visited, .footer-tag > a:hover {
+        color: #999 !important;
+        text-decoration: none !important;
+        border-bottom: 1px dotted #999 !important;
+      }
+
+      .mobile-divider {
+        display: none;
+      }
+    </mj-style>
+    <mj-style>
+      @media all and (min-width: 600px) {
+         .tagline {
+          min-height: 36px;
+        }
+      }
+    </mj-style>
+    <mj-style>
+      @media all and (max-width: 600px) {
+        .offer-container + .offer-container .mobile-divider {
+          display: block !important;
+        }
+      }
+    </mj-style>
+    <mj-breakpoint width="600px" />
+  </mj-head>
+  <mj-body background-color="#ffffff" width="900px">
+    <mj-wrapper background-color="#fff" padding="0px">
+      <mj-section padding="15px 0 0 0">
+        <mj-column>
+          <mj-image alt="{{brand.name}}" width="300px" src="{{brand.logos.email}}"></mj-image>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="10px 0 20px">
+        <mj-column>
+          <mj-text font-weight="500" mj-class="headline-text"><%INTRO%></mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column width="550px">
+          <mj-text mj-class="body-text"><%BODY%></mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff" padding="20px 0 0 0">
+        {{#each order.offers}}
+          <mj-column css-class="offer-container" {{#unless ../threeOffers}} width="300px" {{/unless}}>
+            <!-- Divider only display son mobile-->
+            <mj-divider padding-top="20px" padding-bottom="20px" css-class="mobile-divider" border-width="1px" border-style="solid" border-color="lightgrey" />
+            <mj-image href="{{{this.link}}}" src="{{this.cardImageUrl}}" alt="Get ${{this.amount}} off with {{this.brandName}}" width="300px"></mj-image>
+            <mj-text mj-class="tagline-text">
+              <p class="tagline">{{this.tagline}}</p>
+            </mj-text>
+            {{#if this.code}}
+            <mj-text css-class="code-container" mj-class="code-text">Use code:
+              <br />
+              <a target="_blank" href="{{{this.link}}}" class="code-link">{{this.code}} <span class="code-arrow"></span></a>
+            </mj-text>
+            <mj-text mj-class="expires-text">Offer code expires in <%EXPIRES%> hours</mj-text>
+            {{else}}
+            <mj-text css-class="code-container" mj-class="code-text">
+              <br />
+              <a target="_blank" href="{{{this.link}}}" class="nocode-link">Redeem <span class="code-arrow"></span></a>
+            </mj-text>
+            <mj-text mj-class="expires-text">Offer code expires in <%EXPIRES%> hours</mj-text>
+            {{/if}}
+          </mj-column>
+        {{/each}}
+      </mj-section>
+
+      <mj-section padding="40px 0 0 0">
+        <mj-column>
+          <mj-text mj-class="footer-text" align="center" padding="0 10px">
+            <p class="footer-tag">
+              {{brand.name}}
+              </br>
+              {{#if brand.addressDetail}}
+                {{brand.name}} | {{brand.addressDetail}} &#8288;| {{brand.addressCity}} | {{brand.addressState}} {{#if brand.addressZip}}| {{brand.addressZip}} {{/if}}| {{#if brand.addressCountry}}{{brand.addressCountry}}{{else}}USA{{/if}}
+              {{/if}} 
+              </br>
+              <a target="_blank" href="{{cfunctions}}/unsubscribe/?email={{unhashedEmail}}&bid={{order.brandId}}">Unsubscribe</a>
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+
+    </mj-wrapper>
+
+  </mj-body>
+</mjml>

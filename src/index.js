@@ -7,6 +7,8 @@ import mjml2html from 'mjml';
 
 let templates = {};
 
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
 const getTemplate = async type => {
    const typeObj = typeMap[type];
 
@@ -43,32 +45,32 @@ const applyTransforms = (email, type, data) => {
 };
 
 const dataAugmentation = (type, original) => {
-   const standard = () => {
-      let data = original;
-      // Flags
-      data.oneOffer = data.order.offers.length === 1;
-      data.twoOffers = data.order.offers.length === 2;
-      data.threeOffers = data.order.offers.length === 3;
+   const augmentations = {
+      offerCount: data => {
+         data.oneOffer = data.order.offers.length === 1;
+         data.twoOffers = data.order.offers.length === 2;
+         data.threeOffers = data.order.offers.length === 3;
 
-      // Adding redirects
-      data.order.offers = data.order.offers.map((offer, index) => ({
-         ...offer,
-         redirectLink: `${data.cfunctions}/linkRedirect?linkId=${data.emailId}-${index}`
-      }));
-
-      return data;
-   };
-
-   const mutations = {
-      offer: () => {
-         return standard();
+         return data;
       },
-      reminder: () => {
-         return standard();
+      redirectLink: data => {
+         data.order.offers = data.order.offers.map((offer, index) => ({
+            ...offer,
+            redirectLink: `${data.cfunctions}/linkRedirect?linkId=${data.emailId}-${index}`
+         }));
+
+         return data;
       }
    };
 
-   return mutations[type] ? mutations[type]() : original;
+   const map = {
+      offer: [ 'offerCount', 'redirectLink' ],
+      reminder: [ 'offerCount', 'redirectLink' ],
+      momDay: [ 'offerCount' ]
+   };
+
+   // Execute all augmentations with pipe() and return result
+   return pipe(...map[type].map(name => augmentations[name]))(original);
 };
 
 export const compile = async (type, dataOriginal) => {

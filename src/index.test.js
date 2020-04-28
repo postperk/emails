@@ -163,4 +163,33 @@ describe('Emails', () => {
       expect(compiled.content.html).toMatchSnapshot();
       expect(compiled.subject).toMatchSnapshot();
    });
+
+   it('MomDay email will match snapshot', async () => {
+      const compiled = await emails.compile('momDay', {
+         unhashedEmail: 'joel@notreally.com',
+         emailId: 'testEmailId',
+         cfunctions: 'http://notreally.com',
+         brand: {
+            addressDetail: '123 Blank Rd',
+            addressCity: 'NosVille',
+            addressState: 'OK',
+            addressZip: '12345',
+            name: 'Fake Brand',
+            tplSwap: {
+               intro: '{{firstName}}, treat your Mom with these gifts!',
+               body:
+                  'We\'ve joined with these partners that we think your Mom will love! Enjoy these exclusive discounts on us. 👩🥰👩‍👧‍👧'
+            },
+            logos: {
+               email:
+                  'https://storage.googleapis.com/pperk-dashboard.appspot.com/logos%2FyjgQ86oFbptMtdty5hMx-email?GoogleAccessId=firebase-adminsdk-qr9rh%40pperk-dashboard.iam.gserviceaccount.com&Expires=3607545600&Signature=YhnshyZDQiqVTTtK7%2BS4qihd9AEA0aByrI6wH6hwrd6UNppWrkUJ52VxQzSNvriV4Gt9JwbEUtOg2F3e62EbP74aQ%2Fk3XUeCSj5xybRJB%2FFPCuLj9nnlPEq%2FMPszGt346OSvIwb2WdRUoTRrR608UiifAzTrDvByWuIQSDVIahRGS5ekaysdoGa3VyhejC%2BAKQcA6iqTOYXk7A3gIu5jtIPtNu3hvtOv63UTxKnaR%2BdBXqrNJVQfC4R2gnUG%2FDfzgdEL7t12SoAUprQahWS6qOmP1w5kTxcNEAKeQY9kJjuSobUvA2%2Bp3XlTIg%2BEWf6Quby2%2BMFWFf7Eor9zFronOQ%3D%3D'
+            }
+         },
+         order: orderMockData
+      });
+
+      await fs.writeFile('./generated/momDay.html', compiled.content.html);
+      expect(compiled.content.html).toMatchSnapshot();
+      expect(compiled.subject).toMatchSnapshot();
+   });
 });

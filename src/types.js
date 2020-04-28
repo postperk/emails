@@ -29,8 +29,16 @@ export default {
             <br />You will not receive further emails`
       }
    },
-   incentive: {
-      filename: 'incentiveDelivery.mjml',
-      subject: 'Your Amazon Gift Card is Ready'
+   momDay: {
+      filename: 'momDay.mjml',
+      subject: data => `For Mom From ${data.brand.name}`,
+      transformProp: 'tplSwap',
+      transforms: {
+         '<%INTRO%>': (tplSwap, data) =>
+            tplSwap.intro.replace('{{firstName}}', data.order.customer.firstName),
+         '<%BODY%>': (tplSwap, data) =>
+            tplSwap.body.replace('{{firstName}}', data.order.customer.firstName),
+         '<%EXPIRES%>': '72'
+      }
    }
 };
