@@ -34,8 +34,13 @@ export default {
       subject: data => `For Mom From ${data.brand.name}`,
       transformProp: 'tplSwap',
       transforms: {
-         '<%INTRO%>': (tplSwap, data) =>
-            tplSwap.intro.replace('{{firstName}}', data.order.customer.firstName),
+         '<%INTRO%>': (tplSwap, data) => {
+            const defaultTemplate = data.order.customer.firstName
+               ? '{{firstName}}, treat your Mom with these gifts!'
+               : 'Treat your Mom with these gifts!';
+
+            return defaultTemplate.replace('{{firstName}}', data.order.customer.firstName);
+         },
          '<%BODY%>': (tplSwap, data) =>
             tplSwap.body.replace('{{firstName}}', data.order.customer.firstName),
          '<%EXPIRES%>': '72'
