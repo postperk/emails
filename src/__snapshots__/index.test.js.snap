@@ -461,7 +461,7 @@ exports[`Emails MomDay email will match snapshot 1`] = `
                                     style="font-size:0px;padding:10px 25px;word-break:break-word;"
                                 >
                                   <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
-                                    Offer code expires in 72 hours
+                                    Offer code expires in 48 hours
                                   </div>
                                 </td>
                               </tr>
@@ -572,7 +572,7 @@ exports[`Emails MomDay email will match snapshot 1`] = `
                                     style="font-size:0px;padding:10px 25px;word-break:break-word;"
                                 >
                                   <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
-                                    Offer code expires in 72 hours
+                                    Offer code expires in 48 hours
                                   </div>
                                 </td>
                               </tr>
@@ -683,7 +683,7 @@ exports[`Emails MomDay email will match snapshot 1`] = `
                                     style="font-size:0px;padding:10px 25px;word-break:break-word;"
                                 >
                                   <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
-                                    Offer code expires in 72 hours
+                                    Offer code expires in 48 hours
                                   </div>
                                 </td>
                               </tr>
@@ -1275,7 +1275,7 @@ exports[`Emails MomDay email with no name will match snapshot 1`] = `
                                     style="font-size:0px;padding:10px 25px;word-break:break-word;"
                                 >
                                   <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
-                                    Offer code expires in 72 hours
+                                    Offer code expires in 48 hours
                                   </div>
                                 </td>
                               </tr>
@@ -1386,7 +1386,7 @@ exports[`Emails MomDay email with no name will match snapshot 1`] = `
                                     style="font-size:0px;padding:10px 25px;word-break:break-word;"
                                 >
                                   <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
-                                    Offer code expires in 72 hours
+                                    Offer code expires in 48 hours
                                   </div>
                                 </td>
                               </tr>
@@ -1497,7 +1497,7 @@ exports[`Emails MomDay email with no name will match snapshot 1`] = `
                                     style="font-size:0px;padding:10px 25px;word-break:break-word;"
                                 >
                                   <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
-                                    Offer code expires in 72 hours
+                                    Offer code expires in 48 hours
                                   </div>
                                 </td>
                               </tr>
