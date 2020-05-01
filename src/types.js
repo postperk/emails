@@ -31,7 +31,7 @@ export default {
    },
    momDay: {
       filename: 'momDay.mjml',
-      subject: data => `For Mom From ${data.brand.name}`,
+      subject: data => 'Here\'s your gift cards for Mom',
       transformProp: 'tplSwap',
       transforms: {
          '<%INTRO%>': (tplSwap, data) => {
