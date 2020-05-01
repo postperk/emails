@@ -134,8 +134,6 @@
         <mj-column>
           <mj-text mj-class="footer-text" align="center" padding="0 10px">
             <p class="footer-tag">
-              {{brand.name}}
-              </br>
               {{#if brand.addressDetail}}
                 {{brand.name}} {{#if brand.appendToFooterBrand}}{{brand.appendToFooterBrand}} {{/if}}| {{brand.addressDetail}} &#8288;| {{brand.addressCity}} | {{brand.addressState}} {{#if brand.addressZip}}| {{brand.addressZip}} {{/if}}| {{#if brand.addressCountry}}{{brand.addressCountry}}{{else}}USA{{/if}}
               {{/if}} 

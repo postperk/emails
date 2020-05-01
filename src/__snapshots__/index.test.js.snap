@@ -758,8 +758,6 @@ exports[`Emails MomDay email will include appendToFooterBrand content 1`] = `
                                     <p class="footer-tag"
                                        style="padding: 10px 0 0 0; font-size: 10px; line-height: 15px; color: #999;"
                                     >
-                                      Fake Brand
-                                      <br>
                                       Fake Brand LLC | 123 Blank Rd &#8288;| NosVille | OK | 12345 | USA
                                       <br>
                                       <a target="_blank"
@@ -1570,8 +1568,6 @@ exports[`Emails MomDay email will match snapshot 1`] = `
                                     <p class="footer-tag"
                                        style="padding: 10px 0 0 0; font-size: 10px; line-height: 15px; color: #999;"
                                     >
-                                      Fake Brand
-                                      <br>
                                       Fake Brand | 123 Blank Rd &#8288;| NosVille | OK | 12345 | USA
                                       <br>
                                       <a target="_blank"
@@ -2384,8 +2380,6 @@ exports[`Emails MomDay email with no name will match snapshot 1`] = `
                                     <p class="footer-tag"
                                        style="padding: 10px 0 0 0; font-size: 10px; line-height: 15px; color: #999;"
                                     >
-                                      Fake Brand
-                                      <br>
                                       Fake Brand | 123 Blank Rd &#8288;| NosVille | OK | 12345 | USA
                                       <br>
                                       <a target="_blank"
