@@ -137,7 +137,7 @@
               {{brand.name}}
               </br>
               {{#if brand.addressDetail}}
-                {{brand.name}} | {{brand.addressDetail}} &#8288;| {{brand.addressCity}} | {{brand.addressState}} {{#if brand.addressZip}}| {{brand.addressZip}} {{/if}}| {{#if brand.addressCountry}}{{brand.addressCountry}}{{else}}USA{{/if}}
+                {{brand.name}} {{#if brand.appendToFooterBrand}}{{brand.appendToFooterBrand}} {{/if}}| {{brand.addressDetail}} &#8288;| {{brand.addressCity}} | {{brand.addressState}} {{#if brand.addressZip}}| {{brand.addressZip}} {{/if}}| {{#if brand.addressCountry}}{{brand.addressCountry}}{{else}}USA{{/if}}
               {{/if}} 
               </br>
               <a target="_blank" href="{{cfunctions}}/unsubscribe/?email={{unhashedEmail}}&bid={{order.brandId}}">Unsubscribe</a>
