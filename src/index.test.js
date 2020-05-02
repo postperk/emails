@@ -190,7 +190,6 @@ describe('Emails', () => {
 
       await fs.writeFile('./generated/momDay.html', compiled.content.html);
       expect(compiled.content.html).toMatchSnapshot();
-      expect(compiled.subject).toMatchSnapshot();
    });
 
    it('MomDay email will include appendToFooterBrand content', async () => {
@@ -246,8 +245,9 @@ describe('Emails', () => {
          order: { ...orderMockData, customer: { ...orderMockData.customer, firstName: '' } }
       });
 
+      console.log(compiled.subject);
+
       await fs.writeFile('./generated/momDay_noName.html', compiled.content.html);
       expect(compiled.content.html).toMatchSnapshot();
-      expect(compiled.subject).toMatchSnapshot();
    });
 });

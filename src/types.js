@@ -31,7 +31,16 @@ export default {
    },
    momDay: {
       filename: 'momDay.mjml',
-      subject: data => 'Here\'s your gift cards for Mom',
+      subject: data => {
+         const noName =
+            Math.floor(Math.random() * 100) < 50
+               ? `To Mom from ${data.brand.name}`
+               : `Gifts for Mom from ${data.brand.name} partners`;
+
+         return data.order.customer.firstName
+            ? `${data.order.customer.firstName}, here's some gift cards for Mom`
+            : noName;
+      },
       transformProp: 'tplSwap',
       transforms: {
          '<%INTRO%>': (tplSwap, data) => {

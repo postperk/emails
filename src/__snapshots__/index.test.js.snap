@@ -1620,8 +1620,6 @@ exports[`Emails MomDay email will match snapshot 1`] = `
 
 `;
 
-exports[`Emails MomDay email will match snapshot 2`] = `"For Mom From Fake Brand"`;
-
 exports[`Emails MomDay email with no name will match snapshot 1`] = `
 
 <!doctype html>
@@ -2431,8 +2429,6 @@ exports[`Emails MomDay email with no name will match snapshot 1`] = `
 </html>
 
 `;
-
-exports[`Emails MomDay email with no name will match snapshot 2`] = `"For Mom From Fake Brand"`;
 
 exports[`Emails Offer email will match snapshot 1`] = `
 
