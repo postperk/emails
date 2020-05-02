@@ -770,6 +770,31 @@ exports[`Emails MomDay email will include appendToFooterBrand content 1`] = `
                                   </div>
                                 </td>
                               </tr>
+                              <tr>
+                                <td align="center"
+                                    style="font-size:0px;padding:0px;word-break:break-word;"
+                                >
+                                  <table border="0"
+                                         cellpadding="0"
+                                         cellspacing="0"
+                                         role="presentation"
+                                         style="border-collapse:collapse;border-spacing:0px;"
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td style="width:1px;">
+                                          <img alt
+                                               height="1"
+                                               src="http://notreally.com/openPixel/?swapId="
+                                               style="border:0;display:block;outline:none;text-decoration:none;height:1px;width:100%;font-size:13px;"
+                                               width="1"
+                                          >
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
                             </table>
                           </div>
                           <!--[if mso | IE]>
@@ -1580,6 +1605,31 @@ exports[`Emails MomDay email will match snapshot 1`] = `
                                   </div>
                                 </td>
                               </tr>
+                              <tr>
+                                <td align="center"
+                                    style="font-size:0px;padding:0px;word-break:break-word;"
+                                >
+                                  <table border="0"
+                                         cellpadding="0"
+                                         cellspacing="0"
+                                         role="presentation"
+                                         style="border-collapse:collapse;border-spacing:0px;"
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td style="width:1px;">
+                                          <img alt
+                                               height="1"
+                                               src="http://notreally.com/openPixel/?swapId="
+                                               style="border:0;display:block;outline:none;text-decoration:none;height:1px;width:100%;font-size:13px;"
+                                               width="1"
+                                          >
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
                             </table>
                           </div>
                           <!--[if mso | IE]>
@@ -2388,6 +2438,31 @@ exports[`Emails MomDay email with no name will match snapshot 1`] = `
                                       </a>
                                     </p>
                                   </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center"
+                                    style="font-size:0px;padding:0px;word-break:break-word;"
+                                >
+                                  <table border="0"
+                                         cellpadding="0"
+                                         cellspacing="0"
+                                         role="presentation"
+                                         style="border-collapse:collapse;border-spacing:0px;"
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td style="width:1px;">
+                                          <img alt
+                                               height="1"
+                                               src="http://notreally.com/openPixel/?swapId="
+                                               style="border:0;display:block;outline:none;text-decoration:none;height:1px;width:100%;font-size:13px;"
+                                               width="1"
+                                          >
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
                                 </td>
                               </tr>
                             </table>

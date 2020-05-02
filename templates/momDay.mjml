@@ -141,6 +141,7 @@
               <a target="_blank" href="{{cfunctions}}/unsubscribe/?email={{unhashedEmail}}&bid={{order.brandId}}">Unsubscribe</a>
             </p>
           </mj-text>
+          <mj-image alt="" width="1px" height="1px" src="{{cfunctions}}/openPixel/?swapId={{swapId}}"></mj-image>
         </mj-column>
       </mj-section>
 
