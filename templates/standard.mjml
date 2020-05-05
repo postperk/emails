@@ -144,6 +144,7 @@
               {{/if}}
             </p>
           </mj-text>
+          <mj-image alt="" width="1px" height="1px" src="{{cfunctions}}/openPixel/?emailId={{emailId}}"></mj-image>
         </mj-column>
       </mj-section>
 
