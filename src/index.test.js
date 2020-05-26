@@ -95,6 +95,41 @@ describe('Emails', () => {
       expect(compiled.subject).toMatchSnapshot();
    });
 
+   it('Offer email with hightlight color', async () => {
+      const compiled = await emails.compile('offer', {
+         unhashedEmail: 'joel@notreally.com',
+         emailId: 'testEmailId',
+         cfunctions: 'http://notreally.com',
+         brand: {
+            ...brandMockData,
+            highlightColor: '#E92076'
+         },
+         order: orderMockData
+      });
+
+      await fs.writeFile('./generated/offer_three_highlight.html', compiled.content.html);
+      expect(compiled.content.html).toMatchSnapshot();
+      expect(compiled.subject).toMatchSnapshot();
+   });
+
+   it('Offer email with custom font', async () => {
+      const compiled = await emails.compile('offer', {
+         unhashedEmail: 'joel@notreally.com',
+         emailId: 'testEmailId',
+         cfunctions: 'http://notreally.com',
+         brand: {
+            ...brandMockData,
+            brandFontFamily:
+               'Century Gothic, Heiti SC, STHeiti, Avenir, Trebuchet MS, Arial, sans‑serif'
+         },
+         order: orderMockData
+      });
+
+      await fs.writeFile('./generated/offer_three_custom_font.html', compiled.content.html);
+      expect(compiled.content.html).toMatchSnapshot();
+      expect(compiled.subject).toMatchSnapshot();
+   });
+
    it('Offer email with three offers with custom subject', async () => {
       const compiled = await emails.compile('offer', {
          unhashedEmail: 'joel@notreally.com',

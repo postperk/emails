@@ -46,6 +46,13 @@ const applyTransforms = (email, type, data) => {
 
 const dataAugmentation = (type, original) => {
    const augmentations = {
+      fontFamily: data => {
+         data.fontFamily = data.brand.brandFontFamily
+            ? data.brand.brandFontFamily
+            : 'Muli, Arial, sans-serif';
+         return data;
+      },
+
       offerCount: data => {
          data.oneOffer = data.order.offers.length === 1;
          data.twoOffers = data.order.offers.length === 2;
@@ -64,8 +71,8 @@ const dataAugmentation = (type, original) => {
    };
 
    const map = {
-      offer: [ 'offerCount', 'redirectLink' ],
-      reminder: [ 'offerCount', 'redirectLink' ],
+      offer: [ 'offerCount', 'redirectLink', 'fontFamily' ],
+      reminder: [ 'offerCount', 'redirectLink', 'fontFamily' ],
       momDay: [ 'offerCount' ]
    };
 
