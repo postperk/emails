@@ -54,7 +54,6 @@ const dataAugmentation = (type, original) => {
             : 'Muli, Arial, sans-serif';
          return data;
       },
-
       offerCount: (data) => {
          data.oneOffer = data.order.offers.length === 1;
          data.twoOffers = data.order.offers.length === 2;

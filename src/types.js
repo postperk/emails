@@ -1,54 +1,56 @@
+import dayjs from 'dayjs';
+
 export default {
    offer: {
-      filename: "standard.mjml",
+      filename: 'standard.mjml',
       subject: (data) =>
          data.brand.tplOffer.subject.replace(
-            "{{firstName}}",
+            '{{firstName}}',
             data.order.customer.firstName
          ),
-      transformProp: "tplOffer",
+      transformProp: 'tplOffer',
       transforms: {
-         "<%INTRO%>": (tplOffer, data) =>
+         '<%INTRO%>': (tplOffer, data) =>
             tplOffer.intro.replace(
-               "{{firstName}}",
+               '{{firstName}}',
                data.order.customer.firstName
             ),
-         "<%BODY%>": (tplOffer, data) =>
+         '<%BODY%>': (tplOffer, data) =>
             tplOffer.body.replace(
-               "{{firstName}}",
+               '{{firstName}}',
                data.order.customer.firstName
             ),
-         "<%EXPIRES%>": "72",
-         "<%FOOTER%>": `You're receiving this email in response to your order with {{brand.name}}
-            <br />You will not receive further emails unless interest is shown`,
-      },
+         '<%EXPIRES%>': '72',
+         '<%FOOTER%>': `You're receiving this email in response to your order with {{brand.name}}
+            <br />You will not receive further emails unless interest is shown`
+      }
    },
    reminder: {
-      filename: "standard.mjml",
+      filename: 'standard.mjml',
       subject: (data) =>
          data.brand.tplReminder.subject.replace(
-            "{{firstName}}",
+            '{{firstName}}',
             data.order.customer.firstName
          ),
-      transformProp: "tplReminder",
+      transformProp: 'tplReminder',
       transforms: {
-         "<%INTRO%>": (tplReminder, data) =>
+         '<%INTRO%>': (tplReminder, data) =>
             tplReminder.intro.replace(
-               "{{firstName}}",
+               '{{firstName}}',
                data.order.customer.firstName
             ),
-         "<%BODY%>": (tplReminder, data) =>
+         '<%BODY%>': (tplReminder, data) =>
             tplReminder.body.replace(
-               "{{firstName}}",
+               '{{firstName}}',
                data.order.customer.firstName
             ),
-         "<%EXPIRES%>": "24",
-         "<%FOOTER%>": `You're receiving this email in response to your order with {{brand.name}}
-            <br />You will not receive further emails`,
-      },
+         '<%EXPIRES%>': '24',
+         '<%FOOTER%>': `You're receiving this email in response to your order with {{brand.name}}
+            <br />You will not receive further emails`
+      }
    },
    report: {
-      filename: "brandReport.mjml",
-      subject: "PostPerk Report",
-   },
+      filename: 'brandReport.mjml',
+      subject: 'PostPerk Report'
+   }
 };
