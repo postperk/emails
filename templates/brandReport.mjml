@@ -135,7 +135,7 @@
           font-size="14px"
           line-height="18px"
           font-family="Nunito, Helvetica, Arial, sans-serif"
-          >{{stats.emailOpenRate}}</mj-text
+          >{{stats.emailOpenRate}}% Open Rate</mj-text
         >
       </mj-column>
       <mj-column background-color="#fff" border-bottom="4px solid #F9F9FC">
@@ -167,7 +167,7 @@
           font-size="14px"
           line-height="18px"
           font-family="Nunito, Helvetica, Arial, sans-serif"
-          >stats.emailClickRate</mj-text
+          >{{stats.emailClickRate}}% CTR</mj-text
         >
       </mj-column>
     </mj-section>
@@ -201,7 +201,7 @@
           font-size="14px"
           line-height="18px"
           font-family="Nunito, Helvetica, Arial, sans-serif"
-          >{{stats.conversionRate}}</mj-text
+          >{{stats.conversionRate}}% CR</mj-text
         >
       </mj-column>
       <mj-column
