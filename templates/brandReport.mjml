@@ -127,6 +127,7 @@
           font-family="Nunito, Helvetica, Arial, sans-serif"
           >{{stats.numEmailsOpened}}</mj-text
         >
+        {{#if stats.numEmailsOpened}}
         <mj-text
           align="center"
           padding="0 12px 21px"
@@ -137,6 +138,7 @@
           font-family="Nunito, Helvetica, Arial, sans-serif"
           >{{stats.emailOpenRate}}% Open Rate</mj-text
         >
+        {{/if}}
       </mj-column>
       <mj-column background-color="#fff" border-bottom="4px solid #F9F9FC">
         <mj-text
@@ -159,6 +161,7 @@
           font-family="Nunito, Helvetica, Arial, sans-serif"
           >{{stats.numEmailsClicked}}</mj-text
         >
+        {{#if stats.numEmailsClicked}}
         <mj-text
           align="center"
           padding="0 12px 21px"
@@ -169,6 +172,7 @@
           font-family="Nunito, Helvetica, Arial, sans-serif"
           >{{stats.emailClickRate}}% CTR</mj-text
         >
+        {{/if}}
       </mj-column>
     </mj-section>
     <mj-section background-color="#F9F9FC" padding="0px">
@@ -193,6 +197,7 @@
           font-family="Nunito, Helvetica, Arial, sans-serif"
           >{{stats.numConversions}}</mj-text
         >
+        {{#if stats.numConversions}}
         <mj-text
           align="center"
           padding="0 12px 21px"
@@ -201,8 +206,8 @@
           font-size="14px"
           line-height="18px"
           font-family="Nunito, Helvetica, Arial, sans-serif"
-          >{{stats.conversionRate}}% CR</mj-text
-        >
+          >{{stats.conversionRate}}% CR</mj-text>
+          {{/if}}
       </mj-column>
       <mj-column
         background-color="#fff"
@@ -230,6 +235,7 @@
           font-family="Nunito, Helvetica, Arial, sans-serif"
           >${{stats.conversionsValue}}</mj-text
         >
+        {{#if stats.conversionCost}}
         <mj-text
           align="center"
           padding="0 12px 21px"
@@ -240,6 +246,7 @@
           font-family="Nunito, Helvetica, Arial, sans-serif"
           >{{stats.roas}}x ROAS</mj-text
         >
+        {{/if}}
       </mj-column>
       <mj-column background-color="#fff" border-bottom="4px solid #F9F9FC">
         <mj-text
@@ -262,6 +269,7 @@
           font-family="Nunito, Helvetica, Arial, sans-serif"
           >${{stats.conversionsCost}}</mj-text
         >
+        {{#if stats.conversionsCost}}
         <mj-text
           align="center"
           padding="0 12px 21px"
@@ -272,6 +280,7 @@
           font-family="Nunito, Helvetica, Arial, sans-serif"
           >${{stats.customerAcquisitionCost}} CAC</mj-text
         >
+        {{/if}}
       </mj-column>
     </mj-section>
     <mj-section background-color="#F9F9FC" padding="26px 24px 25px">
@@ -310,12 +319,12 @@
                       color: #202021;
                     "
                   >
-                    We have added <span style="color: #1565c0">10</span> new
+                    We have added <span style="color: #1565c0">{{stats.numNewBrands}}</span> new
                     brands to the network this month
                   </td>
                 </tr>
                 {{/if}}
-                {{#if stats.numNewBrands}}
+                {{#if stats.numActiveBrands}}
                 <tr>
                   <td
                     width="26"
