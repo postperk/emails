@@ -1,58 +1,54 @@
 export default {
    offer: {
-      filename: 'standard.mjml',
-      subject: data =>
-         data.brand.tplOffer.subject.replace('{{firstName}}', data.order.customer.firstName),
-      transformProp: 'tplOffer',
+      filename: "standard.mjml",
+      subject: (data) =>
+         data.brand.tplOffer.subject.replace(
+            "{{firstName}}",
+            data.order.customer.firstName
+         ),
+      transformProp: "tplOffer",
       transforms: {
-         '<%INTRO%>': (tplOffer, data) =>
-            tplOffer.intro.replace('{{firstName}}', data.order.customer.firstName),
-         '<%BODY%>': (tplOffer, data) =>
-            tplOffer.body.replace('{{firstName}}', data.order.customer.firstName),
-         '<%EXPIRES%>': '72',
-         '<%FOOTER%>': `You're receiving this email in response to your order with {{brand.name}}
-            <br />You will not receive further emails unless interest is shown`
-      }
+         "<%INTRO%>": (tplOffer, data) =>
+            tplOffer.intro.replace(
+               "{{firstName}}",
+               data.order.customer.firstName
+            ),
+         "<%BODY%>": (tplOffer, data) =>
+            tplOffer.body.replace(
+               "{{firstName}}",
+               data.order.customer.firstName
+            ),
+         "<%EXPIRES%>": "72",
+         "<%FOOTER%>": `You're receiving this email in response to your order with {{brand.name}}
+            <br />You will not receive further emails unless interest is shown`,
+      },
    },
    reminder: {
-      filename: 'standard.mjml',
-      subject: data =>
-         data.brand.tplReminder.subject.replace('{{firstName}}', data.order.customer.firstName),
-      transformProp: 'tplReminder',
+      filename: "standard.mjml",
+      subject: (data) =>
+         data.brand.tplReminder.subject.replace(
+            "{{firstName}}",
+            data.order.customer.firstName
+         ),
+      transformProp: "tplReminder",
       transforms: {
-         '<%INTRO%>': (tplReminder, data) =>
-            tplReminder.intro.replace('{{firstName}}', data.order.customer.firstName),
-         '<%BODY%>': (tplReminder, data) =>
-            tplReminder.body.replace('{{firstName}}', data.order.customer.firstName),
-         '<%EXPIRES%>': '24',
-         '<%FOOTER%>': `You're receiving this email in response to your order with {{brand.name}}
-            <br />You will not receive further emails`
-      }
-   },
-   momDay: {
-      filename: 'momDay.mjml',
-      subject: data => {
-         const noName =
-            Math.floor(Math.random() * 100) < 50
-               ? `To Mom from ${data.brand.name}`
-               : `Gifts for Mom from ${data.brand.name} partners`;
-
-         return data.order.customer.firstName
-            ? `${data.order.customer.firstName}, here's some gift cards for Mom`
-            : noName;
+         "<%INTRO%>": (tplReminder, data) =>
+            tplReminder.intro.replace(
+               "{{firstName}}",
+               data.order.customer.firstName
+            ),
+         "<%BODY%>": (tplReminder, data) =>
+            tplReminder.body.replace(
+               "{{firstName}}",
+               data.order.customer.firstName
+            ),
+         "<%EXPIRES%>": "24",
+         "<%FOOTER%>": `You're receiving this email in response to your order with {{brand.name}}
+            <br />You will not receive further emails`,
       },
-      transformProp: 'tplSwap',
-      transforms: {
-         '<%INTRO%>': (tplSwap, data) => {
-            const defaultTemplate = data.order.customer.firstName
-               ? '{{firstName}}, treat your Mom with these gifts!'
-               : 'Treat your Mom with these gifts!';
-
-            return defaultTemplate.replace('{{firstName}}', data.order.customer.firstName);
-         },
-         '<%BODY%>': (tplSwap, data) =>
-            tplSwap.body.replace('{{firstName}}', data.order.customer.firstName),
-         '<%EXPIRES%>': '72'
-      }
-   }
+   },
+   report: {
+      filename: "brandReport.mjml",
+      subject: "PostPerk Report",
+   },
 };

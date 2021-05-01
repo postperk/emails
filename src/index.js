@@ -7,9 +7,9 @@ import mjml2html from 'mjml';
 
 let templates = {};
 
-const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const pipe = (...fns) => (x) => fns.reduce((v, f) => f(v), x);
 
-const getTemplate = async type => {
+const getTemplate = async (type) => {
    const typeObj = typeMap[type];
 
    if (type in templates) {
@@ -40,27 +40,29 @@ const applyTransforms = (email, type, data) => {
 
    return Object.keys(typeObj.transforms).reduce((str, curr) => {
       const value = typeObj.transforms[curr];
-      return str.split(curr).join(typeof value === 'function' ? value(templateObj, data) : value);
+      return str
+         .split(curr)
+         .join(typeof value === 'function' ? value(templateObj, data) : value);
    }, email);
 };
 
 const dataAugmentation = (type, original) => {
    const augmentations = {
-      fontFamily: data => {
+      fontFamily: (data) => {
          data.fontFamily = data.brand.brandFontFamily
             ? data.brand.brandFontFamily
             : 'Muli, Arial, sans-serif';
          return data;
       },
 
-      offerCount: data => {
+      offerCount: (data) => {
          data.oneOffer = data.order.offers.length === 1;
          data.twoOffers = data.order.offers.length === 2;
          data.threeOffers = data.order.offers.length === 3;
 
          return data;
       },
-      redirectLink: data => {
+      redirectLink: (data) => {
          data.order.offers = data.order.offers.map((offer, index) => ({
             ...offer,
             redirectLink: `${data.cfunctions}/linkRedirect?linkId=${data.emailId}-${index}`
@@ -71,13 +73,13 @@ const dataAugmentation = (type, original) => {
    };
 
    const map = {
-      offer: [ 'offerCount', 'redirectLink', 'fontFamily' ],
-      reminder: [ 'offerCount', 'redirectLink', 'fontFamily' ],
-      momDay: [ 'offerCount' ]
+      offer: ['offerCount', 'redirectLink', 'fontFamily'],
+      reminder: ['offerCount', 'redirectLink', 'fontFamily'],
+      report: []
    };
 
    // Execute all augmentations with pipe() and return result
-   return pipe(...map[type].map(name => augmentations[name]))(original);
+   return pipe(...map[type].map((name) => augmentations[name]))(original);
 };
 
 export const compile = async (type, dataOriginal) => {

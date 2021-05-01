@@ -1,0 +1,460 @@
+<mjml>
+  <mj-head>
+    <mj-title>PostPerk</mj-title>
+    <mj-font
+      name="Nunito"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+    ></mj-font>
+    <mj-attributes>
+      <mj-all
+        font-family="Nunito, Helvetica, Arial, sans-serif"
+        padding="0px"
+      ></mj-all>
+      <mj-text
+        font-weight="400"
+        font-size="14px"
+        color="#000000"
+        line-height="21px"
+      ></mj-text>
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#eee">
+    <mj-section padding="0">
+      <mj-column background-color="#1B2430">
+        <mj-image
+          src="https://img-hosting.theterminal.dev/mjml/logo-01.png"
+          alt="Nunito"
+          width="168px"
+          align="center"
+          border="none"
+          padding="22px 20px"
+        ></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#F9F9FC" padding="47px 0 29px">
+      <mj-column>
+        <mj-text
+          align="left"
+          padding="0 24px 12px"
+          color="#202021"
+          font-weight="bold"
+          font-size="24px"
+          line-height="28px"
+          font-family="Nunito, Helvetica, Arial, sans-serif"
+          >Hello, Lucy Lavender!</mj-text
+        >
+        <mj-text
+          align="left"
+          padding="0 25px"
+          color="#202021"
+          font-size="14px"
+          line-height="20px"
+          font-family="Nunito, Helvetica, Arial, sans-serif"
+          >Creation timelines for the standard lorem ipsum passage vary, with
+          some citing the 15th century and others the 20th.!</mj-text
+        >
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#F9F9FC" padding="0px 0px 25px">
+      <mj-column border-left="12px solid #1565C0">
+        <mj-text
+          align="left"
+          padding="0 13px"
+          color="#1565C0"
+          font-weight="bold"
+          font-size="24px"
+          line-height="26px"
+          font-family="Nunito, Helvetica, Arial, sans-serif"
+          >Campaign stats for March 2021 for {Brand Name}:
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fff" padding="0px">
+      <mj-column background-color="#fff" border-bottom="4px solid #F9F9FC">
+        <mj-text
+          align="center"
+          padding="17px 12px 18px"
+          color="#202021"
+          font-weight="bold"
+          font-size="17px"
+          line-height="20px"
+          font-family="Nunito, Helvetica, Arial, sans-serif"
+          >Emails sent</mj-text
+        >
+        <mj-text
+          align="center"
+          padding="0 12px 18px"
+          color="#202021"
+          font-weight="bold"
+          font-size="24px"
+          line-height="28px"
+          font-family="Nunito, Helvetica, Arial, sans-serif"
+          >100</mj-text
+        >
+        <mj-text
+          align="center"
+          padding="0 12px 21px"
+          color="#fff"
+          font-weight="bold"
+          font-size="0px"
+          line-height="18px"
+          font-family="Nunito, Helvetica, Arial, sans-serif"
+          >.</mj-text
+        >
+      </mj-column>
+      <mj-column
+        background-color="#fff"
+        border-left="4px solid #F9F9FC"
+        border-bottom="4px solid #F9F9FC"
+        border-right="4px solid #F9F9FC"
+      >
+        <mj-text
+          align="center"
+          padding="17px 12px 18px"
+          color="#202021"
+          font-weight="bold"
+          font-size="17px"
+          line-height="20px"
+          font-family="Nunito, Helvetica, Arial, sans-serif"
+          >Emails opened</mj-text
+        >
+        <mj-text
+          align="center"
+          padding="0 12px 18px"
+          color="#202021"
+          font-weight="bold"
+          font-size="24px"
+          line-height="28px"
+          font-family="Nunito, Helvetica, Arial, sans-serif"
+          >3.987</mj-text
+        >
+        <mj-text
+          align="center"
+          padding="0 12px 21px"
+          color="#a0abb8"
+          font-weight="bold"
+          font-size="14px"
+          line-height="18px"
+          font-family="Nunito, Helvetica, Arial, sans-serif"
+          >46% Open Rate</mj-text
+        >
+      </mj-column>
+      <mj-column background-color="#fff" border-bottom="4px solid #F9F9FC">
+        <mj-text
+          align="center"
+          padding="17px 12px 18px"
+          color="#202021"
+          font-weight="bold"
+          font-size="17px"
+          line-height="20px"
+          font-family="Nunito, Helvetica, Arial, sans-serif"
+          >Clicks</mj-text
+        >
+        <mj-text
+          align="center"
+          padding="0 12px 18px"
+          color="#202021"
+          font-weight="bold"
+          font-size="24px"
+          line-height="28px"
+          font-family="Nunito, Helvetica, Arial, sans-serif"
+          >1.000</mj-text
+        >
+        <mj-text
+          align="center"
+          padding="0 12px 21px"
+          color="#a0abb8"
+          font-weight="bold"
+          font-size="14px"
+          line-height="18px"
+          font-family="Nunito, Helvetica, Arial, sans-serif"
+          >1.4% CTR</mj-text
+        >
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#F9F9FC" padding="0px">
+      <mj-column background-color="#fff" border-bottom="4px solid #F9F9FC">
+        <mj-text
+          align="center"
+          padding="20px 12px 15px"
+          color="#202021"
+          font-weight="bold"
+          font-size="17px"
+          line-height="20px"
+          font-family="Nunito, Helvetica, Arial, sans-serif"
+          >Conversions</mj-text
+        >
+        <mj-text
+          align="center"
+          padding="0 12px 22px"
+          color="#202021"
+          font-weight="bold"
+          font-size="24px"
+          line-height="28px"
+          font-family="Nunito, Helvetica, Arial, sans-serif"
+          >60</mj-text
+        >
+        <mj-text
+          align="center"
+          padding="0 12px 21px"
+          color="#a0abb8"
+          font-weight="bold"
+          font-size="14px"
+          line-height="18px"
+          font-family="Nunito, Helvetica, Arial, sans-serif"
+          >2.5% CR</mj-text
+        >
+      </mj-column>
+      <mj-column
+        background-color="#fff"
+        border-left="4px solid #F9F9FC"
+        border-bottom="4px solid #F9F9FC"
+        border-right="4px solid #F9F9FC"
+      >
+        <mj-text
+          align="center"
+          padding="20px 12px 15px"
+          color="#202021"
+          font-weight="bold"
+          font-size="17px"
+          line-height="20px"
+          font-family="Nunito, Helvetica, Arial, sans-serif"
+          >Conv. Value</mj-text
+        >
+        <mj-text
+          align="center"
+          padding="0 12px 22px"
+          color="#202021"
+          font-weight="bold"
+          font-size="24px"
+          line-height="28px"
+          font-family="Nunito, Helvetica, Arial, sans-serif"
+          >$ 871.7</mj-text
+        >
+        <mj-text
+          align="center"
+          padding="0 12px 21px"
+          color="#a0abb8"
+          font-weight="bold"
+          font-size="14px"
+          line-height="18px"
+          font-family="Nunito, Helvetica, Arial, sans-serif"
+          >20.5x ROAS</mj-text
+        >
+      </mj-column>
+      <mj-column background-color="#fff" border-bottom="4px solid #F9F9FC">
+        <mj-text
+          align="center"
+          padding="20px 12px 15px"
+          color="#202021"
+          font-weight="bold"
+          font-size="17px"
+          line-height="20px"
+          font-family="Nunito, Helvetica, Arial, sans-serif"
+          >Cost</mj-text
+        >
+        <mj-text
+          align="center"
+          padding="0 12px 22px"
+          color="#202021"
+          font-weight="bold"
+          font-size="24px"
+          line-height="28px"
+          font-family="Nunito, Helvetica, Arial, sans-serif"
+          >$ 87</mj-text
+        >
+        <mj-text
+          align="center"
+          padding="0 12px 21px"
+          color="#a0abb8"
+          font-weight="bold"
+          font-size="14px"
+          line-height="18px"
+          font-family="Nunito, Helvetica, Arial, sans-serif"
+          >$3.5 CAC</mj-text
+        >
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#F9F9FC" padding="26px 24px 25px">
+      <mj-column>
+        <mj-text
+          align="left"
+          padding="0 0px 22px"
+          color="#202021"
+          font-weight="bold"
+          font-size="24px"
+          line-height="28px"
+          font-family="Nunito, Helvetica, Arial, sans-serif"
+          >New brands this month:</mj-text
+        >
+        <mj-table padding="0px 0px 22px">
+          <tr>
+            <td style="padding: 0 0 25px; border-bottom: 1px solid #e0e0e3">
+              <table width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td
+                    width="26"
+                    valign="top"
+                    style="
+                      padding: 0 0 10px;
+                      font: bold 24px/20px Arial, Helvetica, sans-serif;
+                      color: #1565c0;
+                    "
+                  >
+                    &bull;
+                  </td>
+                  <td
+                    style="
+                      padding: 0 0 10px;
+                      font: 14px/20px Arial, Helvetica, sans-serif, Nunito;
+                      color: #202021;
+                    "
+                  >
+                    We have added <span style="color: #1565c0">10</span> new
+                    brands to the network this month
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    width="26"
+                    valign="top"
+                    style="
+                      padding: 0 0 10px;
+                      font: bold 24px/20px Arial, Helvetica, sans-serif;
+                      color: #1565c0;
+                    "
+                  >
+                    &bull;
+                  </td>
+                  <td
+                    style="
+                      padding: 0 0 10px;
+                      font: 14px/20px Arial, Helvetica, sans-serif, Nunito;
+                      color: #202021;
+                    "
+                  >
+                    You are currently promoting
+                    <span style="color: #1565c0">19</span> of
+                    <span style="color: #1565c0">56</span> total brands on the
+                    PostPerk network
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    width="26"
+                    valign="top"
+                    style="
+                      padding: 0 0 10px;
+                      font: bold 24px/20px Arial, Helvetica, sans-serif;
+                      color: #1565c0;
+                    "
+                  >
+                    &bull;
+                  </td>
+                  <td
+                    style="
+                      padding: 0 0 10px;
+                      font: 14px/20px Arial, Helvetica, sans-serif, Nunito;
+                      color: #202021;
+                    "
+                  >
+                    You are currently being promoted by
+                    <span style="color: #1565c0">10</span> of
+                    <span style="color: #1565c0">56</span> total brands on the
+                    PostPerk network
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </mj-table>
+        <mj-button
+          padding="0px 0px 18px"
+          inner-padding="17px 50px 16px"
+          href="https://postperk.com/"
+          background-color="#1565C0"
+          color="#ffffff"
+          font-weight="700"
+          font-size="18px"
+          line-height="20px"
+          color="#263238"
+          font-family="Nunito, Arial, Helvetica, sans-serif"
+        >
+          Log in to manage your partners&nbsp;<span
+            style="display: inline-block; vertical-align: -7px"
+            ><img
+              src="https://img-hosting.theterminal.dev/1618412914826.png"
+              width="28"
+              style="width: 28px; display: block; vertical-align: top"
+              alt=""
+          /></span>
+        </mj-button>
+        <mj-text
+          align="center"
+          padding="0px"
+          font-size="12px"
+          line-height="16px"
+          color="#8f969a"
+          font-family="Arial, Helvetica, sans-serif, Nunito"
+        >
+          *We can send you more and higher converting traffic the more partners
+          you enable.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="34px 25px 33px" background-color="#1B2430">
+      <mj-column>
+        <mj-text
+          padding="0px 0 10px"
+          font-size="24px"
+          line-height="28px"
+          font-weight="700"
+          color="#fff"
+          font-family="Nunito, Arial, Helvetica, sans-serif"
+        >
+          Next invoice
+        </mj-text>
+        <mj-text
+          padding="0px"
+          font-size="14px"
+          line-height="20px"
+          color="#fff"
+          font-family="Nunito, Arial, Helvetica, sans-serif"
+        >
+          Your next invoice will be for a total of $20.09
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="36px 25px" background-color="#F9F9FC">
+      <mj-column>
+        <mj-text
+          padding="0px 0 12px"
+          font-size="24px"
+          line-height="28px"
+          font-weight="700"
+          color="#202021"
+          font-family="Nunito, Arial, Helvetica, sans-serif"
+        >
+          Questions?
+        </mj-text>
+        <mj-text
+          padding="0px"
+          font-size="14px"
+          line-height="20px"
+          color="#202021"
+          font-family="Nunito, Arial, Helvetica, sans-serif"
+        >
+          Just hit reply to this email or head over to
+          <b
+            ><a
+              style="color: #1565c0; text-decoration: none"
+              href="https://postperk.com/"
+              >https://postperk.com/</a
+            ></b
+          >
+          and use the chat
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
