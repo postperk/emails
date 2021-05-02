@@ -68,13 +68,17 @@ const dataAugmentation = (type, original) => {
          }));
 
          return data;
+      },
+      customBrand: (data) => {
+         data.customBrand = brand.platformSelection === 'custom';
+         return data;
       }
    };
 
    const map = {
       offer: ['offerCount', 'redirectLink', 'fontFamily'],
       reminder: ['offerCount', 'redirectLink', 'fontFamily'],
-      report: []
+      report: ['customBrand']
    };
 
    // Execute all augmentations with pipe() and return result
