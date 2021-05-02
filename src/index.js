@@ -70,7 +70,7 @@ const dataAugmentation = (type, original) => {
          return data;
       },
       customBrand: (data) => {
-         data.customBrand = brand.platformSelection === 'custom';
+         data.customBrand = data.brand.platformSelection === 'custom';
          return data;
       }
    };
