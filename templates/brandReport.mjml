@@ -161,7 +161,7 @@
           font-family="Nunito, Helvetica, Arial, sans-serif"
           >{{stats.numEmailsClicked}}</mj-text
         >
-        {{#if stats.numEmailsClicked}}
+        {{#if stats.numEmailsOpened}}
         <mj-text
           align="center"
           padding="0 12px 21px"
@@ -269,7 +269,7 @@
           font-family="Nunito, Helvetica, Arial, sans-serif"
           >${{stats.conversionsCost}}</mj-text
         >
-        {{#if stats.conversionsCost}}
+        {{#if stats.numConversions}}
         <mj-text
           align="center"
           padding="0 12px 21px"
