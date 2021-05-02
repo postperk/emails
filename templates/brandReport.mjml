@@ -225,7 +225,6 @@
           font-family="Nunito, Helvetica, Arial, sans-serif"
           >Conv. Value</mj-text
         >
-        {{#unless customBrand}}
         <mj-text
           align="center"
           padding="0 12px 22px"
@@ -234,9 +233,8 @@
           font-size="24px"
           line-height="28px"
           font-family="Nunito, Helvetica, Arial, sans-serif"
-          >{{#if stats.conversionsValue}}${{stats.conversionsValue}}{{else}}Not Supported{{/if}}</mj-text
+          > {{#unless customBrand}}${{stats.conversionsValue}}{{/unless}}</mj-text
         >
-        {{/unless}}
 
         {{#if stats.conversionsCost}}
         <mj-text
@@ -247,7 +245,7 @@
           font-size="14px"
           line-height="18px"
           font-family="Nunito, Helvetica, Arial, sans-serif"
-          >{{stats.roas}}x ROAS</mj-text
+          >{{#if stats.conversionsValue}}{{stats.roas}}x ROAS{{else}}Not Supported{{/if}}</mj-text
         >
         {{/if}}
       </mj-column>
