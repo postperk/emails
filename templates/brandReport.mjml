@@ -347,7 +347,7 @@
                   >
                     You are currently promoting
                     <span style="color: #1565c0">{{stats.brandsPromoting}}</span> of
-                    <span style="color: #1565c0">{{stats.numActiveBrands}}</span> total brands on the
+                    <span style="color: #1565c0">{{stats.numActiveBrands}}</span> active brands on the
                     PostPerk network
                   </td>
                 </tr>
@@ -372,7 +372,7 @@
                   >
                     You are currently being promoted by
                     <span style="color: #1565c0">{{stats.brandsBeingPromotedBy}}</span> of
-                    <span style="color: #1565c0">{{stats.numActiveBrands}}</span> total brands on the
+                    <span style="color: #1565c0">{{stats.numActiveBrands}}</span> active brands on the
                     PostPerk network
                   </td>
                 </tr>
