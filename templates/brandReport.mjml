@@ -1,448 +1,192 @@
 <mjml>
   <mj-head>
     <mj-title>PostPerk</mj-title>
-    <mj-font
-      name="Nunito"
-      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
-    ></mj-font>
     <mj-attributes>
-      <mj-all
-        font-family="Nunito, Helvetica, Arial, sans-serif"
-        padding="0px"
-      ></mj-all>
-      <mj-text
-        font-weight="400"
-        font-size="14px"
-        color="#000000"
-        line-height="21px"
-      ></mj-text>
+      <mj-class name="body_style" background-color="#eee" />
+      <mj-class name="section_01" background-color="#F9F9FC" padding="47px 0 29px" />
+      <mj-class name="section_02" background-color="#F9F9FC" padding="0px 0px 25px" />
+      <mj-class name="section_03" background-color="#fff" padding="0px" />
+      <mj-class name="section_04" background-color="#F9F9FC" padding="0px" />
+      <mj-class name="section_05" background-color="#F9F9FC" padding="26px 24px 25px" />
+      <mj-class name="section_06" padding="36px 25px" background-color="#F9F9FC" />
+      <mj-class name="logo" href="https://postperk.com/" src="https://img-hosting.theterminal.dev/mjml/logo-01.png" alt="Nunito" padding="22px 20px" width="168px" align="center" border="none" />
+      <mj-class name="headline_text_01" align="left" padding="0 24px 12px" font-family="Arial, Helvetica, sans-serif, Nunito" font-weight="bold" font-size="24px" line-height="32px" color="#202021" />
+      <mj-class name="headline_text_02" align="left" padding="0 0 22px" color="#202021" font-weight="bold" font-size="24px" line-height="28px" font-family="Nunito, Helvetica, Arial, sans-serif" />
+      <mj-class name="headline_text_03" padding="0 0 12px" font-size="24px" line-height="28px" font-weight="700" color="#202021" font-family="Nunito, Arial, Helvetica, sans-serif" />
+      <mj-class name="body_text" padding="0 25px" align="left" font-family="Arial, Helvetica, sans-serif, Nunito" font-size="14px" line-height="18px" color="#263238" />
+      <mj-class name="title_text" align="left" padding="0 13px" color="#1565C0" font-weight="bold" font-size="24px" line-height="26px" font-family="Nunito, Helvetica, Arial, sans-serif" />
+      <mj-class name="description_text" align="center" padding="0px" font-size="12px" line-height="16px" color="#8f969a" font-family="Arial, Helvetica, sans-serif, Nunito" />
+      <mj-class name="text" padding="0px" font-size="14px" line-height="20px" color="#202021" font-family="Nunito, Arial, Helvetica, sans-serif" />
+      <mj-class name="title_card_01" align="center" padding="17px 12px 18px" color="#202021" font-weight="bold" font-size="17px" line-height="20px" font-family="Nunito, Helvetica, Arial, sans-serif" />
+      <mj-class name="title_card_02" align="center" padding="20px 12px 15px" color="#202021" font-weight="bold" font-size="17px" line-height="20px" font-family="Nunito, Helvetica, Arial, sans-serif" />
+      <mj-class name="info_card_01" align="center" padding="0 12px 18px" color="#202021" font-weight="bold" font-size="24px" line-height="28px" font-family="Nunito, Helvetica, Arial, sans-serif" />
+      <mj-class name="info_card_02" align="center" padding="0 12px 22px" color="#202021" font-weight="bold" font-size="24px" line-height="28px" font-family="Nunito, Helvetica, Arial, sans-serif" />
+      <mj-class name="stat_info_01" align="center" padding="0 12px 21px" color="#a0abb8" font-weight="bold" font-size="14px" line-height="18px" font-family="Nunito, Helvetica, Arial, sans-serif" />
+      <mj-class name="hide_line" align="center" padding="0 12px 21px" color="#fff" font-weight="bold" font-size="14px" line-height="18px" font-family="Nunito, Helvetica, Arial, sans-serif" />
+      <mj-class name="col_01" background-color="#fff" border-left="4px solid #F9F9FC" border-bottom="4px solid #F9F9FC" border-right="4px solid #F9F9FC" />
+      <mj-class name="col_02" background-color="#fff" border-left="4px solid #F9F9FC" border-bottom="4px solid #F9F9FC" border-right="4px solid #F9F9FC" />
+      <mj-class name="col_03" background-color="#fff" border-bottom="4px solid #F9F9FC" />
+      <mj-class name="p_0" padding="0" />
+      <mj-class name="button" padding="0px 0px 18px" inner-padding="17px 50px 16px" href="https://app.postperk.com/" background-color="#1565C0" color="#ffffff" font-weight="700" font-size="18px" line-height="20px" color="#263238" font-family="Nunito, Arial, Helvetica, sans-serif" />
+      <mj-class name="bg_1B2430" background-color="#1B2430" />
+      <mj-class name="bg_fff" background-color="#fff" />
+      <mj-class name="border_style" border-left="12px solid #1565C0" />
+      <mj-class name="bb_4" border-bottom="4px solid #F9F9FC" />
+    </mj-attributes>
+    <mj-font name="Nunito" href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"></mj-font>
+    <mj-attributes>
+      <mj-all font-family="Nunito, Helvetica, Arial, sans-serif" padding="0px"></mj-all>
+      <mj-text font-weight="400" font-size="14px" line-height="21px" color="#000000"></mj-text>
     </mj-attributes>
   </mj-head>
-  <mj-body background-color="#eee">
-    <mj-section padding="0">
-      <mj-column background-color="#1B2430">
-        <mj-image
-          src="https://img-hosting.theterminal.dev/mjml/logo-01.png"
-          alt="Nunito"
-          width="168px"
-          align="center"
-          border="none"
-          padding="22px 20px"
-        ></mj-image>
+  <mj-body mj-class="body_style">
+    <mj-section mj-class="p_0">
+      <mj-column mj-class="bg_1B2430">
+        <mj-image mj-class="logo"></mj-image>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#F9F9FC" padding="47px 0 29px">
+    <mj-section mj-class="section_01">
       <mj-column>
-        <mj-text
-          align="left"
-          padding="0 24px 12px"
-          color="#202021"
-          font-weight="bold"
-          font-size="24px"
-          line-height="28px"
-          font-family="Nunito, Helvetica, Arial, sans-serif"
-          >Hello!</mj-text
-        >
-        <mj-text
-          align="left"
-          padding="0 25px"
-          color="#202021"
-          font-size="14px"
-          line-height="20px"
-          font-family="Nunito, Helvetica, Arial, sans-serif"
-          >We hope you had a great month, if you have any questions just hit reply to this e-mail and we’ll do our best to answer as quickly as possible!</mj-text
-        >
+        <mj-text mj-class="headline_text_01">Hello!</mj-text>
+        <mj-text mj-class="body_text">We hope you had a great month, if you have any questions just hit reply to this e-mail and we’ll do our best to answer as quickly as possible!</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#F9F9FC" padding="0px 0px 25px">
-      <mj-column border-left="12px solid #1565C0">
-        <mj-text
-          align="left"
-          padding="0 13px"
-          color="#1565C0"
-          font-weight="bold"
-          font-size="24px"
-          line-height="26px"
-          font-family="Nunito, Helvetica, Arial, sans-serif"
-          >Campaign stats for <%DATESTR%> for {{brand.name}}:
-        </mj-text>
+    <mj-section mj-class="section_02">
+      <mj-column mj-class="border_style">
+        <mj-text mj-class="title_text">Campaign stats for
+          <%DATESTR%> for {{brand.name}}:</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#fff" padding="0px">
-      <mj-column background-color="#fff" border-bottom="4px solid #F9F9FC">
-        <mj-text
-          align="center"
-          padding="17px 12px 18px"
-          color="#202021"
-          font-weight="bold"
-          font-size="17px"
-          line-height="20px"
-          font-family="Nunito, Helvetica, Arial, sans-serif"
-          >Emails sent</mj-text
-        >
-        <mj-text
-          align="center"
-          padding="0 12px 18px"
-          color="#202021"
-          font-weight="bold"
-          font-size="24px"
-          line-height="28px"
-          font-family="Nunito, Helvetica, Arial, sans-serif"
-          >{{stats.numEmails}}</mj-text
-        >
-        <mj-text
-          align="center"
-          padding="0 12px 21px"
-          color="#fff"
-          font-weight="bold"
-          font-size="0px"
-          line-height="18px"
-          font-family="Nunito, Helvetica, Arial, sans-serif"
-          >.</mj-text
-        >
+    <mj-section mj-class="section_03">
+      <mj-column mj-class="bg_fff bb_4">
+        <mj-text mj-class="title_card_01">Emails sent</mj-text>
+        <mj-text mj-class="info_card_01">{{stats.numEmails}}</mj-text>
+        <mj-text mj-class="hide_line">.</mj-text>
       </mj-column>
-      <mj-column
-        background-color="#fff"
-        border-left="4px solid #F9F9FC"
-        border-bottom="4px solid #F9F9FC"
-        border-right="4px solid #F9F9FC"
-      >
-        <mj-text
-          align="center"
-          padding="17px 12px 18px"
-          color="#202021"
-          font-weight="bold"
-          font-size="17px"
-          line-height="20px"
-          font-family="Nunito, Helvetica, Arial, sans-serif"
-          >Emails opened</mj-text
-        >
-        <mj-text
-          align="center"
-          padding="0 12px 18px"
-          color="#202021"
-          font-weight="bold"
-          font-size="24px"
-          line-height="28px"
-          font-family="Nunito, Helvetica, Arial, sans-serif"
-          >{{stats.numEmailsOpened}}</mj-text
-        >
+      <mj-column mj-class="col_01">
+        <mj-text mj-class="title_card_01">Emails opened</mj-text>
+        <mj-text mj-class="info_card_01">{{stats.numEmailsOpened}}</mj-text>
         {{#if stats.numEmailsOpened}}
-        <mj-text
-          align="center"
-          padding="0 12px 21px"
-          color="#a0abb8"
-          font-weight="bold"
-          font-size="14px"
-          line-height="18px"
-          font-family="Nunito, Helvetica, Arial, sans-serif"
-          >{{stats.emailOpenRate}}% Open Rate</mj-text
-        >
+          <mj-text mj-class="stat_info_01">{{stats.emailOpenRate}}% Open Rate</mj-text>
         {{/if}}
       </mj-column>
       <mj-column background-color="#fff" border-bottom="4px solid #F9F9FC">
-        <mj-text
-          align="center"
-          padding="17px 12px 18px"
-          color="#202021"
-          font-weight="bold"
-          font-size="17px"
-          line-height="20px"
-          font-family="Nunito, Helvetica, Arial, sans-serif"
-          >Clicks</mj-text
-        >
-        <mj-text
-          align="center"
-          padding="0 12px 18px"
-          color="#202021"
-          font-weight="bold"
-          font-size="24px"
-          line-height="28px"
-          font-family="Nunito, Helvetica, Arial, sans-serif"
-          >{{stats.numEmailsClicked}}</mj-text
-        >
+        <mj-text mj-class="title_card_01">Clicks</mj-text>
+        <mj-text mj-class="info_card_01">{{stats.numEmailsClicked}}</mj-text>
         {{#if stats.numEmailsOpened}}
-        <mj-text
-          align="center"
-          padding="0 12px 21px"
-          color="#a0abb8"
-          font-weight="bold"
-          font-size="14px"
-          line-height="18px"
-          font-family="Nunito, Helvetica, Arial, sans-serif"
-          >{{stats.emailClickRate}}% CTR</mj-text
-        >
+          <mj-text mj-class="stat_info_01">{{stats.emailClickRate}}% CTR</mj-text>
         {{/if}}
       </mj-column>
     </mj-section>
-    <mj-section background-color="#F9F9FC" padding="0px">
+    <mj-section mj-class="section_04">
       <mj-column background-color="#fff" border-bottom="4px solid #F9F9FC">
-        <mj-text
-          align="center"
-          padding="20px 12px 15px"
-          color="#202021"
-          font-weight="bold"
-          font-size="17px"
-          line-height="20px"
-          font-family="Nunito, Helvetica, Arial, sans-serif"
-          >Conversions</mj-text
-        >
-        <mj-text
-          align="center"
-          padding="0 12px 22px"
-          color="#202021"
-          font-weight="bold"
-          font-size="24px"
-          line-height="28px"
-          font-family="Nunito, Helvetica, Arial, sans-serif"
-          >{{stats.numConversions}}</mj-text
-        >
+        <mj-text mj-class="title_card_02">Conversions</mj-text>
+        <mj-text mj-class="info_card_02">{{stats.numConversions}}</mj-text>
         {{#if stats.numConversions}}
-        <mj-text
-          align="center"
-          padding="0 12px 21px"
-          color="#a0abb8"
-          font-weight="bold"
-          font-size="14px"
-          line-height="18px"
-          font-family="Nunito, Helvetica, Arial, sans-serif"
-          >{{stats.conversionRate}}% CR</mj-text>
-          {{/if}}
+          <mj-text mj-class="stat_info_01">{{stats.conversionRate}}% CR</mj-text>
+        {{/if}}
       </mj-column>
-      <mj-column
-        background-color="#fff"
-        border-left="4px solid #F9F9FC"
-        border-bottom="4px solid #F9F9FC"
-        border-right="4px solid #F9F9FC"
-      >
-        <mj-text
-          align="center"
-          padding="20px 12px 15px"
-          color="#202021"
-          font-weight="bold"
-          font-size="17px"
-          line-height="20px"
-          font-family="Nunito, Helvetica, Arial, sans-serif"
-          >Conv. Value</mj-text
-        >
-        <mj-text
-          align="center"
-          padding="0 12px 22px"
-          color="#202021"
-          font-weight="bold"
-          font-size="24px"
-          line-height="28px"
-          font-family="Nunito, Helvetica, Arial, sans-serif"
-          > {{#unless customBrand}}${{stats.conversionsValue}}{{/unless}}</mj-text
-        >
-
+      <mj-column mj-class="col_02">
+        <mj-text mj-class="title_card_02">Conv. Value</mj-text>
+        <mj-text mj-class="info_card_02"> {{#unless customBrand}}${{stats.conversionsValue}}{{/unless}}</mj-text>
         {{#if stats.conversionsCost}}
-        <mj-text
-          align="center"
-          padding="0 12px 21px"
-          color="#a0abb8"
-          font-weight="bold"
-          font-size="14px"
-          line-height="18px"
-          font-family="Nunito, Helvetica, Arial, sans-serif"
-          >{{#if customBrand}}Not Supported{{else}}{{stats.roas}}x ROAS{{/if}}</mj-text
-        >
+          <mj-text mj-class="stat_info_01">{{#if customBrand}}Not Supported{{else}}{{stats.roas}}x ROAS{{/if}}</mj-text>
         {{/if}}
       </mj-column>
-      <mj-column background-color="#fff" border-bottom="4px solid #F9F9FC">
-        <mj-text
-          align="center"
-          padding="20px 12px 15px"
-          color="#202021"
-          font-weight="bold"
-          font-size="17px"
-          line-height="20px"
-          font-family="Nunito, Helvetica, Arial, sans-serif"
-          >Cost</mj-text
-        >
-        <mj-text
-          align="center"
-          padding="0 12px 22px"
-          color="#202021"
-          font-weight="bold"
-          font-size="24px"
-          line-height="28px"
-          font-family="Nunito, Helvetica, Arial, sans-serif"
-          >${{stats.conversionsCost}}</mj-text
-        >
+      <mj-column mj-class="col_03">
+        <mj-text mj-class="title_card_02">Cost</mj-text>
+        <mj-text mj-class="info_card_02">${{stats.conversionsCost}}</mj-text>
         {{#if stats.numConversions}}
-        <mj-text
-          align="center"
-          padding="0 12px 21px"
-          color="#a0abb8"
-          font-weight="bold"
-          font-size="14px"
-          line-height="18px"
-          font-family="Nunito, Helvetica, Arial, sans-serif"
-          >${{stats.customerAcquisitionCost}} CAC</mj-text
-        >
+          <mj-text mj-class="stat_info_01">${{stats.customerAcquisitionCost}} CAC</mj-text>
         {{/if}}
       </mj-column>
     </mj-section>
-    <mj-section background-color="#F9F9FC" padding="26px 24px 25px">
+    <mj-section mj-class="section_05">
       <mj-column>
-        <mj-text
-          align="left"
-          padding="0 0px 22px"
-          color="#202021"
-          font-weight="bold"
-          font-size="24px"
-          line-height="28px"
-          font-family="Nunito, Helvetica, Arial, sans-serif"
-          >Your PostPerk Network:</mj-text
-        >
+        <mj-text mj-class="headline_text_02">Your PostPerk Network:</mj-text>
         <mj-table padding="0px 0px 22px">
           <tr>
             <td style="padding: 0 0 25px; border-bottom: 1px solid #e0e0e3">
               <table width="100%" cellpadding="0" cellspacing="0">
-              {{#if stats.numNewBrands}}
-                <tr>
-                  <td
-                    width="26"
-                    valign="top"
-                    style="
-                      padding: 0 0 10px;
-                      font: bold 24px/20px Arial, Helvetica, sans-serif;
-                      color: #1565c0;
-                    "
-                  >
-                    &bull;
-                  </td>
-                  <td
-                    style="
-                      padding: 0 0 10px;
-                      font: 14px/20px Arial, Helvetica, sans-serif, Nunito;
-                      color: #202021;
-                    "
-                  >
-                    We have added <span style="color: #1565c0">{{stats.numNewBrands}}</span> new
-                    brands to the network this month
-                  </td>
-                </tr>
+                {{#if stats.numNewBrands}}
+                  <tr>
+                    <td width="26" valign="top" style="
+									padding: 0 0 10px;
+									font: bold 24px/20px Arial, Helvetica, sans-serif;
+									color: #1565c0;
+									">
+                      &bull;
+                    </td>
+                    <td style="
+								padding: 0 0 10px;
+								font: 14px/20px Arial, Helvetica, sans-serif, Nunito;
+								color: #202021;
+								">
+                      We have added <span style="color: #1565c0">{{stats.numNewBrands}}</span> new
+                      brands to the network this month
+                    </td>
+                  </tr>
                 {{/if}}
                 {{#if stats.numActiveBrands}}
-                <tr>
-                  <td
-                    width="26"
-                    valign="top"
-                    style="
-                      padding: 0 0 10px;
-                      font: bold 24px/20px Arial, Helvetica, sans-serif;
-                      color: #1565c0;
-                    "
-                  >
-                    &bull;
-                  </td>
-                  <td
-                    style="
-                      padding: 0 0 10px;
-                      font: 14px/20px Arial, Helvetica, sans-serif, Nunito;
-                      color: #202021;
-                    "
-                  >
-                    You are currently promoting
-                    <span style="color: #1565c0">{{stats.brandsPromoting}}</span> of
-                    <span style="color: #1565c0">{{stats.numActiveBrands}}</span> active brands on the
-                    PostPerk network
-                  </td>
-                </tr>
-                <tr>
-                  <td
-                    width="26"
-                    valign="top"
-                    style="
-                      padding: 0 0 10px;
-                      font: bold 24px/20px Arial, Helvetica, sans-serif;
-                      color: #1565c0;
-                    "
-                  >
-                    &bull;
-                  </td>
-                  <td
-                    style="
-                      padding: 0 0 10px;
-                      font: 14px/20px Arial, Helvetica, sans-serif, Nunito;
-                      color: #202021;
-                    "
-                  >
-                    You are currently being promoted by
-                    <span style="color: #1565c0">{{stats.brandsBeingPromotedBy}}</span> of
-                    <span style="color: #1565c0">{{stats.numActiveBrands}}</span> active brands on the
-                    PostPerk network
-                  </td>
-                </tr>
+                  <tr>
+                    <td width="26" valign="top" style="
+							padding: 0 0 10px;
+							font: bold 24px/20px Arial, Helvetica, sans-serif;
+							color: #1565c0;
+							">
+                      &bull;
+                    </td>
+                    <td style="
+						padding: 0 0 10px;
+						font: 14px/20px Arial, Helvetica, sans-serif, Nunito;
+						color: #202021;
+						">
+                      You are currently promoting
+                      <span style="color: #1565c0">{{stats.brandsPromoting}}</span> of
+                      <span style="color: #1565c0">{{stats.numActiveBrands}}</span> active brands on the
+                      PostPerk network
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="26" valign="top" style="
+					padding: 0 0 10px;
+					font: bold 24px/20px Arial, Helvetica, sans-serif;
+					color: #1565c0;
+					">
+                      &bull;
+                    </td>
+                    <td style="
+				padding: 0 0 10px;
+				font: 14px/20px Arial, Helvetica, sans-serif, Nunito;
+				color: #202021;
+				">
+                      You are currently being promoted by
+                      <span style="color: #1565c0">{{stats.brandsBeingPromotedBy}}</span> of
+                      <span style="color: #1565c0">{{stats.numActiveBrands}}</span> active brands on the
+                      PostPerk network
+                    </td>
+                  </tr>
                 {{/if}}
               </table>
             </td>
           </tr>
         </mj-table>
-        <mj-button
-          padding="0px 0px 18px"
-          inner-padding="17px 50px 16px"
-          href="https://postperk.com/"
-          background-color="#1565C0"
-          color="#ffffff"
-          font-weight="700"
-          font-size="18px"
-          line-height="20px"
-          color="#263238"
-          font-family="Nunito, Arial, Helvetica, sans-serif"
-        >
-          Log in to manage your partners&nbsp;<span
-            style="display: inline-block; vertical-align: -7px"
-            ><img
-              src="https://img-hosting.theterminal.dev/1618412914826.png"
-              width="28"
-              style="width: 28px; display: block; vertical-align: top"
-              alt=""
-          /></span>
+        <mj-button mj-class="button">
+          Log in to manage your partners 👉
         </mj-button>
-        <mj-text
-          align="center"
-          padding="0px"
-          font-size="12px"
-          line-height="16px"
-          color="#8f969a"
-          font-family="Arial, Helvetica, sans-serif, Nunito"
-        >
+        <mj-text mj-class="description_text">
           *We can send you more and higher converting traffic the more partners
           you enable.
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section padding="36px 25px" background-color="#F9F9FC">
+    <mj-section mj-class="section_06">
       <mj-column>
-        <mj-text
-          padding="0px 0 12px"
-          font-size="24px"
-          line-height="28px"
-          font-weight="700"
-          color="#202021"
-          font-family="Nunito, Arial, Helvetica, sans-serif"
-        >
+        <mj-text mj-class="headline_text_03">
           Questions?
         </mj-text>
-        <mj-text
-          padding="0px"
-          font-size="14px"
-          line-height="20px"
-          color="#202021"
-          font-family="Nunito, Arial, Helvetica, sans-serif"
-        >
-          Just hit reply to this email or head over to
-          <b
-            ><a
-              style="color: #1565c0; text-decoration: none"
-              href="https://postperk.com/"
-              >https://postperk.com/</a
-            ></b
-          >
-          and use the chat
+        <mj-text mj-class="text">
+          Just hit reply to this email or head over to <b><a style="color: #1565c0; text-decoration: none" href="https://app.postperk.com/">https://app.postperk.com/</a></b>and use the chat
         </mj-text>
       </mj-column>
     </mj-section>
