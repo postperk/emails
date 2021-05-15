@@ -880,7 +880,7 @@ exports[`Emails Brand report email will match snapshot for custom brand 1`] = `
 </html>
 `;
 
-exports[`Emails Brand report email will match snapshot for custom brand 2`] = `"PostPerk Report | March 2021"`;
+exports[`Emails Brand report email will match snapshot for custom brand 2`] = `"PostPerk Monthly Report - March 2021"`;
 
 exports[`Emails Brand report email will match snapshot for standard brand 1`] = `
 <!doctype html>
@@ -1786,7 +1786,7 @@ exports[`Emails Brand report email will match snapshot for standard brand 1`] = 
 </html>
 `;
 
-exports[`Emails Brand report email will match snapshot for standard brand 2`] = `"PostPerk Report | March 2021"`;
+exports[`Emails Brand report email will match snapshot for standard brand 2`] = `"PostPerk Monthly Report - March 2021"`;
 
 exports[`Emails Offer email will match snapshot 1`] = `
 <!doctype html>
