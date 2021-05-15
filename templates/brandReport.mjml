@@ -10,10 +10,10 @@
       <mj-class name="section_05" background-color="#F9F9FC" padding="26px 24px 25px" />
       <mj-class name="section_06" padding="36px 25px" background-color="#F9F9FC" />
       <mj-class name="logo" href="https://postperk.com/" src="https://img-hosting.theterminal.dev/mjml/logo-01.png" alt="Nunito" padding="22px 20px" width="168px" align="center" border="none" />
-      <mj-class name="headline_text_01" align="left" padding="0 24px 12px" font-family="Arial, Helvetica, sans-serif, Nunito" font-weight="bold" font-size="24px" line-height="32px" color="#202021" />
+      <mj-class name="headline_text_01" align="left" padding="0 24px 12px" font-family="Nunito, Arial, Helvetica, sans-serif" font-weight="bold" font-size="24px" line-height="32px" color="#202021" />
       <mj-class name="headline_text_02" align="left" padding="0 0 22px" color="#202021" font-weight="bold" font-size="24px" line-height="28px" font-family="Nunito, Helvetica, Arial, sans-serif" />
       <mj-class name="headline_text_03" padding="0 0 12px" font-size="24px" line-height="28px" font-weight="700" color="#202021" font-family="Nunito, Arial, Helvetica, sans-serif" />
-      <mj-class name="body_text" padding="0 25px" align="left" font-family="Arial, Helvetica, sans-serif, Nunito" font-size="14px" line-height="18px" color="#263238" />
+      <mj-class name="body_text" padding="0 25px" align="left" font-family="Nunito, Helvetica, Arial, sans-serif" font-size="16px" line-height="20px" color="#263238" />
       <mj-class name="title_text" align="left" padding="0 13px" color="#1565C0" font-weight="bold" font-size="24px" line-height="26px" font-family="Nunito, Helvetica, Arial, sans-serif" />
       <mj-class name="description_text" align="center" padding="0px" font-size="12px" line-height="16px" color="#8f969a" font-family="Arial, Helvetica, sans-serif, Nunito" />
       <mj-class name="text" padding="0px" font-size="14px" line-height="20px" color="#202021" font-family="Nunito, Arial, Helvetica, sans-serif" />
@@ -27,7 +27,7 @@
       <mj-class name="col_02" background-color="#fff" border-left="4px solid #F9F9FC" border-bottom="4px solid #F9F9FC" border-right="4px solid #F9F9FC" />
       <mj-class name="col_03" background-color="#fff" border-bottom="4px solid #F9F9FC" />
       <mj-class name="p_0" padding="0" />
-      <mj-class name="button" padding="0px 0px 18px" inner-padding="17px 50px 16px" href="https://app.postperk.com/" background-color="#1565C0" color="#ffffff" font-weight="700" font-size="18px" line-height="20px" color="#263238" font-family="Nunito, Arial, Helvetica, sans-serif" />
+      <mj-class name="button" padding="0px 0px 18px" inner-padding="17px 50px 16px" background-color="#1565C0" color="#ffffff" font-weight="700" font-size="18px" line-height="20px" color="#263238" font-family="Nunito, Arial, Helvetica, sans-serif" />
       <mj-class name="bg_1B2430" background-color="#1B2430" />
       <mj-class name="bg_fff" background-color="#fff" />
       <mj-class name="border_style" border-left="12px solid #1565C0" />
@@ -88,9 +88,10 @@
       </mj-column>
       <mj-column mj-class="col_02">
         <mj-text mj-class="title_card_02">Conv. Value</mj-text>
-        <mj-text mj-class="info_card_02"> {{#unless customBrand}}${{stats.conversionsValue}}{{/unless}}</mj-text>
+        
+        <mj-text mj-class="info_card_02"> {{#if customBrand}}-{{else}}${{stats.conversionsValue}}{{/if}}</mj-text>
         {{#if stats.conversionsCost}}
-          <mj-text mj-class="stat_info_01">{{#if customBrand}}Not Supported{{else}}{{stats.roas}}x ROAS{{/if}}</mj-text>
+          <mj-text mj-class="stat_info_01">{{#unless customBrand}}{{stats.roas}}x ROAS{{/unless}}</mj-text>
         {{/if}}
       </mj-column>
       <mj-column mj-class="col_03">
@@ -171,7 +172,7 @@
             </td>
           </tr>
         </mj-table>
-        <mj-button mj-class="button">
+        <mj-button mj-class="button" href="https://app.postperk.com/">
           Log in to manage your partners 👉
         </mj-button>
         <mj-text mj-class="description_text">

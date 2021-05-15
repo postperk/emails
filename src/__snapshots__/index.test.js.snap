@@ -115,12 +115,16 @@ exports[`Emails Brand report email will match snapshot 1`] = `
                                     <tbody>
                                       <tr>
                                         <td style="width:168px;">
-                                          <img alt="Nunito"
-                                               height="auto"
-                                               src="https://img-hosting.theterminal.dev/mjml/logo-01.png"
-                                               style="border:none;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;"
-                                               width="168"
+                                          <a href="https://postperk.com/"
+                                             target="_blank"
                                           >
+                                            <img alt="Nunito"
+                                                 height="auto"
+                                                 src="https://img-hosting.theterminal.dev/mjml/logo-01.png"
+                                                 style="border:none;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;"
+                                                 width="168"
+                                            >
+                                          </a>
                                         </td>
                                       </tr>
                                     </tbody>
@@ -177,8 +181,8 @@ exports[`Emails Brand report email will match snapshot 1`] = `
                                 <td align="left"
                                     style="font-size:0px;padding:0 24px 12px;word-break:break-word;"
                                 >
-                                  <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;line-height:28px;text-align:left;color:#202021;">
-                                    Hello, Lucy Lavender!
+                                  <div style="font-family:Nunito, Arial, Helvetica, sans-serif;font-size:24px;font-weight:bold;line-height:32px;text-align:left;color:#202021;">
+                                    Hello!
                                   </div>
                                 </td>
                               </tr>
@@ -186,9 +190,8 @@ exports[`Emails Brand report email will match snapshot 1`] = `
                                 <td align="left"
                                     style="font-size:0px;padding:0 25px;word-break:break-word;"
                                 >
-                                  <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:14px;font-weight:400;line-height:20px;text-align:left;color:#202021;">
-                                    Creation timelines for the standard lorem ipsum passage vary, with
-          some citing the 15th century and others the 20th.!
+                                  <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:16px;font-weight:400;line-height:20px;text-align:left;color:#263238;">
+                                    We hope you had a great month, if you have any questions just hit reply to this e-mail and we’ll do our best to answer as quickly as possible!
                                   </div>
                                 </td>
                               </tr>
@@ -243,7 +246,8 @@ exports[`Emails Brand report email will match snapshot 1`] = `
                                     style="font-size:0px;padding:0 13px;word-break:break-word;"
                                 >
                                   <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;line-height:26px;text-align:left;color:#1565C0;">
-                                    Campaign stats for March 2021 for {Brand Name}:
+                                    Campaign stats for
+          March 2021 for Earfleek:
                                   </div>
                                 </td>
                               </tr>
@@ -307,7 +311,7 @@ exports[`Emails Brand report email will match snapshot 1`] = `
                                     style="font-size:0px;padding:0 12px 18px;word-break:break-word;"
                                 >
                                   <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;line-height:28px;text-align:center;color:#202021;">
-                                    100
+                                    1445
                                   </div>
                                 </td>
                               </tr>
@@ -315,7 +319,7 @@ exports[`Emails Brand report email will match snapshot 1`] = `
                                 <td align="center"
                                     style="font-size:0px;padding:0 12px 21px;word-break:break-word;"
                                 >
-                                  <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:0px;font-weight:bold;line-height:18px;text-align:center;color:#ffffff;">
+                                  <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:14px;font-weight:bold;line-height:18px;text-align:center;color:#ffffff;">
                                     .
                                   </div>
                                 </td>
@@ -362,7 +366,7 @@ exports[`Emails Brand report email will match snapshot 1`] = `
                                     style="font-size:0px;padding:0 12px 18px;word-break:break-word;"
                                 >
                                   <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;line-height:28px;text-align:center;color:#202021;">
-                                    3.987
+                                    926
                                   </div>
                                 </td>
                               </tr>
@@ -371,7 +375,7 @@ exports[`Emails Brand report email will match snapshot 1`] = `
                                     style="font-size:0px;padding:0 12px 21px;word-break:break-word;"
                                 >
                                   <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:14px;font-weight:bold;line-height:18px;text-align:center;color:#a0abb8;">
-                                    46% Open Rate
+                                    65% Open Rate
                                   </div>
                                 </td>
                               </tr>
@@ -417,7 +421,7 @@ exports[`Emails Brand report email will match snapshot 1`] = `
                                     style="font-size:0px;padding:0 12px 18px;word-break:break-word;"
                                 >
                                   <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;line-height:28px;text-align:center;color:#202021;">
-                                    1.000
+                                    94
                                   </div>
                                 </td>
                               </tr>
@@ -426,7 +430,7 @@ exports[`Emails Brand report email will match snapshot 1`] = `
                                     style="font-size:0px;padding:0 12px 21px;word-break:break-word;"
                                 >
                                   <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:14px;font-weight:bold;line-height:18px;text-align:center;color:#a0abb8;">
-                                    1.4% CTR
+                                    10.15% CTR
                                   </div>
                                 </td>
                               </tr>
@@ -490,7 +494,7 @@ exports[`Emails Brand report email will match snapshot 1`] = `
                                     style="font-size:0px;padding:0 12px 22px;word-break:break-word;"
                                 >
                                   <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;line-height:28px;text-align:center;color:#202021;">
-                                    60
+                                    21
                                   </div>
                                 </td>
                               </tr>
@@ -499,7 +503,7 @@ exports[`Emails Brand report email will match snapshot 1`] = `
                                     style="font-size:0px;padding:0 12px 21px;word-break:break-word;"
                                 >
                                   <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:14px;font-weight:bold;line-height:18px;text-align:center;color:#a0abb8;">
-                                    2.5% CR
+                                    22.34% CR
                                   </div>
                                 </td>
                               </tr>
@@ -545,7 +549,6 @@ exports[`Emails Brand report email will match snapshot 1`] = `
                                     style="font-size:0px;padding:0 12px 22px;word-break:break-word;"
                                 >
                                   <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;line-height:28px;text-align:center;color:#202021;">
-                                    $ 871.7
                                   </div>
                                 </td>
                               </tr>
@@ -554,7 +557,7 @@ exports[`Emails Brand report email will match snapshot 1`] = `
                                     style="font-size:0px;padding:0 12px 21px;word-break:break-word;"
                                 >
                                   <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:14px;font-weight:bold;line-height:18px;text-align:center;color:#a0abb8;">
-                                    20.5x ROAS
+                                    Not Supported
                                   </div>
                                 </td>
                               </tr>
@@ -600,7 +603,7 @@ exports[`Emails Brand report email will match snapshot 1`] = `
                                     style="font-size:0px;padding:0 12px 22px;word-break:break-word;"
                                 >
                                   <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;line-height:28px;text-align:center;color:#202021;">
-                                    $ 87
+                                    $84.00
                                   </div>
                                 </td>
                               </tr>
@@ -609,7 +612,7 @@ exports[`Emails Brand report email will match snapshot 1`] = `
                                     style="font-size:0px;padding:0 12px 21px;word-break:break-word;"
                                 >
                                   <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:14px;font-weight:bold;line-height:18px;text-align:center;color:#a0abb8;">
-                                    $3.5 CAC
+                                    $4.00 CAC
                                   </div>
                                 </td>
                               </tr>
@@ -661,10 +664,10 @@ exports[`Emails Brand report email will match snapshot 1`] = `
                             <tbody>
                               <tr>
                                 <td align="left"
-                                    style="font-size:0px;padding:0 0px 22px;word-break:break-word;"
+                                    style="font-size:0px;padding:0 0 22px;word-break:break-word;"
                                 >
                                   <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;line-height:28px;text-align:left;color:#202021;">
-                                    New brands this month:
+                                    Your PostPerk Network:
                                   </div>
                                 </td>
                               </tr>
@@ -688,80 +691,56 @@ exports[`Emails Brand report email will match snapshot 1`] = `
                                             <td width="26"
                                                 valign="top"
                                                 style="
-                      padding: 0 0 10px;
-                      font: bold 24px/20px Arial, Helvetica, sans-serif;
-                      color: #1565c0;
-                    "
+							padding: 0 0 10px;
+							font: bold 24px/20px Arial, Helvetica, sans-serif;
+							color: #1565c0;
+							"
                                             >
                                               &bull;
                                             </td>
                                             <td style="
-                      padding: 0 0 10px;
-                      font: 14px/20px Arial, Helvetica, sans-serif, Nunito;
-                      color: #202021;
-                    ">
-                                              We have added
-                                              <span style="color: #1565c0">
-                                                10
-                                              </span>
-                                              new
-                    brands to the network this month
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <td width="26"
-                                                valign="top"
-                                                style="
-                      padding: 0 0 10px;
-                      font: bold 24px/20px Arial, Helvetica, sans-serif;
-                      color: #1565c0;
-                    "
-                                            >
-                                              &bull;
-                                            </td>
-                                            <td style="
-                      padding: 0 0 10px;
-                      font: 14px/20px Arial, Helvetica, sans-serif, Nunito;
-                      color: #202021;
-                    ">
+						padding: 0 0 10px;
+						font: 14px/20px Arial, Helvetica, sans-serif, Nunito;
+						color: #202021;
+						">
                                               You are currently promoting
                                               <span style="color: #1565c0">
-                                                19
+                                                10
                                               </span>
                                               of
                                               <span style="color: #1565c0">
-                                                56
+                                                29
                                               </span>
-                                              total brands on the
-                    PostPerk network
+                                              active brands on the
+                      PostPerk network
                                             </td>
                                           </tr>
                                           <tr>
                                             <td width="26"
                                                 valign="top"
                                                 style="
-                      padding: 0 0 10px;
-                      font: bold 24px/20px Arial, Helvetica, sans-serif;
-                      color: #1565c0;
-                    "
+					padding: 0 0 10px;
+					font: bold 24px/20px Arial, Helvetica, sans-serif;
+					color: #1565c0;
+					"
                                             >
                                               &bull;
                                             </td>
                                             <td style="
-                      padding: 0 0 10px;
-                      font: 14px/20px Arial, Helvetica, sans-serif, Nunito;
-                      color: #202021;
-                    ">
+				padding: 0 0 10px;
+				font: 14px/20px Arial, Helvetica, sans-serif, Nunito;
+				color: #202021;
+				">
                                               You are currently being promoted by
                                               <span style="color: #1565c0">
-                                                10
+                                                9
                                               </span>
                                               of
                                               <span style="color: #1565c0">
-                                                56
+                                                29
                                               </span>
-                                              total brands on the
-                    PostPerk network
+                                              active brands on the
+                      PostPerk network
                                             </td>
                                           </tr>
                                         </table>
@@ -788,18 +767,11 @@ exports[`Emails Brand report email will match snapshot 1`] = `
                                           style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:17px 50px 16px;background:#1565C0;"
                                           valign="middle"
                                       >
-                                        <a href="https://postperk.com/"
+                                        <a href="https://app.postperk.com/"
                                            style="display:inline-block;background:#1565C0;color:#ffffff;font-family:Nunito, Arial, Helvetica, sans-serif;font-size:18px;font-weight:700;line-height:20px;margin:0;text-decoration:none;text-transform:none;padding:17px 50px 16px;mso-padding-alt:0px;border-radius:3px;"
                                            target="_blank"
                                         >
-                                          Log in to manage your partners&nbsp;
-                                          <span style="display: inline-block; vertical-align: -7px">
-                                            <img src="https://img-hosting.theterminal.dev/1618412914826.png"
-                                                 width="28"
-                                                 style="width: 28px; display: block; vertical-align: top"
-                                                 alt
-                                            >
-                                          </span>
+                                          Log in to manage your partners 👉
                                         </a>
                                       </td>
                                     </tr>
@@ -813,70 +785,6 @@ exports[`Emails Brand report email will match snapshot 1`] = `
                                   <div style="font-family:Arial, Helvetica, sans-serif, Nunito;font-size:12px;font-weight:400;line-height:16px;text-align:center;color:#8f969a;">
                                     *We can send you more and higher converting traffic the more partners
           you enable.
-                                  </div>
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <!--[if mso | IE]></td></tr></table><![endif]-->
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" bgcolor="#1B2430" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-      <div style="background:#1B2430;background-color:#1B2430;margin:0px auto;max-width:600px;">
-        <table align="center"
-               border="0"
-               cellpadding="0"
-               cellspacing="0"
-               role="presentation"
-               style="background:#1B2430;background-color:#1B2430;width:100%;"
-        >
-          <tbody>
-            <tr>
-              <td style="direction:ltr;font-size:0px;padding:34px 25px 33px;text-align:center;">
-                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:550px;" ><![endif]-->
-                <div class="mj-column-per-100 mj-outlook-group-fix"
-                     style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-                >
-                  <table border="0"
-                         cellpadding="0"
-                         cellspacing="0"
-                         role="presentation"
-                         width="100%"
-                  >
-                    <tbody>
-                      <tr>
-                        <td style="vertical-align:top;padding:0px;">
-                          <table border="0"
-                                 cellpadding="0"
-                                 cellspacing="0"
-                                 role="presentation"
-                                 style
-                                 width="100%"
-                          >
-                            <tbody>
-                              <tr>
-                                <td align="left"
-                                    style="font-size:0px;padding:0px 0 10px;word-break:break-word;"
-                                >
-                                  <div style="font-family:Nunito, Arial, Helvetica, sans-serif;font-size:24px;font-weight:700;line-height:28px;text-align:left;color:#ffffff;">
-                                    Next invoice
-                                  </div>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td align="left"
-                                    style="font-size:0px;padding:0px;word-break:break-word;"
-                                >
-                                  <div style="font-family:Nunito, Arial, Helvetica, sans-serif;font-size:14px;font-weight:400;line-height:20px;text-align:left;color:#ffffff;">
-                                    Your next invoice will be for a total of $20.09
                                   </div>
                                 </td>
                               </tr>
@@ -928,7 +836,7 @@ exports[`Emails Brand report email will match snapshot 1`] = `
                             <tbody>
                               <tr>
                                 <td align="left"
-                                    style="font-size:0px;padding:0px 0 12px;word-break:break-word;"
+                                    style="font-size:0px;padding:0 0 12px;word-break:break-word;"
                                 >
                                   <div style="font-family:Nunito, Arial, Helvetica, sans-serif;font-size:24px;font-weight:700;line-height:28px;text-align:left;color:#202021;">
                                     Questions?
@@ -943,9 +851,9 @@ exports[`Emails Brand report email will match snapshot 1`] = `
                                     Just hit reply to this email or head over to
                                     <b>
                                       <a style="color: #1565c0; text-decoration: none"
-                                         href="https://postperk.com/"
+                                         href="https://app.postperk.com/"
                                       >
-                                        https://postperk.com/
+                                        https://app.postperk.com/
                                       </a>
                                     </b>
                                     and use the chat
