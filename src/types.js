@@ -51,7 +51,8 @@ export default {
    },
    report: {
       filename: 'brandReport.mjml',
-      subject: 'PostPerk Report',
+      subject: (data) =>
+         `PostPerk Report | ${dayjs(data.startDate).format('MMMM YYYY')}`,
       transforms: {
          '<%DATESTR%>': (template, data) =>
             dayjs(data.startDate).format('MMMM YYYY')

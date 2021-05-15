@@ -214,36 +214,11 @@ describe('Emails', () => {
       expect(compiled.subject).toMatchSnapshot();
    });
 
-   it('Brand report email will match snapshot', async () => {
+   it('Brand report email will match snapshot for custom brand', async () => {
       const compiled = await emails.compile('report', {
          brand: {
-            docId: 'yjgQ86oFbptMtdty5hMx',
-            offerGlobalCode: 'PERK50',
-            offerCodeSource: 'global',
-            emailDisplayName: 'Avi',
-            cardImageUrl:
-               'https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/cards%2FyjgQ86oFbptMtdty5hMx_1912011129?alt=media&token=e106e0cb-aaa0-440c-b928-7e827b5c8447',
-            brandCategory: 'earring subscription',
-            addressCountry: '',
             name: 'Earfleek',
-            cpa: 4,
-            addressCity: 'Los Angeles',
-            offerLink:
-               'https://www.earfleek.com/subscribe/?utm_source=postperk',
-            offerAmount: 50,
-            addressState: 'CA',
-            ratioThreshold: 0.95,
-            brandFilterType: 'whitelist',
-            platformSelection: 'custom',
-            logoImageUrl:
-               'https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/logos%2FyjgQ86oFbptMtdty5hMx?alt=media&token=e3a30e39-47c7-4897-a783-1cb00b589e62',
-            counts: { emails: 154, promotions: 462, impressions: 534 },
-            offerType: 'percent',
-            productType: 'jewelry',
-            emailReplyTo: 'avi@ivoryclasp.com',
-            demoGender: 'female',
-            tagline: 'Enjoy 50% off monthly earrings - starting at $3.49',
-            active: true
+            platformSelection: 'custom'
          },
          stats: {
             numEmails: 1445,
@@ -268,7 +243,47 @@ describe('Emails', () => {
          cfunctions: 'https://us-central1-pperk-dashboard.cloudfunctions.net'
       });
 
-      await fs.writeFile('./generated/report.html', compiled.content.html);
+      await fs.writeFile(
+         './generated/report-custom.html',
+         compiled.content.html
+      );
+      expect(compiled.content.html).toMatchSnapshot();
+      expect(compiled.subject).toMatchSnapshot();
+   });
+
+   it('Brand report email will match snapshot for standard brand', async () => {
+      const compiled = await emails.compile('report', {
+         brand: {
+            name: 'Earfleek',
+            platformSelection: 'shopify'
+         },
+         stats: {
+            numEmails: 1445,
+            numEmailsOpened: 926,
+            numEmailsClicked: 94,
+            numConversions: 21,
+            conversionsValue: '126.00',
+            conversionsCost: '84.00',
+            numActiveBrands: 29,
+            numNewBrands: 9,
+            brandsPromoting: 10,
+            brandsBeingPromotedBy: 9,
+            emailOpenRate: 65,
+            emailClickRate: '10.15',
+            conversionRate: '22.34',
+            customerAcquisitionCost: '4.00',
+            roas: '2.7'
+         },
+         startDate: '2021-04-01T00:00:00.000Z',
+         endDate: '2021-05-01T00:00:00.000Z',
+         env: 'prod',
+         cfunctions: 'https://us-central1-pperk-dashboard.cloudfunctions.net'
+      });
+
+      await fs.writeFile(
+         './generated/report-standard.html',
+         compiled.content.html
+      );
       expect(compiled.content.html).toMatchSnapshot();
       expect(compiled.subject).toMatchSnapshot();
    });
