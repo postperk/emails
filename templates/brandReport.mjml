@@ -91,7 +91,7 @@
         
         <mj-text mj-class="info_card_02"> {{#if customBrand}}-{{else}}${{stats.conversionsValue}}{{/if}}</mj-text>
         {{#if stats.conversionsCost}}
-          <mj-text mj-class="stat_info_01">{{#if customBrand}}Not Supported{{else}}{{stats.roas}}x ROAS{{/if}}</mj-text>
+          <mj-text mj-class="stat_info_01">{{#if customBrand}}Not provided{{else}}{{stats.roas}}x ROAS{{/if}}</mj-text>
         {{/if}}
       </mj-column>
       <mj-column mj-class="col_03">
