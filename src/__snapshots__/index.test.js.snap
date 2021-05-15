@@ -558,6 +558,7 @@ exports[`Emails Brand report email will match snapshot for custom brand 1`] = `
                                     style="font-size:0px;padding:0 12px 21px;word-break:break-word;"
                                 >
                                   <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:14px;font-weight:bold;line-height:18px;text-align:center;color:#a0abb8;">
+                                    Not Supported
                                   </div>
                                 </td>
                               </tr>
