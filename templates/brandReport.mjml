@@ -73,33 +73,29 @@
       <mj-column background-color="#fff" border-bottom="4px solid #F9F9FC">
         <mj-text mj-class="title_card_01">Clicks</mj-text>
         <mj-text mj-class="info_card_01">{{stats.numEmailsClicked}}</mj-text>
-        {{#if stats.numEmailsOpened}}
-          <mj-text mj-class="stat_info_01">{{stats.emailClickRate}}% CTR</mj-text>
-        {{/if}}
+        <mj-text mj-class="stat_info_01">{{#if stats.numEmailsOpened}}{{stats.emailClickRate}}% CTR{{/if}}</mj-text>
       </mj-column>
     </mj-section>
     <mj-section mj-class="section_04">
       <mj-column background-color="#fff" border-bottom="4px solid #F9F9FC">
         <mj-text mj-class="title_card_02">Conversions</mj-text>
         <mj-text mj-class="info_card_02">{{stats.numConversions}}</mj-text>
-        {{#if stats.numConversions}}
-          <mj-text mj-class="stat_info_01">{{stats.conversionRate}}% CR</mj-text>
-        {{/if}}
+        <mj-text mj-class="stat_info_01">{{#if stats.numConversions}}{{stats.conversionRate}}% CR{{/if}}</mj-text>
       </mj-column>
       <mj-column mj-class="col_02">
         <mj-text mj-class="title_card_02">Conv. Value</mj-text>
         
         <mj-text mj-class="info_card_02"> {{#if customBrand}}-{{else}}${{stats.conversionsValue}}{{/if}}</mj-text>
-        {{#if stats.conversionsCost}}
-          <mj-text mj-class="stat_info_01">{{#if customBrand}}Not provided{{else}}{{stats.roas}}x ROAS{{/if}}</mj-text>
-        {{/if}}
+        
+        <mj-text mj-class="stat_info_01">{{#if stats.roas}}{{#if customBrand}}Not provided{{else}}{{stats.roas}}x ROAS{{/if}}{{/if}}</mj-text>
+        
       </mj-column>
       <mj-column mj-class="col_03">
         <mj-text mj-class="title_card_02">Cost</mj-text>
         <mj-text mj-class="info_card_02">${{stats.conversionsCost}}</mj-text>
-        {{#if stats.numConversions}}
-          <mj-text mj-class="stat_info_01">${{stats.customerAcquisitionCost}} CAC</mj-text>
-        {{/if}}
+        
+        <mj-text mj-class="stat_info_01">{{#if stats.numConversions}}${{stats.customerAcquisitionCost}} CAC{{/if}}</mj-text>
+        
       </mj-column>
     </mj-section>
     <mj-section mj-class="section_05">

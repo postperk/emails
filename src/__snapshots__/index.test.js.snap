@@ -1788,6 +1788,909 @@ exports[`Emails Brand report email will match snapshot for standard brand 1`] = 
 
 exports[`Emails Brand report email will match snapshot for standard brand 2`] = `"PostPerk Monthly Report - March 2021"`;
 
+exports[`Emails Brand report email will match when no conversions 1`] = `
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:v="urn:schemas-microsoft-com:vml"
+      xmlns:o="urn:schemas-microsoft-com:office:office"
+>
+  <head>
+    <title>
+      PostPerk
+    </title>
+    <!--[if !mso]><!-->
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge"
+    >
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=UTF-8"
+    >
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1"
+    >
+    <style type="text/css">
+      #outlook a { padding:0; }
+          body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%; }
+          table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt; }
+          img { border:0;height:auto;line-height:100%; outline:none;text-decoration:none;-ms-interpolation-mode:bicubic; }
+          p { display:block;margin:13px 0; }
+    </style>
+    <!--[if mso]>
+        <noscript>
+        <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+        </xml>
+        </noscript>
+        <![endif]-->
+    <!--[if lte mso 11]>
+        <style type="text/css">
+          .mj-outlook-group-fix { width:100% !important; }
+        </style>
+        <![endif]-->
+    <!--[if !mso]><!-->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+          rel="stylesheet"
+          type="text/css"
+    >
+    <style type="text/css">
+      @import url(https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap);
+    </style>
+    <style type="text/css">
+      @media only screen and (min-width:480px) {
+        .mj-column-per-100 { width:100% !important; max-width: 100%; }
+.mj-column-per-33-333333333333336 { width:33.333333333333336% !important; max-width: 33.333333333333336%; }
+      }
+    </style>
+    <style media="screen and (min-width:480px)">
+      .moz-text-html .mj-column-per-100 { width:100% !important; max-width: 100%; }
+.moz-text-html .mj-column-per-33-333333333333336 { width:33.333333333333336% !important; max-width: 33.333333333333336%; }
+    </style>
+    <style type="text/css">
+      @media only screen and (max-width:480px) {
+      table.mj-full-width-mobile { width: 100% !important; }
+      td.mj-full-width-mobile { width: auto !important; }
+    }
+    </style>
+  </head>
+  <body style="word-spacing:normal;background-color:#eeeeee;">
+    <div style="background-color:#eeeeee;">
+      <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+      <div style="margin:0px auto;max-width:600px;">
+        <table align="center"
+               border="0"
+               cellpadding="0"
+               cellspacing="0"
+               role="presentation"
+               style="width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+                <div class="mj-column-per-100 mj-outlook-group-fix"
+                     style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+                >
+                  <table border="0"
+                         cellpadding="0"
+                         cellspacing="0"
+                         role="presentation"
+                         width="100%"
+                  >
+                    <tbody>
+                      <tr>
+                        <td style="background-color:#1B2430;vertical-align:top;padding:0px;">
+                          <table border="0"
+                                 cellpadding="0"
+                                 cellspacing="0"
+                                 role="presentation"
+                                 style
+                                 width="100%"
+                          >
+                            <tbody>
+                              <tr>
+                                <td align="center"
+                                    style="font-size:0px;padding:22px 20px;word-break:break-word;"
+                                >
+                                  <table border="0"
+                                         cellpadding="0"
+                                         cellspacing="0"
+                                         role="presentation"
+                                         style="border-collapse:collapse;border-spacing:0px;"
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td style="width:168px;">
+                                          <a href="https://postperk.com/"
+                                             target="_blank"
+                                          >
+                                            <img alt="Nunito"
+                                                 height="auto"
+                                                 src="https://img-hosting.theterminal.dev/mjml/logo-01.png"
+                                                 style="border:none;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;"
+                                                 width="168"
+                                            >
+                                          </a>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" bgcolor="#F9F9FC" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+      <div style="background:#F9F9FC;background-color:#F9F9FC;margin:0px auto;max-width:600px;">
+        <table align="center"
+               border="0"
+               cellpadding="0"
+               cellspacing="0"
+               role="presentation"
+               style="background:#F9F9FC;background-color:#F9F9FC;width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td style="direction:ltr;font-size:0px;padding:47px 0 29px;text-align:center;">
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+                <div class="mj-column-per-100 mj-outlook-group-fix"
+                     style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+                >
+                  <table border="0"
+                         cellpadding="0"
+                         cellspacing="0"
+                         role="presentation"
+                         width="100%"
+                  >
+                    <tbody>
+                      <tr>
+                        <td style="vertical-align:top;padding:0px;">
+                          <table border="0"
+                                 cellpadding="0"
+                                 cellspacing="0"
+                                 role="presentation"
+                                 style
+                                 width="100%"
+                          >
+                            <tbody>
+                              <tr>
+                                <td align="left"
+                                    style="font-size:0px;padding:0 24px 12px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Nunito, Arial, Helvetica, sans-serif;font-size:24px;font-weight:bold;line-height:32px;text-align:left;color:#202021;">
+                                    Hello!
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left"
+                                    style="font-size:0px;padding:0 25px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:16px;font-weight:400;line-height:20px;text-align:left;color:#263238;">
+                                    We hope you had a great month, if you have any questions just hit reply to this e-mail and we’ll do our best to answer as quickly as possible!
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" bgcolor="#F9F9FC" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+      <div style="background:#F9F9FC;background-color:#F9F9FC;margin:0px auto;max-width:600px;">
+        <table align="center"
+               border="0"
+               cellpadding="0"
+               cellspacing="0"
+               role="presentation"
+               style="background:#F9F9FC;background-color:#F9F9FC;width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td style="direction:ltr;font-size:0px;padding:0px 0px 25px;text-align:center;">
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+                <div class="mj-column-per-100 mj-outlook-group-fix"
+                     style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+                >
+                  <table border="0"
+                         cellpadding="0"
+                         cellspacing="0"
+                         role="presentation"
+                         width="100%"
+                  >
+                    <tbody>
+                      <tr>
+                        <td style="border-left:12px solid #1565C0;vertical-align:top;padding:0px;">
+                          <table border="0"
+                                 cellpadding="0"
+                                 cellspacing="0"
+                                 role="presentation"
+                                 style
+                                 width="100%"
+                          >
+                            <tbody>
+                              <tr>
+                                <td align="left"
+                                    style="font-size:0px;padding:0 13px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;line-height:26px;text-align:left;color:#1565C0;">
+                                    Campaign stats for
+          March 2021 for Earfleek:
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+      <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+        <table align="center"
+               border="0"
+               cellpadding="0"
+               cellspacing="0"
+               role="presentation"
+               style="background:#ffffff;background-color:#ffffff;width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:200px;" ><![endif]-->
+                <div class="mj-column-per-33-333333333333336 mj-outlook-group-fix"
+                     style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+                >
+                  <table border="0"
+                         cellpadding="0"
+                         cellspacing="0"
+                         role="presentation"
+                         width="100%"
+                  >
+                    <tbody>
+                      <tr>
+                        <td style="background-color:#ffffff;border-bottom:4px solid #F9F9FC;vertical-align:top;padding:0px;">
+                          <table border="0"
+                                 cellpadding="0"
+                                 cellspacing="0"
+                                 role="presentation"
+                                 style
+                                 width="100%"
+                          >
+                            <tbody>
+                              <tr>
+                                <td align="center"
+                                    style="font-size:0px;padding:17px 12px 18px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:17px;font-weight:bold;line-height:20px;text-align:center;color:#202021;">
+                                    Emails sent
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center"
+                                    style="font-size:0px;padding:0 12px 18px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;line-height:28px;text-align:center;color:#202021;">
+                                    1445
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center"
+                                    style="font-size:0px;padding:0 12px 21px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:14px;font-weight:bold;line-height:18px;text-align:center;color:#ffffff;">
+                                    .
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:200px;" ><![endif]-->
+                <div class="mj-column-per-33-333333333333336 mj-outlook-group-fix"
+                     style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+                >
+                  <table border="0"
+                         cellpadding="0"
+                         cellspacing="0"
+                         role="presentation"
+                         width="100%"
+                  >
+                    <tbody>
+                      <tr>
+                        <td style="background-color:#ffffff;border-bottom:4px solid #F9F9FC;border-left:4px solid #F9F9FC;border-right:4px solid #F9F9FC;vertical-align:top;padding:0px;">
+                          <table border="0"
+                                 cellpadding="0"
+                                 cellspacing="0"
+                                 role="presentation"
+                                 style
+                                 width="100%"
+                          >
+                            <tbody>
+                              <tr>
+                                <td align="center"
+                                    style="font-size:0px;padding:17px 12px 18px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:17px;font-weight:bold;line-height:20px;text-align:center;color:#202021;">
+                                    Emails opened
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center"
+                                    style="font-size:0px;padding:0 12px 18px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;line-height:28px;text-align:center;color:#202021;">
+                                    926
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center"
+                                    style="font-size:0px;padding:0 12px 21px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:14px;font-weight:bold;line-height:18px;text-align:center;color:#a0abb8;">
+                                    65% Open Rate
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:200px;" ><![endif]-->
+                <div class="mj-column-per-33-333333333333336 mj-outlook-group-fix"
+                     style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+                >
+                  <table border="0"
+                         cellpadding="0"
+                         cellspacing="0"
+                         role="presentation"
+                         width="100%"
+                  >
+                    <tbody>
+                      <tr>
+                        <td style="background-color:#ffffff;border-bottom:4px solid #F9F9FC;vertical-align:top;padding:0px;">
+                          <table border="0"
+                                 cellpadding="0"
+                                 cellspacing="0"
+                                 role="presentation"
+                                 style
+                                 width="100%"
+                          >
+                            <tbody>
+                              <tr>
+                                <td align="center"
+                                    style="font-size:0px;padding:17px 12px 18px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:17px;font-weight:bold;line-height:20px;text-align:center;color:#202021;">
+                                    Clicks
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center"
+                                    style="font-size:0px;padding:0 12px 18px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;line-height:28px;text-align:center;color:#202021;">
+                                    94
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center"
+                                    style="font-size:0px;padding:0 12px 21px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:14px;font-weight:bold;line-height:18px;text-align:center;color:#a0abb8;">
+                                    10.15% CTR
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" bgcolor="#F9F9FC" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+      <div style="background:#F9F9FC;background-color:#F9F9FC;margin:0px auto;max-width:600px;">
+        <table align="center"
+               border="0"
+               cellpadding="0"
+               cellspacing="0"
+               role="presentation"
+               style="background:#F9F9FC;background-color:#F9F9FC;width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:200px;" ><![endif]-->
+                <div class="mj-column-per-33-333333333333336 mj-outlook-group-fix"
+                     style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+                >
+                  <table border="0"
+                         cellpadding="0"
+                         cellspacing="0"
+                         role="presentation"
+                         width="100%"
+                  >
+                    <tbody>
+                      <tr>
+                        <td style="background-color:#ffffff;border-bottom:4px solid #F9F9FC;vertical-align:top;padding:0px;">
+                          <table border="0"
+                                 cellpadding="0"
+                                 cellspacing="0"
+                                 role="presentation"
+                                 style
+                                 width="100%"
+                          >
+                            <tbody>
+                              <tr>
+                                <td align="center"
+                                    style="font-size:0px;padding:20px 12px 15px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:17px;font-weight:bold;line-height:20px;text-align:center;color:#202021;">
+                                    Conversions
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center"
+                                    style="font-size:0px;padding:0 12px 22px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;line-height:28px;text-align:center;color:#202021;">
+                                    0
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center"
+                                    style="font-size:0px;padding:0 12px 21px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:14px;font-weight:bold;line-height:18px;text-align:center;color:#a0abb8;">
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:200px;" ><![endif]-->
+                <div class="mj-column-per-33-333333333333336 mj-outlook-group-fix"
+                     style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+                >
+                  <table border="0"
+                         cellpadding="0"
+                         cellspacing="0"
+                         role="presentation"
+                         width="100%"
+                  >
+                    <tbody>
+                      <tr>
+                        <td style="background-color:#ffffff;border-bottom:4px solid #F9F9FC;border-left:4px solid #F9F9FC;border-right:4px solid #F9F9FC;vertical-align:top;padding:0px;">
+                          <table border="0"
+                                 cellpadding="0"
+                                 cellspacing="0"
+                                 role="presentation"
+                                 style
+                                 width="100%"
+                          >
+                            <tbody>
+                              <tr>
+                                <td align="center"
+                                    style="font-size:0px;padding:20px 12px 15px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:17px;font-weight:bold;line-height:20px;text-align:center;color:#202021;">
+                                    Conv. Value
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center"
+                                    style="font-size:0px;padding:0 12px 22px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;line-height:28px;text-align:center;color:#202021;">
+                                    $0
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center"
+                                    style="font-size:0px;padding:0 12px 21px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:14px;font-weight:bold;line-height:18px;text-align:center;color:#a0abb8;">
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:200px;" ><![endif]-->
+                <div class="mj-column-per-33-333333333333336 mj-outlook-group-fix"
+                     style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+                >
+                  <table border="0"
+                         cellpadding="0"
+                         cellspacing="0"
+                         role="presentation"
+                         width="100%"
+                  >
+                    <tbody>
+                      <tr>
+                        <td style="background-color:#ffffff;border-bottom:4px solid #F9F9FC;vertical-align:top;padding:0px;">
+                          <table border="0"
+                                 cellpadding="0"
+                                 cellspacing="0"
+                                 role="presentation"
+                                 style
+                                 width="100%"
+                          >
+                            <tbody>
+                              <tr>
+                                <td align="center"
+                                    style="font-size:0px;padding:20px 12px 15px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:17px;font-weight:bold;line-height:20px;text-align:center;color:#202021;">
+                                    Cost
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center"
+                                    style="font-size:0px;padding:0 12px 22px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;line-height:28px;text-align:center;color:#202021;">
+                                    $1
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center"
+                                    style="font-size:0px;padding:0 12px 21px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:14px;font-weight:bold;line-height:18px;text-align:center;color:#a0abb8;">
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" bgcolor="#F9F9FC" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+      <div style="background:#F9F9FC;background-color:#F9F9FC;margin:0px auto;max-width:600px;">
+        <table align="center"
+               border="0"
+               cellpadding="0"
+               cellspacing="0"
+               role="presentation"
+               style="background:#F9F9FC;background-color:#F9F9FC;width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td style="direction:ltr;font-size:0px;padding:26px 24px 25px;text-align:center;">
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:552px;" ><![endif]-->
+                <div class="mj-column-per-100 mj-outlook-group-fix"
+                     style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+                >
+                  <table border="0"
+                         cellpadding="0"
+                         cellspacing="0"
+                         role="presentation"
+                         width="100%"
+                  >
+                    <tbody>
+                      <tr>
+                        <td style="vertical-align:top;padding:0px;">
+                          <table border="0"
+                                 cellpadding="0"
+                                 cellspacing="0"
+                                 role="presentation"
+                                 style
+                                 width="100%"
+                          >
+                            <tbody>
+                              <tr>
+                                <td align="left"
+                                    style="font-size:0px;padding:0 0 22px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Nunito, Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;line-height:28px;text-align:left;color:#202021;">
+                                    Your PostPerk Network:
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left"
+                                    style="font-size:0px;padding:0px 0px 22px;word-break:break-word;"
+                                >
+                                  <table cellpadding="0"
+                                         cellspacing="0"
+                                         width="100%"
+                                         border="0"
+                                         style="color:#000000;font-family:Nunito, Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;table-layout:auto;width:100%;border:none;"
+                                  >
+                                    <tr>
+                                      <td style="padding: 0 0 25px; border-bottom: 1px solid #e0e0e3">
+                                        <table width="100%"
+                                               cellpadding="0"
+                                               cellspacing="0"
+                                        >
+                                          <tr>
+                                            <td width="26"
+                                                valign="top"
+                                                style="
+									padding: 0 0 10px;
+									font: bold 24px/20px Arial, Helvetica, sans-serif;
+									color: #1565c0;
+									"
+                                            >
+                                              &bull;
+                                            </td>
+                                            <td style="
+								padding: 0 0 10px;
+								font: 14px/20px Arial, Helvetica, sans-serif, Nunito;
+								color: #202021;
+								">
+                                              We have added
+                                              <span style="color: #1565c0">
+                                                9
+                                              </span>
+                                              new
+                      brands to the network this month
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td width="26"
+                                                valign="top"
+                                                style="
+							padding: 0 0 10px;
+							font: bold 24px/20px Arial, Helvetica, sans-serif;
+							color: #1565c0;
+							"
+                                            >
+                                              &bull;
+                                            </td>
+                                            <td style="
+						padding: 0 0 10px;
+						font: 14px/20px Arial, Helvetica, sans-serif, Nunito;
+						color: #202021;
+						">
+                                              You are currently promoting
+                                              <span style="color: #1565c0">
+                                                10
+                                              </span>
+                                              of
+                                              <span style="color: #1565c0">
+                                                29
+                                              </span>
+                                              active brands on the
+                      PostPerk network
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td width="26"
+                                                valign="top"
+                                                style="
+					padding: 0 0 10px;
+					font: bold 24px/20px Arial, Helvetica, sans-serif;
+					color: #1565c0;
+					"
+                                            >
+                                              &bull;
+                                            </td>
+                                            <td style="
+				padding: 0 0 10px;
+				font: 14px/20px Arial, Helvetica, sans-serif, Nunito;
+				color: #202021;
+				">
+                                              You are currently being promoted by
+                                              <span style="color: #1565c0">
+                                                9
+                                              </span>
+                                              of
+                                              <span style="color: #1565c0">
+                                                29
+                                              </span>
+                                              active brands on the
+                      PostPerk network
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center"
+                                    vertical-align="middle"
+                                    style="font-size:0px;padding:0px 0px 18px;word-break:break-word;"
+                                >
+                                  <table border="0"
+                                         cellpadding="0"
+                                         cellspacing="0"
+                                         role="presentation"
+                                         style="border-collapse:separate;line-height:100%;"
+                                  >
+                                    <tr>
+                                      <td align="center"
+                                          bgcolor="#1565C0"
+                                          role="presentation"
+                                          style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:17px 50px 16px;background:#1565C0;"
+                                          valign="middle"
+                                      >
+                                        <a href="https://app.postperk.com/"
+                                           style="display:inline-block;background:#1565C0;color:#ffffff;font-family:Nunito, Arial, Helvetica, sans-serif;font-size:18px;font-weight:700;line-height:20px;margin:0;text-decoration:none;text-transform:none;padding:17px 50px 16px;mso-padding-alt:0px;border-radius:3px;"
+                                           target="_blank"
+                                        >
+                                          Log in to manage your partners 👉
+                                        </a>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center"
+                                    style="font-size:0px;padding:0px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Arial, Helvetica, sans-serif, Nunito;font-size:12px;font-weight:400;line-height:16px;text-align:center;color:#8f969a;">
+                                    *We can send you more and higher converting traffic the more partners
+          you enable.
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" bgcolor="#F9F9FC" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+      <div style="background:#F9F9FC;background-color:#F9F9FC;margin:0px auto;max-width:600px;">
+        <table align="center"
+               border="0"
+               cellpadding="0"
+               cellspacing="0"
+               role="presentation"
+               style="background:#F9F9FC;background-color:#F9F9FC;width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td style="direction:ltr;font-size:0px;padding:36px 25px;text-align:center;">
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:550px;" ><![endif]-->
+                <div class="mj-column-per-100 mj-outlook-group-fix"
+                     style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+                >
+                  <table border="0"
+                         cellpadding="0"
+                         cellspacing="0"
+                         role="presentation"
+                         width="100%"
+                  >
+                    <tbody>
+                      <tr>
+                        <td style="vertical-align:top;padding:0px;">
+                          <table border="0"
+                                 cellpadding="0"
+                                 cellspacing="0"
+                                 role="presentation"
+                                 style
+                                 width="100%"
+                          >
+                            <tbody>
+                              <tr>
+                                <td align="left"
+                                    style="font-size:0px;padding:0 0 12px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Nunito, Arial, Helvetica, sans-serif;font-size:24px;font-weight:700;line-height:28px;text-align:left;color:#202021;">
+                                    Questions?
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left"
+                                    style="font-size:0px;padding:0px;word-break:break-word;"
+                                >
+                                  <div style="font-family:Nunito, Arial, Helvetica, sans-serif;font-size:14px;font-weight:400;line-height:20px;text-align:left;color:#202021;">
+                                    Just hit reply to this email or head over to
+                                    <b>
+                                      <a style="color: #1565c0; text-decoration: none"
+                                         href="https://app.postperk.com/"
+                                      >
+                                        https://app.postperk.com/
+                                      </a>
+                                    </b>
+                                    and use the chat
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+    </div>
+  </body>
+</html>
+`;
+
+exports[`Emails Brand report email will match when no conversions 2`] = `"PostPerk Monthly Report - March 2021"`;
+
 exports[`Emails Offer email will match snapshot 1`] = `
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml"

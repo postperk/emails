@@ -287,4 +287,41 @@ describe('Emails', () => {
       expect(compiled.content.html).toMatchSnapshot();
       expect(compiled.subject).toMatchSnapshot();
    });
+
+   it('Brand report email will match when no conversions', async () => {
+      const compiled = await emails.compile('report', {
+         brand: {
+            name: 'Earfleek',
+            platformSelection: 'shopify'
+         },
+         stats: {
+            numEmails: 1445,
+            numEmailsOpened: 926,
+            numEmailsClicked: 94,
+            numConversions: 0,
+            conversionsValue: 0,
+            conversionsCost: 1,
+            numActiveBrands: 29,
+            numNewBrands: 9,
+            brandsPromoting: 10,
+            brandsBeingPromotedBy: 9,
+            emailOpenRate: 65,
+            emailClickRate: '10.15',
+            conversionRate: 0,
+            customerAcquisitionCost: '4.00',
+            roas: 0 / 0
+         },
+         startDate: '2021-04-01T00:00:00.000Z',
+         endDate: '2021-05-01T00:00:00.000Z',
+         env: 'prod',
+         cfunctions: 'https://us-central1-pperk-dashboard.cloudfunctions.net'
+      });
+
+      await fs.writeFile(
+         './generated/report-no-conversions.html',
+         compiled.content.html
+      );
+      expect(compiled.content.html).toMatchSnapshot();
+      expect(compiled.subject).toMatchSnapshot();
+   });
 });
