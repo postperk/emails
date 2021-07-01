@@ -9,7 +9,7 @@
       <mj-class name="section_04" background-color="#F9F9FC" padding="0px" />
       <mj-class name="section_05" background-color="#F9F9FC" padding="26px 24px 25px" />
       <mj-class name="section_06" padding="36px 25px" background-color="#F9F9FC" />
-      <mj-class name="logo" href="https://postperk.com/" src="https://img-hosting.theterminal.dev/mjml/logo-01.png" alt="Nunito" padding="22px 20px" width="168px" align="center" border="none" />
+      <mj-class name="logo" href="https://postperk.com/" src="https://img-hosting.theterminal.dev/mjml/logo-01.png" padding="22px 20px" width="168px" align="center" border="none" />
       <mj-class name="headline_text_01" align="left" padding="0 24px 12px" font-family="Nunito, Arial, Helvetica, sans-serif" font-weight="bold" font-size="24px" line-height="32px" color="#202021" />
       <mj-class name="headline_text_02" align="left" padding="0 0 22px" color="#202021" font-weight="bold" font-size="24px" line-height="28px" font-family="Nunito, Helvetica, Arial, sans-serif" />
       <mj-class name="headline_text_03" padding="0 0 12px" font-size="24px" line-height="28px" font-weight="700" color="#202021" font-family="Nunito, Arial, Helvetica, sans-serif" />

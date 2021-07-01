@@ -118,8 +118,7 @@ exports[`Emails Brand report email will match snapshot for custom brand 1`] = `
                                           <a href="https://postperk.com/"
                                              target="_blank"
                                           >
-                                            <img alt="Nunito"
-                                                 height="auto"
+                                            <img height="auto"
                                                  src="https://img-hosting.theterminal.dev/mjml/logo-01.png"
                                                  style="border:none;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;"
                                                  width="168"
@@ -1000,8 +999,7 @@ exports[`Emails Brand report email will match snapshot for standard brand 1`] = 
                                           <a href="https://postperk.com/"
                                              target="_blank"
                                           >
-                                            <img alt="Nunito"
-                                                 height="auto"
+                                            <img height="auto"
                                                  src="https://img-hosting.theterminal.dev/mjml/logo-01.png"
                                                  style="border:none;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;"
                                                  width="168"
@@ -1906,8 +1904,7 @@ exports[`Emails Brand report email will match when no conversions 1`] = `
                                           <a href="https://postperk.com/"
                                              target="_blank"
                                           >
-                                            <img alt="Nunito"
-                                                 height="auto"
+                                            <img height="auto"
                                                  src="https://img-hosting.theterminal.dev/mjml/logo-01.png"
                                                  style="border:none;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;"
                                                  width="168"
