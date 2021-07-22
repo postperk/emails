@@ -7,7 +7,10 @@ import mjml2html from 'mjml';
 
 let templates = {};
 
-const pipe = (...fns) => (x) => fns.reduce((v, f) => f(v), x);
+const pipe =
+   (...fns) =>
+   (x) =>
+      fns.reduce((v, f) => f(v), x);
 
 const getTemplate = async (type) => {
    const typeObj = typeMap[type];
@@ -64,7 +67,11 @@ const dataAugmentation = (type, original) => {
       redirectLink: (data) => {
          data.order.offers = data.order.offers.map((offer, index) => ({
             ...offer,
-            redirectLink: `${data.cfunctions}/linkRedirect?linkId=${data.emailId}-${index}`
+            redirectLink: !data.noRedirect
+               ? `${data.cfunctions}/linkRedirect?linkId=${data.emailId}-${index}`
+               : offer.link
+               ? offer.link
+               : 'https://www.postperk.com'
          }));
 
          return data;
