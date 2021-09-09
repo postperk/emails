@@ -7,6 +7,11 @@ import mjml2html from 'mjml';
 
 let templates = {};
 
+const buckets = {
+   dev: 'pperk-dashboard-dev.appspot.com',
+   prod: 'pperk-dashboard.appspot.com'
+};
+
 const pipe =
    (...fns) =>
    (x) =>
@@ -80,12 +85,19 @@ const dataAugmentation = (type, original) => {
       customBrand: (data) => {
          data.customBrand = data.brand.platformSelection === 'custom';
          return data;
+      },
+      brandEmailLogo: (data) => {
+         data.brandEmailLogo = `https://storage.googleapis.com/${
+            buckets[data.env]
+         }/logos/${data.order.brandId}-email`;
+
+         return data;
       }
    };
 
    const map = {
-      offer: ['offerCount', 'redirectLink', 'fontFamily'],
-      reminder: ['offerCount', 'redirectLink', 'fontFamily'],
+      offer: ['offerCount', 'redirectLink', 'fontFamily', 'brandEmailLogo'],
+      reminder: ['offerCount', 'redirectLink', 'fontFamily', 'brandEmailLogo'],
       report: ['customBrand']
    };
 

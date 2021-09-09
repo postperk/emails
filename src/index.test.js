@@ -12,7 +12,8 @@ describe('Emails', () => {
          emailId: 'testEmailId',
          cfunctions: 'http://notreally.com',
          brand: brandMockData,
-         order: orderMockData
+         order: orderMockData,
+         env: 'prod'
       });
 
       await fs.writeFile('./generated/offer_two.html', compiled.content.html);
@@ -28,7 +29,8 @@ describe('Emails', () => {
          brand: brandMockData,
          order: Object.assign({}, orderMockData, {
             offers: [orderMockData.offers[0]]
-         })
+         }),
+         env: 'prod'
       });
 
       await fs.writeFile('./generated/offer_one.html', compiled.content.html);
@@ -50,7 +52,8 @@ describe('Emails', () => {
          },
          order: Object.assign({}, orderMockData, {
             offers: [orderMockData.offers[0]]
-         })
+         }),
+         env: 'prod'
       });
 
       await fs.writeFile(
@@ -67,7 +70,8 @@ describe('Emails', () => {
          emailId: 'testEmailId',
          cfunctions: 'http://notreally.com',
          brand: brandMockData,
-         order: orderMockData
+         order: orderMockData,
+         env: 'prod'
       });
 
       await fs.writeFile('./generated/offer_three.html', compiled.content.html);
@@ -90,7 +94,8 @@ describe('Emails', () => {
                body: 'Thanks from {{brand.name}}, blah blah custom text'
             }
          },
-         order: orderMockData
+         order: orderMockData,
+         env: 'prod'
       });
 
       await fs.writeFile(
@@ -110,7 +115,8 @@ describe('Emails', () => {
             ...brandMockData,
             highlightColor: '#E92076'
          },
-         order: orderMockData
+         order: orderMockData,
+         env: 'prod'
       });
 
       await fs.writeFile(
@@ -131,7 +137,8 @@ describe('Emails', () => {
             brandFontFamily:
                'Century Gothic, Heiti SC, STHeiti, Avenir, Trebuchet MS, Arial, sans‑serif'
          },
-         order: orderMockData
+         order: orderMockData,
+         env: 'prod'
       });
 
       await fs.writeFile(
@@ -154,7 +161,8 @@ describe('Emails', () => {
                subject: "Thanks {{firstName}}, here's a gift card on us!"
             }
          },
-         order: orderMockData
+         order: orderMockData,
+         env: 'prod'
       });
 
       expect(compiled.subject).toMatchSnapshot();
@@ -172,7 +180,8 @@ describe('Emails', () => {
                subject: "Whoa buddy here's a gift card on us!"
             }
          },
-         order: orderMockData
+         order: orderMockData,
+         env: 'prod'
       });
 
       expect(compiled.subject).toMatchSnapshot();
@@ -189,7 +198,8 @@ describe('Emails', () => {
          brand: brandMockData,
          order: Object.assign({}, orderMockData, {
             offers: [orderMockData.offers[1], newOffer]
-         })
+         }),
+         env: 'prod'
       });
 
       await fs.writeFile(
@@ -206,7 +216,8 @@ describe('Emails', () => {
          emailId: 'testEmailId',
          cfunctions: 'http://notreally.com',
          brand: brandMockData,
-         order: orderMockData
+         order: orderMockData,
+         env: 'prod'
       });
 
       await fs.writeFile('./generated/reminder.html', compiled.content.html);
