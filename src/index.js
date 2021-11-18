@@ -92,12 +92,39 @@ const dataAugmentation = (type, original) => {
          }/logos/${data.order.brandId}-email`;
 
          return data;
+      },
+      redeemButtonText: (data) => {
+         data.order.offers = data.order.offers.map((offer, index) => {
+            return {
+               ...offer,
+               redeemButtonText:
+                  offer.offerType && offer.amount
+                     ? offer.offerType === 'percent'
+                        ? `Get ${offer.amount}% Off`
+                        : `Get $${offer.amount} Off`
+                     : ''
+            };
+         });
+
+         return data;
       }
    };
 
    const map = {
-      offer: ['offerCount', 'redirectLink', 'fontFamily', 'brandEmailLogo'],
-      reminder: ['offerCount', 'redirectLink', 'fontFamily', 'brandEmailLogo'],
+      offer: [
+         'offerCount',
+         'redirectLink',
+         'fontFamily',
+         'brandEmailLogo',
+         'redeemButtonText'
+      ],
+      reminder: [
+         'offerCount',
+         'redirectLink',
+         'fontFamily',
+         'brandEmailLogo',
+         'redeemButtonText'
+      ],
       report: ['customBrand']
    };
 

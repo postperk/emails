@@ -1,52 +1,52 @@
 {
-  "brandId": "brandA",
-  "createdAt": "2018-10-11T15:28:34.000Z",
-  "currency": "USD",
-  "customer": {
-    "email": "Raul.Hyatt@data-generator.com",
-    "firstName": "Raul",
-    "id": 645814681657,
-    "lastName": "Hyatt"
-  },
-  "discountCodes": [],
-  "docId": "testOrderId",
-  "documentCreatedAt": "2018-10-11T20:27:06.492Z",
-  "gridStatus": "success",
-  "offers": [
-    {
-      "amount": 10,
-      "brandName": "Brand B",
-      "cardImageUrl": "https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/cards%2Fcard_karma_v2.png?alt=media&token=dff6f129-a7b3-45e9-b713-f9392ef6e23c",
-      "code": "LK39L",
-      "docId": "brandB",
-      "link": "https://www.brandb.com",
-      "tagline": "Premium widgets delivered to your door monthly",
-      "type": "dollar"
-    },
-    {
-      "amount": 10,
-      "brandName": "Brand C",
-      "cardImageUrl": "https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/cards%2Fcard_freeyourtea.png?alt=media&token=3a65981a-5a79-47dd-a311-1798ba2957d9",
-      "code": "KD90S",
-      "docId": "brandC",
-      "link": "https://www.brandc.com",
-      "tagline": "Premium widgets delivered to your door monthly",
-      "type": "dollar"
-    },
-    {
-      "amount": 10,
-      "brandName": "Brand D",
-      "cardImageUrl": "https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/cards%2Fcard_tampon_v2.png?alt=media&token=5d578855-f05e-4800-a959-cd02d8eb8b31",
-      "code": "KD90S",
-      "docId": "brandC",
-      "link": "https://www.brandc.com",
-      "tagline": "Premium widgets delivered to your door monthly",
-      "type": "dollar"
-    }
-  ],
-  "originId": 1022,
-  "sentAt": "2018-10-15T12:23:53.565Z",
-  "total": "30.03",
-  "totalDiscounts": "0.00",
-  "updatedAt": "2018-10-11T15:28:34.000Z"
+   "brandId": "brandA",
+   "createdAt": "2018-10-11T15:28:34.000Z",
+   "currency": "USD",
+   "customer": {
+      "email": "Raul.Hyatt@data-generator.com",
+      "firstName": "Raul",
+      "id": 645814681657,
+      "lastName": "Hyatt"
+   },
+   "discountCodes": [],
+   "docId": "testOrderId",
+   "documentCreatedAt": "2018-10-11T20:27:06.492Z",
+   "gridStatus": "success",
+   "offers": [
+      {
+         "amount": 50,
+         "brandName": "Brand B",
+         "cardImageUrl": "https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/cards%2FzSZ5IXMho1YXgk3p2sRt_2111181155?alt=media&token=6c28c70b-0837-4a32-af5b-4bd3a90a56da",
+         "code": "LK39L",
+         "docId": "brandB",
+         "link": "https://www.brandb.com",
+         "tagline": "Premium widgets delivered to your door monthly",
+         "offerType": "percent"
+      },
+      {
+         "amount": 10,
+         "brandName": "Brand C",
+         "cardImageUrl": "https://firebasestorage.googleapis.com/v0/b/pperk-dashboard-dev.appspot.com/o/cards%2F27eXthb6l1L79ccGeB0N_2110271252?alt=media&token=bb0f7f2b-5fce-4ed0-8be2-01560eb58548",
+         "code": "KD90S",
+         "docId": "brandC",
+         "link": "https://www.brandc.com",
+         "tagline": "Premium widgets delivered to your door monthly",
+         "offerType": "dollar"
+      },
+      {
+         "amount": 5,
+         "brandName": "Brand D",
+         "cardImageUrl": "https://firebasestorage.googleapis.com/v0/b/pperk-dashboard-dev.appspot.com/o/cards%2F27eXthb6l1L79ccGeB0N_2110271252?alt=media&token=bb0f7f2b-5fce-4ed0-8be2-01560eb58548",
+         "code": "KD90S",
+         "docId": "brandC",
+         "link": "https://www.brandc.com",
+         "tagline": "Premium widgets delivered to your door monthly",
+         "offerType": "percent"
+      }
+   ],
+   "originId": 1022,
+   "sentAt": "2018-10-15T12:23:53.565Z",
+   "total": "30.03",
+   "totalDiscounts": "0.00",
+   "updatedAt": "2018-10-11T15:28:34.000Z"
 }
