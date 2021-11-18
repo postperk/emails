@@ -75,7 +75,7 @@
     <mj-style>
       @media all and (min-width: 600px) {
          .tagline {
-          min-height: 36px;
+          min-height: 72px;
         }
       }
     </mj-style>
