@@ -119,7 +119,7 @@
             <!-- Divider only display son mobile-->
             <mj-divider padding-top="20px" padding-bottom="20px" css-class="mobile-divider" border-width="1px" border-style="solid" border-color="lightgrey" />
             <mj-image mj-class="card-image" href="{{{this.redirectLink}}}" src="{{this.cardImageUrl}}" alt="Get ${{this.amount}} off with {{this.brandName}}" width="300px"></mj-image>
-            <mj-text mj-class="tagline-text">
+            <mj-text padding="15px 3px 3px 3px" mj-class="tagline-text">
               <p class="tagline"><strong>{{this.brandName}} - </strong>{{this.tagline}}</p>
             </mj-text>
             <mj-text css-class="code-container" mj-class="code-text">
