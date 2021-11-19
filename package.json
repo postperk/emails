@@ -1,6 +1,6 @@
 {
    "name": "postperk-emails",
-   "version": "2.38.1",
+   "version": "2.38.2",
    "description": "",
    "main": "build/index.js",
    "scripts": {
