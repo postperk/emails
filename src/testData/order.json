@@ -34,11 +34,10 @@
          "offerType": "dollar"
       },
       {
-         "amount": 5,
          "brandName": "Brand D",
          "cardImageUrl": "https://firebasestorage.googleapis.com/v0/b/pperk-dashboard-dev.appspot.com/o/cards%2F27eXthb6l1L79ccGeB0N_2110271252?alt=media&token=bb0f7f2b-5fce-4ed0-8be2-01560eb58548",
-         "code": "KD90S",
          "docId": "brandC",
+         "code": "DLKJSFL",
          "link": "https://www.brandc.com",
          "tagline": "Premium widgets delivered to your door monthly",
          "offerType": "percent"

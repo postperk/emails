@@ -3025,7 +3025,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                         <tr>
                                           <td align="center"
                                               class="code-container"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                                              style="min-height: 38px; display: block; font-size: 0px; padding: 10px 25px; word-break: break-word;"
                                           >
                                             <div style="font-family:Muli, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                               Use code:
@@ -3067,21 +3067,12 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
-                                                      Get 50% Off
+                                                      Get 50% Off →
                                                     </a>
                                                   </td>
                                                 </tr>
                                               </tbody>
                                             </table>
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td align="center"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                                          >
-                                            <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
-                                              Offer code expires in 72 hours
-                                            </div>
                                           </td>
                                         </tr>
                                       </tbody>
@@ -3171,7 +3162,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                         <tr>
                                           <td align="center"
                                               class="code-container"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                                              style="min-height: 38px; display: block; font-size: 0px; padding: 10px 25px; word-break: break-word;"
                                           >
                                             <div style="font-family:Muli, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                               Use code:
@@ -3213,21 +3204,12 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
-                                                      Get $10 Off
+                                                      Get $10 Off →
                                                     </a>
                                                   </td>
                                                 </tr>
                                               </tbody>
                                             </table>
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td align="center"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                                          >
-                                            <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
-                                              Offer code expires in 72 hours
-                                            </div>
                                           </td>
                                         </tr>
                                       </tbody>
@@ -3285,7 +3267,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                                     <a href="http://notreally.com/linkRedirect?linkId=testEmailId-2"
                                                        target="_blank"
                                                     >
-                                                      <img alt="Get $5 off with Brand D"
+                                                      <img alt="Get $ off with Brand D"
                                                            height="auto"
                                                            src="https://firebasestorage.googleapis.com/v0/b/pperk-dashboard-dev.appspot.com/o/cards%2F27eXthb6l1L79ccGeB0N_2110271252?alt&#x3D;media&amp;token&#x3D;bb0f7f2b-5fce-4ed0-8be2-01560eb58548"
                                                            style="border:0;border-radius:15px;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;"
@@ -3317,7 +3299,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                         <tr>
                                           <td align="center"
                                               class="code-container"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                                              style="min-height: 38px; display: block; font-size: 0px; padding: 10px 25px; word-break: break-word;"
                                           >
                                             <div style="font-family:Muli, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                               Use code:
@@ -3327,7 +3309,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
-                                                KD90S
+                                                DLKJSFL
                                                 <span class="code-arrow"
                                                       style="display: inline-block; background: bottom right url('https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/images%2Fnew-tab.png?alt=media&token=bdeeaf41-4329-49da-b1bd-dd146ce24535') no-repeat; width: 15px; height: 15px;"
                                                 >
@@ -3359,21 +3341,12 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
-                                                      Get 5% Off
+                                                      Redeem →
                                                     </a>
                                                   </td>
                                                 </tr>
                                               </tbody>
                                             </table>
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td align="center"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                                          >
-                                            <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
-                                              Offer code expires in 72 hours
-                                            </div>
                                           </td>
                                         </tr>
                                       </tbody>
@@ -3816,7 +3789,7 @@ exports[`Emails Offer email with brand from different country 1`] = `
                                         <tr>
                                           <td align="center"
                                               class="code-container"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                                              style="min-height: 38px; display: block; font-size: 0px; padding: 10px 25px; word-break: break-word;"
                                           >
                                             <div style="font-family:Muli, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                               Use code:
@@ -3858,21 +3831,12 @@ exports[`Emails Offer email with brand from different country 1`] = `
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
-                                                      Get 50% Off
+                                                      Get 50% Off →
                                                     </a>
                                                   </td>
                                                 </tr>
                                               </tbody>
                                             </table>
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td align="center"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                                          >
-                                            <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
-                                              Offer code expires in 72 hours
-                                            </div>
                                           </td>
                                         </tr>
                                       </tbody>
@@ -4307,7 +4271,7 @@ exports[`Emails Offer email with custom font 1`] = `
                                         <tr>
                                           <td align="center"
                                               class="code-container"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                                              style="min-height: 38px; display: block; font-size: 0px; padding: 10px 25px; word-break: break-word;"
                                           >
                                             <div style="font-family:Century Gothic, Heiti SC, STHeiti, Avenir, Trebuchet MS, Arial, sans‑serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                               Use code:
@@ -4349,21 +4313,12 @@ exports[`Emails Offer email with custom font 1`] = `
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
-                                                      Get 50% Off
+                                                      Get 50% Off →
                                                     </a>
                                                   </td>
                                                 </tr>
                                               </tbody>
                                             </table>
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td align="center"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                                          >
-                                            <div style="font-family:Century Gothic, Heiti SC, STHeiti, Avenir, Trebuchet MS, Arial, sans‑serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
-                                              Offer code expires in 72 hours
-                                            </div>
                                           </td>
                                         </tr>
                                       </tbody>
@@ -4453,7 +4408,7 @@ exports[`Emails Offer email with custom font 1`] = `
                                         <tr>
                                           <td align="center"
                                               class="code-container"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                                              style="min-height: 38px; display: block; font-size: 0px; padding: 10px 25px; word-break: break-word;"
                                           >
                                             <div style="font-family:Century Gothic, Heiti SC, STHeiti, Avenir, Trebuchet MS, Arial, sans‑serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                               Use code:
@@ -4495,21 +4450,12 @@ exports[`Emails Offer email with custom font 1`] = `
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
-                                                      Get $10 Off
+                                                      Get $10 Off →
                                                     </a>
                                                   </td>
                                                 </tr>
                                               </tbody>
                                             </table>
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td align="center"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                                          >
-                                            <div style="font-family:Century Gothic, Heiti SC, STHeiti, Avenir, Trebuchet MS, Arial, sans‑serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
-                                              Offer code expires in 72 hours
-                                            </div>
                                           </td>
                                         </tr>
                                       </tbody>
@@ -4567,7 +4513,7 @@ exports[`Emails Offer email with custom font 1`] = `
                                                     <a href="http://notreally.com/linkRedirect?linkId=testEmailId-2"
                                                        target="_blank"
                                                     >
-                                                      <img alt="Get $5 off with Brand D"
+                                                      <img alt="Get $ off with Brand D"
                                                            height="auto"
                                                            src="https://firebasestorage.googleapis.com/v0/b/pperk-dashboard-dev.appspot.com/o/cards%2F27eXthb6l1L79ccGeB0N_2110271252?alt&#x3D;media&amp;token&#x3D;bb0f7f2b-5fce-4ed0-8be2-01560eb58548"
                                                            style="border:0;border-radius:15px;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;"
@@ -4599,7 +4545,7 @@ exports[`Emails Offer email with custom font 1`] = `
                                         <tr>
                                           <td align="center"
                                               class="code-container"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                                              style="min-height: 38px; display: block; font-size: 0px; padding: 10px 25px; word-break: break-word;"
                                           >
                                             <div style="font-family:Century Gothic, Heiti SC, STHeiti, Avenir, Trebuchet MS, Arial, sans‑serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                               Use code:
@@ -4609,7 +4555,7 @@ exports[`Emails Offer email with custom font 1`] = `
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
-                                                KD90S
+                                                DLKJSFL
                                                 <span class="code-arrow"
                                                       style="display: inline-block; background: bottom right url('https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/images%2Fnew-tab.png?alt=media&token=bdeeaf41-4329-49da-b1bd-dd146ce24535') no-repeat; width: 15px; height: 15px;"
                                                 >
@@ -4641,21 +4587,12 @@ exports[`Emails Offer email with custom font 1`] = `
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
-                                                      Get 5% Off
+                                                      Redeem →
                                                     </a>
                                                   </td>
                                                 </tr>
                                               </tbody>
                                             </table>
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td align="center"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                                          >
-                                            <div style="font-family:Century Gothic, Heiti SC, STHeiti, Avenir, Trebuchet MS, Arial, sans‑serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
-                                              Offer code expires in 72 hours
-                                            </div>
                                           </td>
                                         </tr>
                                       </tbody>
@@ -5098,7 +5035,7 @@ exports[`Emails Offer email with hightlight color 1`] = `
                                         <tr>
                                           <td align="center"
                                               class="code-container"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                                              style="min-height: 38px; display: block; font-size: 0px; padding: 10px 25px; word-break: break-word;"
                                           >
                                             <div style="font-family:Muli, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                               Use code:
@@ -5140,21 +5077,12 @@ exports[`Emails Offer email with hightlight color 1`] = `
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
-                                                      Get 50% Off
+                                                      Get 50% Off →
                                                     </a>
                                                   </td>
                                                 </tr>
                                               </tbody>
                                             </table>
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td align="center"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                                          >
-                                            <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
-                                              Offer code expires in 72 hours
-                                            </div>
                                           </td>
                                         </tr>
                                       </tbody>
@@ -5244,7 +5172,7 @@ exports[`Emails Offer email with hightlight color 1`] = `
                                         <tr>
                                           <td align="center"
                                               class="code-container"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                                              style="min-height: 38px; display: block; font-size: 0px; padding: 10px 25px; word-break: break-word;"
                                           >
                                             <div style="font-family:Muli, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                               Use code:
@@ -5286,21 +5214,12 @@ exports[`Emails Offer email with hightlight color 1`] = `
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
-                                                      Get $10 Off
+                                                      Get $10 Off →
                                                     </a>
                                                   </td>
                                                 </tr>
                                               </tbody>
                                             </table>
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td align="center"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                                          >
-                                            <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
-                                              Offer code expires in 72 hours
-                                            </div>
                                           </td>
                                         </tr>
                                       </tbody>
@@ -5358,7 +5277,7 @@ exports[`Emails Offer email with hightlight color 1`] = `
                                                     <a href="http://notreally.com/linkRedirect?linkId=testEmailId-2"
                                                        target="_blank"
                                                     >
-                                                      <img alt="Get $5 off with Brand D"
+                                                      <img alt="Get $ off with Brand D"
                                                            height="auto"
                                                            src="https://firebasestorage.googleapis.com/v0/b/pperk-dashboard-dev.appspot.com/o/cards%2F27eXthb6l1L79ccGeB0N_2110271252?alt&#x3D;media&amp;token&#x3D;bb0f7f2b-5fce-4ed0-8be2-01560eb58548"
                                                            style="border:0;border-radius:15px;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;"
@@ -5390,7 +5309,7 @@ exports[`Emails Offer email with hightlight color 1`] = `
                                         <tr>
                                           <td align="center"
                                               class="code-container"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                                              style="min-height: 38px; display: block; font-size: 0px; padding: 10px 25px; word-break: break-word;"
                                           >
                                             <div style="font-family:Muli, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                               Use code:
@@ -5400,7 +5319,7 @@ exports[`Emails Offer email with hightlight color 1`] = `
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #E92076; margin-top: 10px;"
                                               >
-                                                KD90S
+                                                DLKJSFL
                                                 <span class="code-arrow"
                                                       style="display: inline-block; background: bottom right url('https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/images%2Fnew-tab.png?alt=media&token=bdeeaf41-4329-49da-b1bd-dd146ce24535') no-repeat; width: 15px; height: 15px;"
                                                 >
@@ -5432,21 +5351,12 @@ exports[`Emails Offer email with hightlight color 1`] = `
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
-                                                      Get 5% Off
+                                                      Redeem →
                                                     </a>
                                                   </td>
                                                 </tr>
                                               </tbody>
                                             </table>
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td align="center"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                                          >
-                                            <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
-                                              Offer code expires in 72 hours
-                                            </div>
                                           </td>
                                         </tr>
                                       </tbody>
@@ -5889,7 +5799,7 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                                         <tr>
                                           <td align="center"
                                               class="code-container"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                                              style="min-height: 38px; display: block; font-size: 0px; padding: 10px 25px; word-break: break-word;"
                                           >
                                             <div style="font-family:Muli, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                               Use code:
@@ -5931,21 +5841,12 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
-                                                      Get $10 Off
+                                                      Get $10 Off →
                                                     </a>
                                                   </td>
                                                 </tr>
                                               </tbody>
                                             </table>
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td align="center"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                                          >
-                                            <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
-                                              Offer code expires in 72 hours
-                                            </div>
                                           </td>
                                         </tr>
                                       </tbody>
@@ -6035,31 +5936,41 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                                         <tr>
                                           <td align="center"
                                               class="code-container"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                                              style="min-height: 38px; display: block; font-size: 0px; padding: 10px 25px; word-break: break-word;"
                                           >
                                             <div style="font-family:Muli, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
-                                              <br>
-                                              <a target="_blank"
-                                                 href="http://notreally.com/linkRedirect?linkId=testEmailId-1"
-                                                 class="nocode-link"
-                                                 style="font-weight: bold; font-size: 16px; text-decoration: none; color: #555; margin-top: 10px;"
-                                              >
-                                                Redeem
-                                                <span class="code-arrow"
-                                                      style="display: inline-block; background: bottom right url('https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/images%2Fnew-tab.png?alt=media&token=bdeeaf41-4329-49da-b1bd-dd146ce24535') no-repeat; width: 15px; height: 15px;"
-                                                >
-                                                </span>
-                                              </a>
                                             </div>
                                           </td>
                                         </tr>
                                         <tr>
                                           <td align="center"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                                              vertical-align="middle"
+                                              style="font-size:0px;padding:5px 10px;word-break:break-word;"
                                           >
-                                            <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
-                                              Offer code expires in 72 hours
-                                            </div>
+                                            <table border="0"
+                                                   cellpadding="0"
+                                                   cellspacing="0"
+                                                   role="presentation"
+                                                   style="border-collapse:separate;line-height:100%;"
+                                            >
+                                              <tbody>
+                                                <tr>
+                                                  <td align="center"
+                                                      bgcolor="#1878b9"
+                                                      role="presentation"
+                                                      style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
+                                                      valign="middle"
+                                                  >
+                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-1"
+                                                       style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
+                                                       target="_blank"
+                                                    >
+                                                      Get 50% Off →
+                                                    </a>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
                                           </td>
                                         </tr>
                                       </tbody>
@@ -6502,7 +6413,7 @@ exports[`Emails Offer email with only one offer will match snapshot 1`] = `
                                         <tr>
                                           <td align="center"
                                               class="code-container"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                                              style="min-height: 38px; display: block; font-size: 0px; padding: 10px 25px; word-break: break-word;"
                                           >
                                             <div style="font-family:Muli, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                               Use code:
@@ -6544,21 +6455,12 @@ exports[`Emails Offer email with only one offer will match snapshot 1`] = `
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
-                                                      Get 50% Off
+                                                      Get 50% Off →
                                                     </a>
                                                   </td>
                                                 </tr>
                                               </tbody>
                                             </table>
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td align="center"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                                          >
-                                            <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
-                                              Offer code expires in 72 hours
-                                            </div>
                                           </td>
                                         </tr>
                                       </tbody>
@@ -7001,7 +6903,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                         <tr>
                                           <td align="center"
                                               class="code-container"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                                              style="min-height: 38px; display: block; font-size: 0px; padding: 10px 25px; word-break: break-word;"
                                           >
                                             <div style="font-family:Muli, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                               Use code:
@@ -7043,21 +6945,12 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
-                                                      Get 50% Off
+                                                      Get 50% Off →
                                                     </a>
                                                   </td>
                                                 </tr>
                                               </tbody>
                                             </table>
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td align="center"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                                          >
-                                            <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
-                                              Offer code expires in 72 hours
-                                            </div>
                                           </td>
                                         </tr>
                                       </tbody>
@@ -7147,7 +7040,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                         <tr>
                                           <td align="center"
                                               class="code-container"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                                              style="min-height: 38px; display: block; font-size: 0px; padding: 10px 25px; word-break: break-word;"
                                           >
                                             <div style="font-family:Muli, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                               Use code:
@@ -7189,21 +7082,12 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
-                                                      Get $10 Off
+                                                      Get $10 Off →
                                                     </a>
                                                   </td>
                                                 </tr>
                                               </tbody>
                                             </table>
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td align="center"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                                          >
-                                            <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
-                                              Offer code expires in 72 hours
-                                            </div>
                                           </td>
                                         </tr>
                                       </tbody>
@@ -7261,7 +7145,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                                     <a href="http://notreally.com/linkRedirect?linkId=testEmailId-2"
                                                        target="_blank"
                                                     >
-                                                      <img alt="Get $5 off with Brand D"
+                                                      <img alt="Get $ off with Brand D"
                                                            height="auto"
                                                            src="https://firebasestorage.googleapis.com/v0/b/pperk-dashboard-dev.appspot.com/o/cards%2F27eXthb6l1L79ccGeB0N_2110271252?alt&#x3D;media&amp;token&#x3D;bb0f7f2b-5fce-4ed0-8be2-01560eb58548"
                                                            style="border:0;border-radius:15px;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;"
@@ -7293,7 +7177,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                         <tr>
                                           <td align="center"
                                               class="code-container"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                                              style="min-height: 38px; display: block; font-size: 0px; padding: 10px 25px; word-break: break-word;"
                                           >
                                             <div style="font-family:Muli, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                               Use code:
@@ -7303,7 +7187,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
-                                                KD90S
+                                                DLKJSFL
                                                 <span class="code-arrow"
                                                       style="display: inline-block; background: bottom right url('https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/images%2Fnew-tab.png?alt=media&token=bdeeaf41-4329-49da-b1bd-dd146ce24535') no-repeat; width: 15px; height: 15px;"
                                                 >
@@ -7335,21 +7219,12 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
-                                                      Get 5% Off
+                                                      Redeem →
                                                     </a>
                                                   </td>
                                                 </tr>
                                               </tbody>
                                             </table>
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td align="center"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                                          >
-                                            <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
-                                              Offer code expires in 72 hours
-                                            </div>
                                           </td>
                                         </tr>
                                       </tbody>
@@ -7475,9 +7350,7 @@ Female-founded and rundd
 Use code:
 LK39L [http://notreally.com/linkRedirect?linkId=testEmailId-0]
 
-Get 50% Off [http://notreally.com/linkRedirect?linkId=testEmailId-0]
-
-Offer code expires in 72 hours
+Get 50% Off → [http://notreally.com/linkRedirect?linkId=testEmailId-0]
 
 http://notreally.com/linkRedirect?linkId=testEmailId-1
 
@@ -7486,20 +7359,16 @@ Brand C - Premium widgets delivered to your door monthly
 Use code:
 KD90S [http://notreally.com/linkRedirect?linkId=testEmailId-1]
 
-Get $10 Off [http://notreally.com/linkRedirect?linkId=testEmailId-1]
-
-Offer code expires in 72 hours
+Get $10 Off → [http://notreally.com/linkRedirect?linkId=testEmailId-1]
 
 http://notreally.com/linkRedirect?linkId=testEmailId-2
 
 Brand D - Premium widgets delivered to your door monthly
 
 Use code:
-KD90S [http://notreally.com/linkRedirect?linkId=testEmailId-2]
+DLKJSFL [http://notreally.com/linkRedirect?linkId=testEmailId-2]
 
-Get 5% Off [http://notreally.com/linkRedirect?linkId=testEmailId-2]
-
-Offer code expires in 72 hours
+Redeem → [http://notreally.com/linkRedirect?linkId=testEmailId-2]
 
 You're receiving this email in response to your order with EarFleek
 You will not receive further emails unless interest is shown Unsubscribe
@@ -7841,7 +7710,7 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                         <tr>
                                           <td align="center"
                                               class="code-container"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                                              style="min-height: 38px; display: block; font-size: 0px; padding: 10px 25px; word-break: break-word;"
                                           >
                                             <div style="font-family:Muli, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                               Use code:
@@ -7883,21 +7752,12 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
-                                                      Get 50% Off
+                                                      Get 50% Off →
                                                     </a>
                                                   </td>
                                                 </tr>
                                               </tbody>
                                             </table>
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td align="center"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                                          >
-                                            <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
-                                              Offer code expires in 72 hours
-                                            </div>
                                           </td>
                                         </tr>
                                       </tbody>
@@ -7987,7 +7847,7 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                         <tr>
                                           <td align="center"
                                               class="code-container"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                                              style="min-height: 38px; display: block; font-size: 0px; padding: 10px 25px; word-break: break-word;"
                                           >
                                             <div style="font-family:Muli, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                               Use code:
@@ -8029,21 +7889,12 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
-                                                      Get $10 Off
+                                                      Get $10 Off →
                                                     </a>
                                                   </td>
                                                 </tr>
                                               </tbody>
                                             </table>
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td align="center"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                                          >
-                                            <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
-                                              Offer code expires in 72 hours
-                                            </div>
                                           </td>
                                         </tr>
                                       </tbody>
@@ -8101,7 +7952,7 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                                     <a href="http://notreally.com/linkRedirect?linkId=testEmailId-2"
                                                        target="_blank"
                                                     >
-                                                      <img alt="Get $5 off with Brand D"
+                                                      <img alt="Get $ off with Brand D"
                                                            height="auto"
                                                            src="https://firebasestorage.googleapis.com/v0/b/pperk-dashboard-dev.appspot.com/o/cards%2F27eXthb6l1L79ccGeB0N_2110271252?alt&#x3D;media&amp;token&#x3D;bb0f7f2b-5fce-4ed0-8be2-01560eb58548"
                                                            style="border:0;border-radius:15px;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;"
@@ -8133,7 +7984,7 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                         <tr>
                                           <td align="center"
                                               class="code-container"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                                              style="min-height: 38px; display: block; font-size: 0px; padding: 10px 25px; word-break: break-word;"
                                           >
                                             <div style="font-family:Muli, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                               Use code:
@@ -8143,7 +7994,7 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
-                                                KD90S
+                                                DLKJSFL
                                                 <span class="code-arrow"
                                                       style="display: inline-block; background: bottom right url('https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/images%2Fnew-tab.png?alt=media&token=bdeeaf41-4329-49da-b1bd-dd146ce24535') no-repeat; width: 15px; height: 15px;"
                                                 >
@@ -8175,21 +8026,12 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
-                                                      Get 5% Off
+                                                      Redeem →
                                                     </a>
                                                   </td>
                                                 </tr>
                                               </tbody>
                                             </table>
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td align="center"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                                          >
-                                            <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
-                                              Offer code expires in 72 hours
-                                            </div>
                                           </td>
                                         </tr>
                                       </tbody>
@@ -8636,7 +8478,7 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                         <tr>
                                           <td align="center"
                                               class="code-container"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                                              style="min-height: 38px; display: block; font-size: 0px; padding: 10px 25px; word-break: break-word;"
                                           >
                                             <div style="font-family:Muli, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                               Use code:
@@ -8678,21 +8520,12 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
-                                                      Get 50% Off
+                                                      Get 50% Off →
                                                     </a>
                                                   </td>
                                                 </tr>
                                               </tbody>
                                             </table>
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td align="center"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                                          >
-                                            <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
-                                              Offer code expires in 24 hours
-                                            </div>
                                           </td>
                                         </tr>
                                       </tbody>
@@ -8782,7 +8615,7 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                         <tr>
                                           <td align="center"
                                               class="code-container"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                                              style="min-height: 38px; display: block; font-size: 0px; padding: 10px 25px; word-break: break-word;"
                                           >
                                             <div style="font-family:Muli, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                               Use code:
@@ -8824,21 +8657,12 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
-                                                      Get $10 Off
+                                                      Get $10 Off →
                                                     </a>
                                                   </td>
                                                 </tr>
                                               </tbody>
                                             </table>
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td align="center"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                                          >
-                                            <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
-                                              Offer code expires in 24 hours
-                                            </div>
                                           </td>
                                         </tr>
                                       </tbody>
@@ -8896,7 +8720,7 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                                     <a href="http://notreally.com/linkRedirect?linkId=testEmailId-2"
                                                        target="_blank"
                                                     >
-                                                      <img alt="Get $5 off with Brand D"
+                                                      <img alt="Get $ off with Brand D"
                                                            height="auto"
                                                            src="https://firebasestorage.googleapis.com/v0/b/pperk-dashboard-dev.appspot.com/o/cards%2F27eXthb6l1L79ccGeB0N_2110271252?alt&#x3D;media&amp;token&#x3D;bb0f7f2b-5fce-4ed0-8be2-01560eb58548"
                                                            style="border:0;border-radius:15px;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;"
@@ -8928,7 +8752,7 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                         <tr>
                                           <td align="center"
                                               class="code-container"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                                              style="min-height: 38px; display: block; font-size: 0px; padding: 10px 25px; word-break: break-word;"
                                           >
                                             <div style="font-family:Muli, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#555555;">
                                               Use code:
@@ -8938,7 +8762,7 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
-                                                KD90S
+                                                DLKJSFL
                                                 <span class="code-arrow"
                                                       style="display: inline-block; background: bottom right url('https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/images%2Fnew-tab.png?alt=media&token=bdeeaf41-4329-49da-b1bd-dd146ce24535') no-repeat; width: 15px; height: 15px;"
                                                 >
@@ -8970,21 +8794,12 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
-                                                      Get 5% Off
+                                                      Redeem →
                                                     </a>
                                                   </td>
                                                 </tr>
                                               </tbody>
                                             </table>
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td align="center"
-                                              style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                                          >
-                                            <div style="font-family:Muli, Arial, sans-serif;font-size:10px;line-height:18px;text-align:center;color:#999999;">
-                                              Offer code expires in 24 hours
-                                            </div>
                                           </td>
                                         </tr>
                                       </tbody>

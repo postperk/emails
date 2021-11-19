@@ -68,6 +68,11 @@
         border-bottom: 1px dotted #999 !important;
       }
 
+      .code-container {
+        min-height: 38px;
+        display: block;
+      }
+
       .mobile-divider {
         display: none;
       }
@@ -117,23 +122,15 @@
             <mj-text mj-class="tagline-text">
               <p class="tagline"><strong>{{this.brandName}} - </strong>{{this.tagline}}</p>
             </mj-text>
-            {{#if this.code}}
-            <mj-text css-class="code-container" mj-class="code-text">Use code:
+            <mj-text css-class="code-container" mj-class="code-text">
+              {{#if this.code}}
+              Use code:
               <br />
-              <a target="_blank" href="{{{this.redirectLink}}}" class="code-link">{{this.code}} <span class="code-arrow"></span></a>
+                <a target="_blank" href="{{{this.redirectLink}}}" class="code-link">{{this.code}} <span class="code-arrow"></span></a>
+              {{/if}}
             </mj-text>
             <br />
-            {{#if this.redeemButtonText}}
-              <mj-button border-radius="5px" font-size="16px" font-weight="600" padding="5px 10px" target="_blank" href="{{{this.redirectLink}}}" font-family="Helvetica" background-color="#1878b9" color="white">{{redeemButtonText}}</mj-button>
-            {{/if}}
-            <mj-text mj-class="expires-text">Offer code expires in <%EXPIRES%> hours</mj-text>
-            {{else}}
-            <mj-text css-class="code-container" mj-class="code-text">
-              <br />
-              <a target="_blank" href="{{{this.redirectLink}}}" class="nocode-link">Redeem <span class="code-arrow"></span></a>
-            </mj-text>
-            <mj-text mj-class="expires-text">Offer code expires in <%EXPIRES%> hours</mj-text>
-            {{/if}}
+            <mj-button border-radius="5px" font-size="16px" font-weight="600" padding="5px 10px" target="_blank" href="{{{this.redirectLink}}}" font-family="Helvetica" background-color="#1878b9" color="white">{{redeemButtonText}} →</mj-button>
           </mj-column>
         {{/each}}
       </mj-section>

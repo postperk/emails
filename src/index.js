@@ -102,7 +102,7 @@ const dataAugmentation = (type, original) => {
                      ? offer.offerType === 'percent'
                         ? `Get ${offer.amount}% Off`
                         : `Get $${offer.amount} Off`
-                     : ''
+                     : 'Redeem'
             };
          });
 
