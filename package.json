@@ -22,7 +22,7 @@
       "dayjs": "^1.10.4",
       "handlebars": "^4.0.11",
       "html-to-text": "^7.1.1",
-      "mjml": "^4.10.4",
+      "mjml": "^4.12.0",
       "showdown": "^1.8.6"
    },
    "devDependencies": {
