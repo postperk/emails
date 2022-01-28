@@ -2990,7 +2990,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerOneLink.com"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $50 off with Brand B"
@@ -3031,7 +3031,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="https://link.postperk.com/links/lk3j242"
+                                                 href="https://offerOneLink.com"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -3063,7 +3063,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerOneLink.com"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -3127,7 +3127,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerTwoLink.com"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $10 off with Brand C"
@@ -3168,7 +3168,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="https://link.postperk.com/links/lk3j242"
+                                                 href="https://offerTwoLink.com"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -3200,7 +3200,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerTwoLink.com"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -3264,7 +3264,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerThreeLink.com"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $ off with Brand D"
@@ -3305,7 +3305,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="https://link.postperk.com/links/lk3j242"
+                                                 href="https://offerThreeLink.com"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -3337,7 +3337,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerThreeLink.com"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -3398,7 +3398,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                         <br>
                                         You will not receive further emails unless interest is shown
                                         <a target="_blank"
-                                           href="http://notreally.com/unsubscribe/?email=joel@notreally.com&bid=brandA"
+                                           href="https://unsubLink.com"
                                            style="color: #999; text-decoration: none; border-bottom: 1px dotted #999;"
                                         >
                                           Unsubscribe
@@ -3425,7 +3425,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                           <td style="width:1px;">
                                             <img alt
                                                  height="1"
-                                                 src="http://notreally.com/openPixel/?emailId=testEmailId"
+                                                 src="https://pixellink.com"
                                                  style="border:0;display:block;outline:none;text-decoration:none;height:1px;width:100%;font-size:13px;"
                                                  width="1"
                                             >
@@ -3754,7 +3754,7 @@ exports[`Emails Offer email with brand from different country 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerOneLink.com"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $50 off with Brand B"
@@ -3795,7 +3795,7 @@ exports[`Emails Offer email with brand from different country 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="https://link.postperk.com/links/lk3j242"
+                                                 href="https://offerOneLink.com"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -3827,7 +3827,7 @@ exports[`Emails Offer email with brand from different country 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerOneLink.com"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -3888,7 +3888,7 @@ exports[`Emails Offer email with brand from different country 1`] = `
                                         <br>
                                         You will not receive further emails unless interest is shown
                                         <a target="_blank"
-                                           href="http://notreally.com/unsubscribe/?email=joel@notreally.com&bid=brandA"
+                                           href="https://unsubLink.com"
                                            style="color: #999; text-decoration: none; border-bottom: 1px dotted #999;"
                                         >
                                           Unsubscribe
@@ -3915,7 +3915,7 @@ exports[`Emails Offer email with brand from different country 1`] = `
                                           <td style="width:1px;">
                                             <img alt
                                                  height="1"
-                                                 src="http://notreally.com/openPixel/?emailId=testEmailId"
+                                                 src="https://pixellink.com"
                                                  style="border:0;display:block;outline:none;text-decoration:none;height:1px;width:100%;font-size:13px;"
                                                  width="1"
                                             >
@@ -4236,7 +4236,7 @@ exports[`Emails Offer email with custom font 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerOneLink.com"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $50 off with Brand B"
@@ -4277,7 +4277,7 @@ exports[`Emails Offer email with custom font 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="https://link.postperk.com/links/lk3j242"
+                                                 href="https://offerOneLink.com"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -4309,7 +4309,7 @@ exports[`Emails Offer email with custom font 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerOneLink.com"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -4373,7 +4373,7 @@ exports[`Emails Offer email with custom font 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerTwoLink.com"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $10 off with Brand C"
@@ -4414,7 +4414,7 @@ exports[`Emails Offer email with custom font 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="https://link.postperk.com/links/lk3j242"
+                                                 href="https://offerTwoLink.com"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -4446,7 +4446,7 @@ exports[`Emails Offer email with custom font 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerTwoLink.com"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -4510,7 +4510,7 @@ exports[`Emails Offer email with custom font 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerThreeLink.com"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $ off with Brand D"
@@ -4551,7 +4551,7 @@ exports[`Emails Offer email with custom font 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="https://link.postperk.com/links/lk3j242"
+                                                 href="https://offerThreeLink.com"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -4583,7 +4583,7 @@ exports[`Emails Offer email with custom font 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerThreeLink.com"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -4644,7 +4644,7 @@ exports[`Emails Offer email with custom font 1`] = `
                                         <br>
                                         You will not receive further emails unless interest is shown
                                         <a target="_blank"
-                                           href="http://notreally.com/unsubscribe/?email=joel@notreally.com&bid=brandA"
+                                           href="https://unsubLink.com"
                                            style="color: #999; text-decoration: none; border-bottom: 1px dotted #999;"
                                         >
                                           Unsubscribe
@@ -4671,7 +4671,7 @@ exports[`Emails Offer email with custom font 1`] = `
                                           <td style="width:1px;">
                                             <img alt
                                                  height="1"
-                                                 src="http://notreally.com/openPixel/?emailId=testEmailId"
+                                                 src="https://pixellink.com"
                                                  style="border:0;display:block;outline:none;text-decoration:none;height:1px;width:100%;font-size:13px;"
                                                  width="1"
                                             >
@@ -5000,7 +5000,7 @@ exports[`Emails Offer email with hightlight color 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerOneLink.com"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $50 off with Brand B"
@@ -5041,7 +5041,7 @@ exports[`Emails Offer email with hightlight color 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="https://link.postperk.com/links/lk3j242"
+                                                 href="https://offerOneLink.com"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #E92076; margin-top: 10px;"
                                               >
@@ -5073,7 +5073,7 @@ exports[`Emails Offer email with hightlight color 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerOneLink.com"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -5137,7 +5137,7 @@ exports[`Emails Offer email with hightlight color 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerTwoLink.com"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $10 off with Brand C"
@@ -5178,7 +5178,7 @@ exports[`Emails Offer email with hightlight color 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="https://link.postperk.com/links/lk3j242"
+                                                 href="https://offerTwoLink.com"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #E92076; margin-top: 10px;"
                                               >
@@ -5210,7 +5210,7 @@ exports[`Emails Offer email with hightlight color 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerTwoLink.com"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -5274,7 +5274,7 @@ exports[`Emails Offer email with hightlight color 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerThreeLink.com"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $ off with Brand D"
@@ -5315,7 +5315,7 @@ exports[`Emails Offer email with hightlight color 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="https://link.postperk.com/links/lk3j242"
+                                                 href="https://offerThreeLink.com"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #E92076; margin-top: 10px;"
                                               >
@@ -5347,7 +5347,7 @@ exports[`Emails Offer email with hightlight color 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerThreeLink.com"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -5408,7 +5408,7 @@ exports[`Emails Offer email with hightlight color 1`] = `
                                         <br>
                                         You will not receive further emails unless interest is shown
                                         <a target="_blank"
-                                           href="http://notreally.com/unsubscribe/?email=joel@notreally.com&bid=brandA"
+                                           href="https://unsubLink.com"
                                            style="color: #999; text-decoration: none; border-bottom: 1px dotted #999;"
                                         >
                                           Unsubscribe
@@ -5435,7 +5435,7 @@ exports[`Emails Offer email with hightlight color 1`] = `
                                           <td style="width:1px;">
                                             <img alt
                                                  height="1"
-                                                 src="http://notreally.com/openPixel/?emailId=testEmailId"
+                                                 src="https://pixellink.com"
                                                  style="border:0;display:block;outline:none;text-decoration:none;height:1px;width:100%;font-size:13px;"
                                                  width="1"
                                             >
@@ -5764,7 +5764,7 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerOneLink.com"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $10 off with Brand C"
@@ -5805,7 +5805,7 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="https://link.postperk.com/links/lk3j242"
+                                                 href="https://offerOneLink.com"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -5837,7 +5837,7 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerOneLink.com"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -5901,7 +5901,7 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerTwoLink.com"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $50 off with Brand B"
@@ -5961,7 +5961,7 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerTwoLink.com"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -6022,7 +6022,7 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                                         <br>
                                         You will not receive further emails unless interest is shown
                                         <a target="_blank"
-                                           href="http://notreally.com/unsubscribe/?email=joel@notreally.com&bid=brandA"
+                                           href="https://unsubLink.com"
                                            style="color: #999; text-decoration: none; border-bottom: 1px dotted #999;"
                                         >
                                           Unsubscribe
@@ -6049,7 +6049,7 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                                           <td style="width:1px;">
                                             <img alt
                                                  height="1"
-                                                 src="http://notreally.com/openPixel/?emailId=testEmailId"
+                                                 src="https://pixellink.com"
                                                  style="border:0;display:block;outline:none;text-decoration:none;height:1px;width:100%;font-size:13px;"
                                                  width="1"
                                             >
@@ -6378,7 +6378,7 @@ exports[`Emails Offer email with only one offer will match snapshot 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerOneLink.com"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $50 off with Brand B"
@@ -6419,7 +6419,7 @@ exports[`Emails Offer email with only one offer will match snapshot 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="https://link.postperk.com/links/lk3j242"
+                                                 href="https://offerOneLink.com"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -6451,7 +6451,7 @@ exports[`Emails Offer email with only one offer will match snapshot 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerOneLink.com"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -6512,7 +6512,7 @@ exports[`Emails Offer email with only one offer will match snapshot 1`] = `
                                         <br>
                                         You will not receive further emails unless interest is shown
                                         <a target="_blank"
-                                           href="http://notreally.com/unsubscribe/?email=joel@notreally.com&bid=brandA"
+                                           href="https://unsubLink.com"
                                            style="color: #999; text-decoration: none; border-bottom: 1px dotted #999;"
                                         >
                                           Unsubscribe
@@ -6539,7 +6539,7 @@ exports[`Emails Offer email with only one offer will match snapshot 1`] = `
                                           <td style="width:1px;">
                                             <img alt
                                                  height="1"
-                                                 src="http://notreally.com/openPixel/?emailId=testEmailId"
+                                                 src="https://pixellink.com"
                                                  style="border:0;display:block;outline:none;text-decoration:none;height:1px;width:100%;font-size:13px;"
                                                  width="1"
                                             >
@@ -6868,7 +6868,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerOneLink.com"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $50 off with Brand B"
@@ -6909,7 +6909,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="https://link.postperk.com/links/lk3j242"
+                                                 href="https://offerOneLink.com"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -6941,7 +6941,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerOneLink.com"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -7005,7 +7005,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerTwoLink.com"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $10 off with Brand C"
@@ -7046,7 +7046,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="https://link.postperk.com/links/lk3j242"
+                                                 href="https://offerTwoLink.com"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -7078,7 +7078,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerTwoLink.com"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -7142,7 +7142,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerThreeLink.com"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $ off with Brand D"
@@ -7183,7 +7183,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="https://link.postperk.com/links/lk3j242"
+                                                 href="https://offerThreeLink.com"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -7215,7 +7215,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerThreeLink.com"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -7276,7 +7276,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                         <br>
                                         You will not receive further emails unless interest is shown
                                         <a target="_blank"
-                                           href="http://notreally.com/unsubscribe/?email=joel@notreally.com&bid=brandA"
+                                           href="https://unsubLink.com"
                                            style="color: #999; text-decoration: none; border-bottom: 1px dotted #999;"
                                         >
                                           Unsubscribe
@@ -7303,7 +7303,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                           <td style="width:1px;">
                                             <img alt
                                                  height="1"
-                                                 src="http://notreally.com/openPixel/?emailId=testEmailId"
+                                                 src="https://pixellink.com"
                                                  style="border:0;display:block;outline:none;text-decoration:none;height:1px;width:100%;font-size:13px;"
                                                  width="1"
                                             >
@@ -7342,37 +7342,37 @@ exports[`Emails Offer email with three offers will match snapshot 3`] = `
 Thanks for your order. We've joined with these brand partners that we think
 you'll love. Please enjoy the following on us:
 
-https://link.postperk.com/links/lk3j242
+https://offerOneLink.com
 
 Brand B - Active skincare-meets-makeup. Clean, Cruelty-free, Sustainable 🌎
 Female-founded and rundd
 
 Use code:
-LK39L [https://link.postperk.com/links/lk3j242]
+LK39L [https://offerOneLink.com]
 
-Get 50% Off → [https://link.postperk.com/links/lk3j242]
+Get 50% Off → [https://offerOneLink.com]
 
-https://link.postperk.com/links/lk3j242
+https://offerTwoLink.com
 
 Brand C - Premium widgets delivered to your door monthly
 
 Use code:
-KD90S [https://link.postperk.com/links/lk3j242]
+KD90S [https://offerTwoLink.com]
 
-Get $10 Off → [https://link.postperk.com/links/lk3j242]
+Get $10 Off → [https://offerTwoLink.com]
 
-https://link.postperk.com/links/lk3j242
+https://offerThreeLink.com
 
 Brand D - Premium widgets delivered to your door monthly
 
 Use code:
-DLKJSFL [https://link.postperk.com/links/lk3j242]
+DLKJSFL [https://offerThreeLink.com]
 
-Redeem → [https://link.postperk.com/links/lk3j242]
+Redeem → [https://offerThreeLink.com]
 
 You're receiving this email in response to your order with EarFleek
 You will not receive further emails unless interest is shown Unsubscribe
-[http://notreally.com/unsubscribe/?email=joel@notreally.com&bid=brandA]
+[https://unsubLink.com]
 
 EarFleek | 34-20 12th Street ⁠| Queens | NY | 12323 | USA
 
@@ -7675,7 +7675,7 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerOneLink.com"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $50 off with Brand B"
@@ -7716,7 +7716,7 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="https://link.postperk.com/links/lk3j242"
+                                                 href="https://offerOneLink.com"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -7748,7 +7748,7 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerOneLink.com"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -7812,7 +7812,7 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerTwoLink.com"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $10 off with Brand C"
@@ -7853,7 +7853,7 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="https://link.postperk.com/links/lk3j242"
+                                                 href="https://offerTwoLink.com"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -7885,7 +7885,7 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerTwoLink.com"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -7949,7 +7949,7 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerThreeLink.com"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $ off with Brand D"
@@ -7990,7 +7990,7 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="https://link.postperk.com/links/lk3j242"
+                                                 href="https://offerThreeLink.com"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -8022,7 +8022,7 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerThreeLink.com"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -8083,7 +8083,7 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                         <br>
                                         You will not receive further emails unless interest is shown
                                         <a target="_blank"
-                                           href="http://notreally.com/unsubscribe/?email=joel@notreally.com&bid=brandA"
+                                           href="https://unsubLink.com"
                                            style="color: #999; text-decoration: none; border-bottom: 1px dotted #999;"
                                         >
                                           Unsubscribe
@@ -8110,7 +8110,7 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                           <td style="width:1px;">
                                             <img alt
                                                  height="1"
-                                                 src="http://notreally.com/openPixel/?emailId=testEmailId"
+                                                 src="https://pixellink.com"
                                                  style="border:0;display:block;outline:none;text-decoration:none;height:1px;width:100%;font-size:13px;"
                                                  width="1"
                                             >
@@ -8443,7 +8443,7 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerOneLink.com"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $50 off with Brand B"
@@ -8484,7 +8484,7 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="https://link.postperk.com/links/lk3j242"
+                                                 href="https://offerOneLink.com"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -8516,7 +8516,7 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerOneLink.com"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -8580,7 +8580,7 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerTwoLink.com"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $10 off with Brand C"
@@ -8621,7 +8621,7 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="https://link.postperk.com/links/lk3j242"
+                                                 href="https://offerTwoLink.com"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -8653,7 +8653,7 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerTwoLink.com"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -8717,7 +8717,7 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerThreeLink.com"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $ off with Brand D"
@@ -8758,7 +8758,7 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="https://link.postperk.com/links/lk3j242"
+                                                 href="https://offerThreeLink.com"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -8790,7 +8790,7 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="https://link.postperk.com/links/lk3j242"
+                                                    <a href="https://offerThreeLink.com"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -8851,7 +8851,7 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                         <br>
                                         You will not receive further emails
                                         <a target="_blank"
-                                           href="http://notreally.com/unsubscribe/?email=joel@notreally.com&bid=brandA"
+                                           href="https://unsubLink.com"
                                            style="color: #999; text-decoration: none; border-bottom: 1px dotted #999;"
                                         >
                                           Unsubscribe
@@ -8878,7 +8878,7 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                           <td style="width:1px;">
                                             <img alt
                                                  height="1"
-                                                 src="http://notreally.com/openPixel/?emailId=testEmailId"
+                                                 src="https://pixellink.com"
                                                  style="border:0;display:block;outline:none;text-decoration:none;height:1px;width:100%;font-size:13px;"
                                                  width="1"
                                             >

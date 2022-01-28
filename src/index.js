@@ -70,14 +70,16 @@ const dataAugmentation = (type, original) => {
          return data;
       },
       redirectLink: (data) => {
-         data.order.offers = data.order.offers.map((offer, index) => ({
-            ...offer,
-            redirectLink: !data.noRedirect
-               ? offer.redirectShortLink
-               : offer.link
-               ? offer.link
-               : 'https://www.postperk.com'
-         }));
+         data.order.offers = data.order.offers.map((offer, index) => {
+            const redirectLink =
+               data.shortLinks && data.shortLinks.offers[index]
+                  ? data.shortLinks.offers[index]
+                  : offer.link;
+            return {
+               ...offer,
+               redirectLink
+            };
+         });
 
          return data;
       },
