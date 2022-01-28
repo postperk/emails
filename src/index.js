@@ -86,9 +86,14 @@ const dataAugmentation = (type, original) => {
          return data;
       },
       brandEmailLogo: (data) => {
-         data.brandEmailLogo = `https://storage.googleapis.com/${
+         const backupPublicLogo = `https://storage.googleapis.com/${
             buckets[data.env]
          }/logos/${data.order.brandId}-email`;
+
+         data.brandEmailLogo =
+            data.brand.logos && data.brand.logos.emailShort
+               ? data.brand.logos.emailShort
+               : backupPublicLogo;
 
          return data;
       },
