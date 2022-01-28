@@ -2990,7 +2990,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $50 off with Brand B"
@@ -3031,7 +3031,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
+                                                 href="https://link.postperk.com/links/lk3j242"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -3063,7 +3063,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -3127,7 +3127,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-1"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $10 off with Brand C"
@@ -3168,7 +3168,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="http://notreally.com/linkRedirect?linkId=testEmailId-1"
+                                                 href="https://link.postperk.com/links/lk3j242"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -3200,7 +3200,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-1"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -3264,7 +3264,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-2"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $ off with Brand D"
@@ -3305,7 +3305,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="http://notreally.com/linkRedirect?linkId=testEmailId-2"
+                                                 href="https://link.postperk.com/links/lk3j242"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -3337,7 +3337,7 @@ exports[`Emails Offer email will match snapshot 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-2"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -3754,7 +3754,7 @@ exports[`Emails Offer email with brand from different country 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $50 off with Brand B"
@@ -3795,7 +3795,7 @@ exports[`Emails Offer email with brand from different country 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
+                                                 href="https://link.postperk.com/links/lk3j242"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -3827,7 +3827,7 @@ exports[`Emails Offer email with brand from different country 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -4236,7 +4236,7 @@ exports[`Emails Offer email with custom font 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $50 off with Brand B"
@@ -4277,7 +4277,7 @@ exports[`Emails Offer email with custom font 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
+                                                 href="https://link.postperk.com/links/lk3j242"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -4309,7 +4309,7 @@ exports[`Emails Offer email with custom font 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -4373,7 +4373,7 @@ exports[`Emails Offer email with custom font 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-1"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $10 off with Brand C"
@@ -4414,7 +4414,7 @@ exports[`Emails Offer email with custom font 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="http://notreally.com/linkRedirect?linkId=testEmailId-1"
+                                                 href="https://link.postperk.com/links/lk3j242"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -4446,7 +4446,7 @@ exports[`Emails Offer email with custom font 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-1"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -4510,7 +4510,7 @@ exports[`Emails Offer email with custom font 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-2"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $ off with Brand D"
@@ -4551,7 +4551,7 @@ exports[`Emails Offer email with custom font 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="http://notreally.com/linkRedirect?linkId=testEmailId-2"
+                                                 href="https://link.postperk.com/links/lk3j242"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -4583,7 +4583,7 @@ exports[`Emails Offer email with custom font 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-2"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -5000,7 +5000,7 @@ exports[`Emails Offer email with hightlight color 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $50 off with Brand B"
@@ -5041,7 +5041,7 @@ exports[`Emails Offer email with hightlight color 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
+                                                 href="https://link.postperk.com/links/lk3j242"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #E92076; margin-top: 10px;"
                                               >
@@ -5073,7 +5073,7 @@ exports[`Emails Offer email with hightlight color 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -5137,7 +5137,7 @@ exports[`Emails Offer email with hightlight color 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-1"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $10 off with Brand C"
@@ -5178,7 +5178,7 @@ exports[`Emails Offer email with hightlight color 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="http://notreally.com/linkRedirect?linkId=testEmailId-1"
+                                                 href="https://link.postperk.com/links/lk3j242"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #E92076; margin-top: 10px;"
                                               >
@@ -5210,7 +5210,7 @@ exports[`Emails Offer email with hightlight color 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-1"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -5274,7 +5274,7 @@ exports[`Emails Offer email with hightlight color 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-2"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $ off with Brand D"
@@ -5315,7 +5315,7 @@ exports[`Emails Offer email with hightlight color 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="http://notreally.com/linkRedirect?linkId=testEmailId-2"
+                                                 href="https://link.postperk.com/links/lk3j242"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #E92076; margin-top: 10px;"
                                               >
@@ -5347,7 +5347,7 @@ exports[`Emails Offer email with hightlight color 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-2"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -5764,7 +5764,7 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $10 off with Brand C"
@@ -5805,7 +5805,7 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
+                                                 href="https://link.postperk.com/links/lk3j242"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -5837,7 +5837,7 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -5901,7 +5901,7 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-1"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $50 off with Brand B"
@@ -5961,7 +5961,7 @@ exports[`Emails Offer email with no code with match snapshot 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-1"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -6378,7 +6378,7 @@ exports[`Emails Offer email with only one offer will match snapshot 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $50 off with Brand B"
@@ -6419,7 +6419,7 @@ exports[`Emails Offer email with only one offer will match snapshot 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
+                                                 href="https://link.postperk.com/links/lk3j242"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -6451,7 +6451,7 @@ exports[`Emails Offer email with only one offer will match snapshot 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -6868,7 +6868,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $50 off with Brand B"
@@ -6909,7 +6909,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
+                                                 href="https://link.postperk.com/links/lk3j242"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -6941,7 +6941,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -7005,7 +7005,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-1"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $10 off with Brand C"
@@ -7046,7 +7046,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="http://notreally.com/linkRedirect?linkId=testEmailId-1"
+                                                 href="https://link.postperk.com/links/lk3j242"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -7078,7 +7078,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-1"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -7142,7 +7142,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-2"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $ off with Brand D"
@@ -7183,7 +7183,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="http://notreally.com/linkRedirect?linkId=testEmailId-2"
+                                                 href="https://link.postperk.com/links/lk3j242"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -7215,7 +7215,7 @@ exports[`Emails Offer email with three offers will match snapshot 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-2"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -7342,33 +7342,33 @@ exports[`Emails Offer email with three offers will match snapshot 3`] = `
 Thanks for your order. We've joined with these brand partners that we think
 you'll love. Please enjoy the following on us:
 
-http://notreally.com/linkRedirect?linkId=testEmailId-0
+https://link.postperk.com/links/lk3j242
 
 Brand B - Active skincare-meets-makeup. Clean, Cruelty-free, Sustainable 🌎
 Female-founded and rundd
 
 Use code:
-LK39L [http://notreally.com/linkRedirect?linkId=testEmailId-0]
+LK39L [https://link.postperk.com/links/lk3j242]
 
-Get 50% Off → [http://notreally.com/linkRedirect?linkId=testEmailId-0]
+Get 50% Off → [https://link.postperk.com/links/lk3j242]
 
-http://notreally.com/linkRedirect?linkId=testEmailId-1
+https://link.postperk.com/links/lk3j242
 
 Brand C - Premium widgets delivered to your door monthly
 
 Use code:
-KD90S [http://notreally.com/linkRedirect?linkId=testEmailId-1]
+KD90S [https://link.postperk.com/links/lk3j242]
 
-Get $10 Off → [http://notreally.com/linkRedirect?linkId=testEmailId-1]
+Get $10 Off → [https://link.postperk.com/links/lk3j242]
 
-http://notreally.com/linkRedirect?linkId=testEmailId-2
+https://link.postperk.com/links/lk3j242
 
 Brand D - Premium widgets delivered to your door monthly
 
 Use code:
-DLKJSFL [http://notreally.com/linkRedirect?linkId=testEmailId-2]
+DLKJSFL [https://link.postperk.com/links/lk3j242]
 
-Redeem → [http://notreally.com/linkRedirect?linkId=testEmailId-2]
+Redeem → [https://link.postperk.com/links/lk3j242]
 
 You're receiving this email in response to your order with EarFleek
 You will not receive further emails unless interest is shown Unsubscribe
@@ -7675,7 +7675,7 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $50 off with Brand B"
@@ -7716,7 +7716,7 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
+                                                 href="https://link.postperk.com/links/lk3j242"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -7748,7 +7748,7 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -7812,7 +7812,7 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-1"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $10 off with Brand C"
@@ -7853,7 +7853,7 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="http://notreally.com/linkRedirect?linkId=testEmailId-1"
+                                                 href="https://link.postperk.com/links/lk3j242"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -7885,7 +7885,7 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-1"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -7949,7 +7949,7 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-2"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $ off with Brand D"
@@ -7990,7 +7990,7 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="http://notreally.com/linkRedirect?linkId=testEmailId-2"
+                                                 href="https://link.postperk.com/links/lk3j242"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -8022,7 +8022,7 @@ exports[`Emails Offer email with three offers with custom brand template will ma
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-2"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -8443,7 +8443,7 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $50 off with Brand B"
@@ -8484,7 +8484,7 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
+                                                 href="https://link.postperk.com/links/lk3j242"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -8516,7 +8516,7 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-0"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -8580,7 +8580,7 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-1"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $10 off with Brand C"
@@ -8621,7 +8621,7 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="http://notreally.com/linkRedirect?linkId=testEmailId-1"
+                                                 href="https://link.postperk.com/links/lk3j242"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -8653,7 +8653,7 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-1"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >
@@ -8717,7 +8717,7 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                               <tbody>
                                                 <tr>
                                                   <td style="width:280px;">
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-2"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        target="_blank"
                                                     >
                                                       <img alt="Get $ off with Brand D"
@@ -8758,7 +8758,7 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                               Use code:
                                               <br>
                                               <a target="_blank"
-                                                 href="http://notreally.com/linkRedirect?linkId=testEmailId-2"
+                                                 href="https://link.postperk.com/links/lk3j242"
                                                  class="code-link"
                                                  style="font-weight: bold; font-size: 18px; text-decoration: none; color: #29c175; margin-top: 10px;"
                                               >
@@ -8790,7 +8790,7 @@ exports[`Emails Reminder email will match snapshot 1`] = `
                                                       style="border:none;border-radius:5px;cursor:auto;mso-padding-alt:10px 25px;background:#1878b9;"
                                                       valign="middle"
                                                   >
-                                                    <a href="http://notreally.com/linkRedirect?linkId=testEmailId-2"
+                                                    <a href="https://link.postperk.com/links/lk3j242"
                                                        style="display:inline-block;background:#1878b9;color:white;font-family:Helvetica;font-size:16px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:5px;"
                                                        target="_blank"
                                                     >

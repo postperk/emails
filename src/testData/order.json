@@ -21,7 +21,8 @@
          "docId": "brandB",
          "link": "https://www.brandb.com",
          "tagline": "Active skincare-meets-makeup. Clean, Cruelty-free, Sustainable 🌎 Female-founded and rundd",
-         "offerType": "percent"
+         "offerType": "percent",
+         "redirectShortLink": "https://link.postperk.com/links/lk3j242"
       },
       {
          "amount": 10,
@@ -31,7 +32,8 @@
          "docId": "brandC",
          "link": "https://www.brandc.com",
          "tagline": "Premium widgets delivered to your door monthly",
-         "offerType": "dollar"
+         "offerType": "dollar",
+         "redirectShortLink": "https://link.postperk.com/links/lk3j242"
       },
       {
          "brandName": "Brand D",
@@ -40,7 +42,8 @@
          "code": "DLKJSFL",
          "link": "https://www.brandc.com",
          "tagline": "Premium widgets delivered to your door monthly",
-         "offerType": "percent"
+         "offerType": "percent",
+         "redirectShortLink": "https://link.postperk.com/links/lk3j242"
       }
    ],
    "originId": 1022,

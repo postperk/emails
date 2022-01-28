@@ -70,11 +70,10 @@ const dataAugmentation = (type, original) => {
          return data;
       },
       redirectLink: (data) => {
-         console.info('compile redirectlink', JSON.stringify(data));
          data.order.offers = data.order.offers.map((offer, index) => ({
             ...offer,
             redirectLink: !data.noRedirect
-               ? `${data.cfunctions}/linkRedirect?linkId=${data.emailId}-${index}`
+               ? offer.redirectShortLink
                : offer.link
                ? offer.link
                : 'https://www.postperk.com'
