@@ -17,6 +17,7 @@
          "amount": 50,
          "brandName": "Brand B",
          "cardImageUrl": "https://firebasestorage.googleapis.com/v0/b/pperk-dashboard.appspot.com/o/cards%2FzSZ5IXMho1YXgk3p2sRt_2111181155?alt=media&token=6c28c70b-0837-4a32-af5b-4bd3a90a56da",
+         "cardImageUrlShort": "https://images.postperk.com/images/LKJDSF",
          "code": "LK39L",
          "docId": "brandB",
          "link": "https://www.brandb.com",
@@ -27,6 +28,7 @@
          "amount": 10,
          "brandName": "Brand C",
          "cardImageUrl": "https://firebasestorage.googleapis.com/v0/b/pperk-dashboard-dev.appspot.com/o/cards%2F27eXthb6l1L79ccGeB0N_2110271252?alt=media&token=bb0f7f2b-5fce-4ed0-8be2-01560eb58548",
+         "cardImageUrlShort": "https://images.postperk.com/images/SDFS",
          "code": "KD90S",
          "docId": "brandC",
          "link": "https://www.brandc.com",
@@ -36,6 +38,7 @@
       {
          "brandName": "Brand D",
          "cardImageUrl": "https://firebasestorage.googleapis.com/v0/b/pperk-dashboard-dev.appspot.com/o/cards%2F27eXthb6l1L79ccGeB0N_2110271252?alt=media&token=bb0f7f2b-5fce-4ed0-8be2-01560eb58548",
+         "cardImageUrlShort": "https://images.postperk.com/images/KJAHS",
          "docId": "brandC",
          "code": "DLKJSFL",
          "link": "https://www.brandc.com",
