@@ -93,8 +93,8 @@ const dataAugmentation = (type, original) => {
          }/logos/${data.order.brandId}-email`;
 
          data.brandEmailLogo =
-            data.brand.logos && data.brand.logos.emailShort
-               ? data.brand.logos.emailShort
+            data.brand.logos && data.brand.logos.email
+               ? data.brand.logos.email
                : backupPublicLogo;
 
          return data;
